@@ -1,0 +1,24 @@
+{
+  "schema": "ai-lubricant.market.index.v1",
+  "module": "channels",
+  "items": [
+    {
+      "id": "local.longcat",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "longcat",
+      "display_name": "美团模型",
+      "summary": "由当前 model-api 渠道“美团模型”导出的可移植配置模板",
+      "publisher": "local-model-api",
+      "category": "custom",
+      "tags": [],
+      "item_path": "modules/channels/items/local.longcat.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    }
+  ],
+  "updated_at": "2026-08-12T16:08:13.888924+00:00"
+}
