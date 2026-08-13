@@ -1,0 +1,79 @@
+{
+  "schema": "model-api.channel-template/v1",
+  "id": "local.ch-5",
+  "kind": "channel_template",
+  "name": "ch-5",
+  "display_name": "七倍算力",
+  "summary": "由当前 model-api 渠道“七倍算力”导出的可移植配置模板",
+  "publisher": "local-model-api",
+  "category": "custom",
+  "tags": [
+    "opus默认"
+  ],
+  "version": "1.0.0",
+  "status": "published",
+  "resource": {
+    "type": "channel_template",
+    "channel": {
+      "name": "七倍算力",
+      "enabled": true,
+      "base_url": "https://7x.hk",
+      "billing_mode": "token",
+      "timeout": 600,
+      "retry_count": null,
+      "extra_retry_status_codes": [],
+      "chat_protocols": [
+        {
+          "enabled": true,
+          "protocol": "openai",
+          "path": "/v1/chat/completions",
+          "upstream_stream": true,
+          "client_preset": "none",
+          "system_type": "auto",
+          "send_reasoning_content": true,
+          "models": []
+        }
+      ],
+      "models_path": "/v1/models",
+      "image_path": "/v1/images/generations",
+      "video_path": "/v1/videos/generations",
+      "speech_path": "/v1/audio/speech",
+      "rate_limit": {
+        "tpm_per_model": 0,
+        "rpm_per_account": 0,
+        "tpm_per_account": 0,
+        "concurrent_per_account": 0
+      },
+      "auto_update_models": false
+    },
+    "freeze_policy": {
+      "enabled": true,
+      "rules": [
+        {
+          "condition": "status_code",
+          "key": "",
+          "operator": "==",
+          "value": "403",
+          "freeze_mode": "fixed_duration",
+          "freeze_seconds": 60
+        },
+        {
+          "condition": "exception",
+          "key": "",
+          "operator": "==",
+          "value": "",
+          "freeze_mode": "fixed_duration",
+          "freeze_seconds": 60
+        },
+        {
+          "condition": "status_code",
+          "key": "",
+          "operator": "==",
+          "value": "429",
+          "freeze_mode": "fixed_duration",
+          "freeze_seconds": 60
+        }
+      ]
+    }
+  }
+}
