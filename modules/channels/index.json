@@ -1,6 +1,26 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "channels",
-  "items": [],
-  "updated_at": "2026-08-13T15:26:23.651118+00:00"
+  "items": [
+    {
+      "id": "local.opencode",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "opencode",
+      "display_name": "OpenCode-免费",
+      "summary": "由当前 model-api 渠道“OpenCode-免费”导出的可移植配置模板",
+      "publisher": "local-model-api",
+      "category": "custom",
+      "tags": [
+        "大服务商"
+      ],
+      "item_path": "modules/channels/items/local.opencode.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    }
+  ],
+  "updated_at": "2026-08-13T15:30:48.653395+00:00"
 }
