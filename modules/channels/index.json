@@ -3,25 +3,6 @@
   "module": "channels",
   "items": [
     {
-      "id": "local.1000",
-      "module": "channels",
-      "kind": "channel_template",
-      "name": "1000",
-      "display_name": "临时1000刀",
-      "summary": "由当前 model-api 渠道“临时1000刀”导出的可移植配置模板",
-      "publisher": "local-model-api",
-      "category": "custom",
-      "tags": [
-        "限时使用"
-      ],
-      "item_path": "modules/channels/items/local.1000.json",
-      "latest_version": "1.0.0",
-      "status": "published",
-      "test_version": null,
-      "node_assets": 0,
-      "runtime_assets": 0
-    },
-    {
       "id": "local.100xlabs",
       "module": "channels",
       "kind": "channel_template",
@@ -2835,5 +2816,5 @@
       "runtime_assets": 0
     }
   ],
-  "updated_at": "2026-08-13T07:15:19.576585+00:00"
+  "updated_at": "2026-08-13T07:15:41.048087+00:00"
 }
