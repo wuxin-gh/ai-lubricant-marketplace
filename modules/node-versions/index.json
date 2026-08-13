@@ -1,0 +1,27 @@
+{
+  "schema": "ai-lubricant.market.index.v1",
+  "module": "node-versions",
+  "items": [
+    {
+      "id": "node-suite-20260813-1138",
+      "module": "node-versions",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "display_name": "节点程序套件 20260813-1138",
+      "summary": "最初测试版本",
+      "publisher": "node-suite-20260813-1138",
+      "category": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "item_path": "modules/node-versions/items/node-suite-20260813-1138.json",
+      "latest_version": "20260813-1138",
+      "status": "published",
+      "test_version": false,
+      "node_assets": 12,
+      "runtime_assets": 6
+    }
+  ],
+  "updated_at": "2026-08-13T07:22:06.403345+00:00"
+}
