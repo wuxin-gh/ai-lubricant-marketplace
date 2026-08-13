@@ -1,0 +1,86 @@
+{
+  "schema": "model-api.channel-template/v1",
+  "id": "local.anyrouter",
+  "kind": "channel_template",
+  "name": "anyrouter",
+  "display_name": "Any Router",
+  "summary": "由当前 model-api 渠道“Any Router”导出的可移植配置模板",
+  "publisher": "local-model-api",
+  "category": "custom",
+  "tags": [
+    "claude模型"
+  ],
+  "version": "1.0.0",
+  "status": "published",
+  "resource": {
+    "type": "channel_template",
+    "channel": {
+      "name": "Any Router",
+      "enabled": false,
+      "base_url": "https://anyrouter.top",
+      "billing_mode": "token",
+      "timeout": 600,
+      "retry_count": 3,
+      "extra_retry_status_codes": [],
+      "chat_protocols": [
+        {
+          "enabled": true,
+          "protocol": "anthropic",
+          "path": "/v1/messages",
+          "upstream_stream": false,
+          "client_preset": "claude-code",
+          "system_type": "auto",
+          "send_reasoning_content": true,
+          "models": []
+        },
+        {
+          "enabled": true,
+          "protocol": "responses",
+          "path": "/v1/responses",
+          "upstream_stream": false,
+          "client_preset": "codex-cli",
+          "system_type": "auto",
+          "send_reasoning_content": true,
+          "models": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ],
+      "models_path": "/v1/models",
+      "image_path": "/v1/images/generations",
+      "video_path": "/v1/videos/generations",
+      "speech_path": "",
+      "rate_limit": {
+        "status_codes": [],
+        "tpm_per_model": 0,
+        "rpm_per_account": 30,
+        "tpm_per_account": 0,
+        "cooldown_seconds": null,
+        "concurrent_per_account": 0,
+        "exception_cooldown_seconds": null
+      },
+      "auto_update_models": false
+    },
+    "freeze_policy": {
+      "enabled": true,
+      "rules": [
+        {
+          "condition": "status_code",
+          "key": "",
+          "operator": "==",
+          "value": "429",
+          "freeze_mode": "fixed_duration",
+          "freeze_seconds": 60
+        },
+        {
+          "condition": "status_code",
+          "key": "",
+          "operator": "in",
+          "value": "500,524",
+          "freeze_mode": "fixed_duration",
+          "freeze_seconds": 60
+        }
+      ]
+    }
+  }
+}
