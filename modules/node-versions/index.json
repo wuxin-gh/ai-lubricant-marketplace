@@ -41,7 +41,27 @@
       "test_version": true,
       "node_assets": 12,
       "runtime_assets": 6
+    },
+    {
+      "id": "node-suite-20260816-0846",
+      "module": "node-versions",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "display_name": "节点程序套件 20260816-0846",
+      "summary": "测试",
+      "publisher": "node-suite-20260816-0846",
+      "category": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "item_path": "modules/node-versions/items/node-suite-20260816-0846.json",
+      "latest_version": "20260816-0846",
+      "status": "published",
+      "test_version": true,
+      "node_assets": 12,
+      "runtime_assets": 6
     }
   ],
-  "updated_at": "2026-08-15T06:52:47.576885+00:00"
+  "updated_at": "2026-08-16T01:03:56.377278+00:00"
 }
