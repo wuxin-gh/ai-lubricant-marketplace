@@ -7,7 +7,7 @@
   "version": "20260816-0846",
   "version_notes": "测试",
   "status": "published",
-  "test_version": true,
+  "test_version": false,
   "assets": [
     {
       "filename": "agent-compose-node-management-darwin-amd64",
