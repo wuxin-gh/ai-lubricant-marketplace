@@ -121,7 +121,27 @@
       "test_version": false,
       "node_assets": 12,
       "runtime_assets": 0
+    },
+    {
+      "id": "node-suite-20260821-1714",
+      "module": "node-versions",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "display_name": "节点程序套件 20260821-1714",
+      "summary": "修复一些问题",
+      "publisher": "node-suite-20260821-1714",
+      "category": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "item_path": "modules/node-versions/items/node-suite-20260821-1714.json",
+      "latest_version": "20260821-1714",
+      "status": "published",
+      "test_version": false,
+      "node_assets": 12,
+      "runtime_assets": 6
     }
   ],
-  "updated_at": "2026-08-21T07:37:15.885474+00:00"
+  "updated_at": "2026-08-21T09:49:51.335074+00:00"
 }
