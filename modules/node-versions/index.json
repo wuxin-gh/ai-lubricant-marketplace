@@ -161,7 +161,27 @@
       "test_version": false,
       "node_assets": 12,
       "runtime_assets": 6
+    },
+    {
+      "id": "node-suite-20260823-1655",
+      "module": "node-versions",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "display_name": "节点程序套件 20260823-1655",
+      "summary": "修复bug",
+      "publisher": "node-suite-20260823-1655",
+      "category": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "item_path": "modules/node-versions/items/node-suite-20260823-1655.json",
+      "latest_version": "20260823-1655",
+      "status": "published",
+      "test_version": false,
+      "node_assets": 12,
+      "runtime_assets": 6
     }
   ],
-  "updated_at": "2026-08-23T02:25:26.745196+00:00"
+  "updated_at": "2026-08-23T10:00:27.245993+00:00"
 }
