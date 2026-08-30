@@ -3,16 +3,299 @@
   "module": "channels",
   "items": [
     {
+      "id": "local.agnes",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "agnes",
+      "display_name": "Agnes",
+      "summary": "由当前 ai-lubricant 渠道“Agnes”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "大厂免费"
+      ],
+      "item_path": "modules/channels/items/local.agnes.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.ai-gitee",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "ai-gitee",
+      "display_name": "魔力方舟",
+      "summary": "由当前 ai-lubricant 渠道“魔力方舟”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "大厂免费"
+      ],
+      "item_path": "modules/channels/items/local.ai-gitee.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.aliyun-plan",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "aliyun-plan",
+      "display_name": "aliyun",
+      "summary": "由当前 ai-lubricant 渠道“aliyun”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "无可用账号"
+      ],
+      "item_path": "modules/channels/items/local.aliyun-plan.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.api-cline-bot",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "api-cline-bot",
+      "display_name": "Cline",
+      "summary": "由当前 ai-lubricant 渠道“Cline”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "claude模型",
+        "最新模型使用"
+      ],
+      "item_path": "modules/channels/items/local.api-cline-bot.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.apifree",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "apifree",
+      "display_name": "ApiFree",
+      "summary": "由当前 ai-lubricant 渠道“ApiFree”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "大厂免费"
+      ],
+      "item_path": "modules/channels/items/local.apifree.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.ark",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "ark",
+      "display_name": "火山",
+      "summary": "由当前 ai-lubricant 渠道“火山”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "火山"
+      ],
+      "item_path": "modules/channels/items/local.ark.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.ark-agent-plan",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "ark-agent-plan",
+      "display_name": "火山Agent Plan",
+      "summary": "由当前 ai-lubricant 渠道“火山Agent Plan”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "火山"
+      ],
+      "item_path": "modules/channels/items/local.ark-agent-plan.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.ch-28",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "ch-28",
+      "display_name": "Vercel",
+      "summary": "由当前 ai-lubricant 渠道“Vercel”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "code",
+      "tags": [],
+      "item_path": "modules/channels/items/local.ch-28.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.coding-plan",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "coding-plan",
+      "display_name": "火山Coding Plan",
+      "summary": "由当前 ai-lubricant 渠道“火山Coding Plan”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "火山"
+      ],
+      "item_path": "modules/channels/items/local.coding-plan.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.joyagent",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "joyagent",
+      "display_name": "京东-joyagent",
+      "summary": "由当前 ai-lubricant 渠道“京东-joyagent”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "备用"
+      ],
+      "item_path": "modules/channels/items/local.joyagent.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.kilo",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "kilo",
+      "display_name": "kilo",
+      "summary": "由当前 ai-lubricant 渠道“kilo”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [],
+      "item_path": "modules/channels/items/local.kilo.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.longcat",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "longcat",
+      "display_name": "美团模型",
+      "summary": "由当前 ai-lubricant 渠道“美团模型”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [],
+      "item_path": "modules/channels/items/local.longcat.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.mistral",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "mistral",
+      "display_name": "Mistral",
+      "summary": "由当前 ai-lubricant 渠道“Mistral”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "大厂免费",
+        "每日用完"
+      ],
+      "item_path": "modules/channels/items/local.mistral.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.modelscope1",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "modelscope1",
+      "display_name": "摸搭社区",
+      "summary": "由当前 ai-lubricant 渠道“摸搭社区”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "每日用完"
+      ],
+      "item_path": "modules/channels/items/local.modelscope1.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.nvidia",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "nvidia",
+      "display_name": "英伟达",
+      "summary": "由当前 ai-lubricant 渠道“英伟达”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "大厂免费",
+        "最新模型使用"
+      ],
+      "item_path": "modules/channels/items/local.nvidia.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
       "id": "local.opencode",
       "module": "channels",
       "kind": "channel_template",
       "name": "opencode",
-      "display_name": "OpenCode-免费",
-      "summary": "由当前 model-api 渠道“OpenCode-免费”导出的可移植配置模板",
-      "publisher": "local-model-api",
+      "display_name": "OpenCode-Zen",
+      "summary": "由当前 ai-lubricant 渠道“OpenCode-Zen”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
       "category": "custom",
       "tags": [
-        "大服务商"
+        "大服务商",
+        "最新模型使用"
       ],
       "item_path": "modules/channels/items/local.opencode.json",
       "latest_version": "1.0.0",
@@ -20,7 +303,104 @@
       "test_version": null,
       "node_assets": 0,
       "runtime_assets": 0
+    },
+    {
+      "id": "local.opencode_go",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "opencode_go",
+      "display_name": "opencode go",
+      "summary": "由当前 ai-lubricant 渠道“opencode go”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "无可用账号"
+      ],
+      "item_path": "modules/channels/items/local.opencode_go.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.openrouter",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "openrouter",
+      "display_name": "OpenRouter",
+      "summary": "由当前 ai-lubricant 渠道“OpenRouter”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "每日用完"
+      ],
+      "item_path": "modules/channels/items/local.openrouter.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.sensenova",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "sensenova",
+      "display_name": "商汤",
+      "summary": "由当前 ai-lubricant 渠道“商汤”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "每日用完",
+        "大厂免费",
+        "限时使用"
+      ],
+      "item_path": "modules/channels/items/local.sensenova.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.stepfun",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "stepfun",
+      "display_name": "阶跃星辰",
+      "summary": "由当前 ai-lubricant 渠道“阶跃星辰”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "免费速蹬"
+      ],
+      "item_path": "modules/channels/items/local.stepfun.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.xiaomi_token_plan",
+      "module": "channels",
+      "kind": "channel_template",
+      "name": "xiaomi_token_plan",
+      "display_name": "小米tokenplan",
+      "summary": "由当前 ai-lubricant 渠道“小米tokenplan”导出的可移植配置模板",
+      "publisher": "local-ai-lubricant",
+      "category": "custom",
+      "tags": [
+        "无可用账号"
+      ],
+      "item_path": "modules/channels/items/local.xiaomi_token_plan.json",
+      "latest_version": "1.0.0",
+      "status": "published",
+      "test_version": null,
+      "node_assets": 0,
+      "runtime_assets": 0
     }
   ],
-  "updated_at": "2026-08-13T15:30:48.653395+00:00"
+  "updated_at": "2026-08-30T08:48:19.254556+00:00"
 }
