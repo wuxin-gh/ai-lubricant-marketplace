@@ -8,7 +8,7 @@
       "kind": "channel_template",
       "name": "agnes",
       "display_name": "Agnes",
-      "summary": "由当前 ai-lubricant 渠道“Agnes”导出的可移植配置模板",
+      "summary": "渠道模板「Agnes」",
       "publisher": "local-ai-lubricant",
       "category": "custom",
       "tags": [
@@ -402,5 +402,5 @@
       "runtime_assets": 0
     }
   ],
-  "updated_at": "2026-08-30T08:48:19.254556+00:00"
+  "updated_at": "2026-08-30T08:50:45.220591+00:00"
 }
