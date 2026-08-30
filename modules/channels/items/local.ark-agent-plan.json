@@ -1,0 +1,68 @@
+{
+  "schema": "ai-lubricant.channel-template/v1",
+  "id": "local.ark-agent-plan",
+  "kind": "channel_template",
+  "name": "ark-agent-plan",
+  "display_name": "火山Agent Plan",
+  "summary": "由当前 ai-lubricant 渠道“火山Agent Plan”导出的可移植配置模板",
+  "publisher": "local-ai-lubricant",
+  "category": "custom",
+  "tags": [
+    "火山"
+  ],
+  "icon": "",
+  "version": "1.0.0",
+  "status": "published",
+  "resource": {
+    "type": "channel_template",
+    "channel": {
+      "name": "火山Agent Plan",
+      "enabled": true,
+      "base_url": "https://ark.cn-beijing.volces.com/api/plan",
+      "billing_mode": "token",
+      "timeout": 600,
+      "retry_count": null,
+      "extra_retry_status_codes": [],
+      "chat_protocols": [
+        {
+          "enabled": true,
+          "protocol": "anthropic",
+          "path": "/v1/messages",
+          "upstream_stream": true,
+          "client_preset": "none",
+          "system_type": "auto",
+          "send_reasoning_content": true,
+          "models": []
+        }
+      ],
+      "models_path": "/v3/models",
+      "image_path": "/v3/images/generations",
+      "video_path": "/v3/videos/generations",
+      "speech_path": "/v1/audio/speech",
+      "website_url": "https://console.volcengine.com/ark/region:cn-beijing/subscription/agent-plan?projectName=default",
+      "rate_limit": {
+        "tpm_per_model": 0,
+        "rpm_per_account": 0,
+        "tpm_per_account": 0,
+        "concurrent_per_account": 0
+      },
+      "auto_update_models": false,
+      "model_id_rewrite_rules": []
+    },
+    "freeze_policy": {
+      "enabled": true,
+      "rules": [
+        {
+          "condition": "status_code",
+          "key": "",
+          "operator": "==",
+          "value": "429",
+          "enabled": true,
+          "freeze_object": "account",
+          "freeze_period": "hours",
+          "freeze_value": 6
+        }
+      ]
+    }
+  }
+}
