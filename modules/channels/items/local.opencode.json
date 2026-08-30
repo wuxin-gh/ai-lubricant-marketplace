@@ -1,21 +1,23 @@
 {
-  "schema": "model-api.channel-template/v1",
+  "schema": "ai-lubricant.channel-template/v1",
   "id": "local.opencode",
   "kind": "channel_template",
   "name": "opencode",
-  "display_name": "OpenCode-免费",
-  "summary": "由当前 model-api 渠道“OpenCode-免费”导出的可移植配置模板",
-  "publisher": "local-model-api",
+  "display_name": "OpenCode-Zen",
+  "summary": "由当前 ai-lubricant 渠道“OpenCode-Zen”导出的可移植配置模板",
+  "publisher": "local-ai-lubricant",
   "category": "custom",
   "tags": [
-    "大服务商"
+    "大服务商",
+    "最新模型使用"
   ],
+  "icon": "",
   "version": "1.0.0",
   "status": "published",
   "resource": {
     "type": "channel_template",
     "channel": {
-      "name": "OpenCode-免费",
+      "name": "OpenCode-Zen",
       "enabled": true,
       "base_url": "https://opencode.ai/zen",
       "billing_mode": "token",
@@ -38,6 +40,7 @@
       "image_path": "/v1/images/generations",
       "video_path": "/v1/videos/generations",
       "speech_path": "",
+      "website_url": "https://opencode.ai",
       "rate_limit": {
         "status_codes": [],
         "tpm_per_model": 0,
@@ -46,28 +49,19 @@
         "cooldown_seconds": null,
         "concurrent_per_account": 0
       },
-      "auto_update_models": false
+      "auto_update_models": true,
+      "model_id_rewrite_rules": [
+        {
+          "name": "",
+          "enabled": true,
+          "pattern": "[:-]free",
+          "replacement": ""
+        }
+      ]
     },
     "freeze_policy": {
       "enabled": true,
-      "rules": [
-        {
-          "condition": "status_code",
-          "key": "",
-          "operator": "==",
-          "value": "429",
-          "freeze_mode": "fixed_duration",
-          "freeze_seconds": 60
-        },
-        {
-          "condition": "status_code",
-          "key": "",
-          "operator": "==",
-          "value": "401",
-          "freeze_mode": "fixed_duration",
-          "freeze_seconds": 60
-        }
-      ]
+      "rules": []
     }
   }
 }
