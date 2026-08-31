@@ -214,7 +214,7 @@
       "kind": "channel_template",
       "name": "longcat",
       "display_name": "美团模型",
-      "summary": "由当前 ai-lubricant 渠道“美团模型”导出的可移植配置模板",
+      "summary": "",
       "publisher": "local-ai-lubricant",
       "category": "custom",
       "tags": [],
@@ -402,5 +402,5 @@
       "runtime_assets": 0
     }
   ],
-  "updated_at": "2026-08-30T08:53:23.693714+00:00"
+  "updated_at": "2026-08-31T02:37:49.021642+00:00"
 }
