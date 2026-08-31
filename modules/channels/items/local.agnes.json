@@ -1,5 +1,5 @@
 {
-  "schema": "model-api.channel-template/v1",
+  "schema": "ai-lubricant.channel-template/v1",
   "id": "local.agnes",
   "kind": "channel_template",
   "name": "agnes",
