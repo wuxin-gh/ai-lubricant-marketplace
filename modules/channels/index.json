@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "channels",
-  "updated_at": "2026-09-01T06:25:08.296917+00:00",
+  "updated_at": "2026-09-01T06:25:24.318969+00:00",
   "items": [
     {
       "id": "local.agnes",
@@ -118,23 +118,6 @@
       "runtime_assets": 0
     },
     {
-      "id": "local.ch-28",
-      "kind": "channel_template",
-      "name": "ch-28",
-      "tags": [],
-      "module": "channels",
-      "status": "published",
-      "summary": "由当前 ai-lubricant 渠道“Vercel”导出的可移植配置模板",
-      "category": "code",
-      "item_path": "modules/channels/items/local.ch-28.json",
-      "publisher": "local-ai-lubricant",
-      "node_assets": 0,
-      "display_name": "Vercel",
-      "test_version": null,
-      "latest_version": "1.0.0",
-      "runtime_assets": 0
-    },
-    {
       "id": "local.coding-plan",
       "kind": "channel_template",
       "name": "coding-plan",
@@ -168,23 +151,6 @@
       "publisher": "local-ai-lubricant",
       "node_assets": 0,
       "display_name": "京东-joyagent",
-      "test_version": null,
-      "latest_version": "1.0.0",
-      "runtime_assets": 0
-    },
-    {
-      "id": "local.kilo",
-      "kind": "channel_template",
-      "name": "kilo",
-      "tags": [],
-      "module": "channels",
-      "status": "published",
-      "summary": "由当前 ai-lubricant 渠道“kilo”导出的可移植配置模板",
-      "category": "custom",
-      "item_path": "modules/channels/items/local.kilo.json",
-      "publisher": "local-ai-lubricant",
-      "node_assets": 0,
-      "display_name": "kilo",
       "test_version": null,
       "latest_version": "1.0.0",
       "runtime_assets": 0
