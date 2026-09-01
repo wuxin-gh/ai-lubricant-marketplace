@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "channels",
-  "updated_at": "2026-09-01T05:48:47.508322+00:00",
+  "updated_at": "2026-09-01T06:25:08.296917+00:00",
   "items": [
     {
       "id": "local.agnes",
@@ -56,26 +56,6 @@
       "publisher": "local-ai-lubricant",
       "node_assets": 0,
       "display_name": "aliyun",
-      "test_version": null,
-      "latest_version": "1.0.0",
-      "runtime_assets": 0
-    },
-    {
-      "id": "local.api-cline-bot",
-      "kind": "channel_template",
-      "name": "api-cline-bot",
-      "tags": [
-        "claude模型",
-        "最新模型使用"
-      ],
-      "module": "channels",
-      "status": "published",
-      "summary": "由当前 ai-lubricant 渠道“Cline”导出的可移植配置模板",
-      "category": "custom",
-      "item_path": "modules/channels/items/local.api-cline-bot.json",
-      "publisher": "local-ai-lubricant",
-      "node_assets": 0,
-      "display_name": "Cline",
       "test_version": null,
       "latest_version": "1.0.0",
       "runtime_assets": 0
