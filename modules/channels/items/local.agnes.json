@@ -1,70 +1,70 @@
 {
-  "schema": "ai-lubricant.channel-template/v1",
   "id": "local.agnes",
+  "icon": "https://platform.agnes-ai.com/images/logo.svg",
   "kind": "channel_template",
   "name": "agnes",
-  "display_name": "Agnes",
-  "summary": "渠道模板「Agnes」",
-  "publisher": "local-ai-lubricant",
-  "category": "custom",
   "tags": [
     "大厂免费"
   ],
-  "version": "1.0.0",
+  "schema": "ai-lubricant.channel-template/v1",
   "status": "published",
-  "icon": "https://platform.agnes-ai.com/images/logo.svg",
+  "summary": "渠道模板「Agnes」",
+  "version": "1.0.0",
+  "category": "custom",
   "resource": {
     "type": "channel_template",
     "channel": {
       "name": "Agnes",
       "enabled": true,
-      "base_url": "https://apihub.agnes-ai.com",
-      "billing_mode": "token",
       "timeout": 600,
+      "base_url": "https://apihub.agnes-ai.com",
+      "image_path": "/v1/images/generations",
+      "rate_limit": {
+        "tpm_per_model": 0,
+        "rpm_per_account": 0,
+        "tpm_per_account": 0,
+        "concurrent_per_account": 0
+      },
+      "video_path": "/v1/videos/generations",
+      "models_path": "/v1/models",
       "retry_count": null,
-      "extra_retry_status_codes": [],
+      "speech_path": "/v1/audio/speech",
+      "website_url": "https://platform.agnes-ai.com",
+      "billing_mode": "token",
       "chat_protocols": [
         {
           "id": "",
+          "path": "/v1/chat/completions",
+          "models": [],
           "enabled": true,
           "protocol": "openai",
-          "path": "/v1/chat/completions",
-          "upstream_stream": true,
-          "client_preset": "none",
           "system_type": "auto",
-          "send_reasoning_content": true,
-          "models": []
+          "client_preset": "none",
+          "upstream_stream": true,
+          "send_reasoning_content": true
         }
       ],
-      "models_path": "/v1/models",
-      "image_path": "/v1/images/generations",
-      "video_path": "/v1/videos/generations",
-      "speech_path": "/v1/audio/speech",
-      "website_url": "https://platform.agnes-ai.com",
-      "rate_limit": {
-        "rpm_per_account": 0,
-        "tpm_per_account": 0,
-        "tpm_per_model": 0,
-        "concurrent_per_account": 0
-      },
       "auto_update_models": false,
-      "model_id_rewrite_rules": []
+      "model_id_rewrite_rules": [],
+      "extra_retry_status_codes": []
     },
     "freeze_policy": {
-      "enabled": true,
-      "refresh_freeze_on_failure": true,
       "rules": [
         {
-          "condition": "status_code",
           "key": "",
-          "operator": "==",
           "value": "429",
-          "freeze_object": "account",
-          "freeze_period": "seconds",
+          "enabled": true,
+          "operator": "==",
+          "condition": "status_code",
           "freeze_value": 60,
-          "enabled": true
+          "freeze_object": "account",
+          "freeze_period": "seconds"
         }
-      ]
+      ],
+      "enabled": true,
+      "refresh_freeze_on_failure": true
     }
-  }
+  },
+  "publisher": "local-ai-lubricant",
+  "display_name": "Agnes"
 }
