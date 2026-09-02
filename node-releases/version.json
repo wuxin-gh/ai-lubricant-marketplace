@@ -1,19 +1,19 @@
 {
   "schema": "ai-lubricant.node-release/v1",
-  "version": "20260831-2150",
-  "version_notes": "测试版本",
+  "version": "20260902-1249",
+  "version_notes": "执行节点环境问题优化",
   "assets": [
     {
       "arch": "any",
       "role": "runtime",
-      "digest": "sha256:87125ff5e3ae358c8fa2e6152688fbf35db8a5d217752702851b7b94f4c976d5",
+      "digest": "sha256:8d43e66fdbe8dd82b22ccff1e1793b8ee2b85070710f47e41c2c60290342da59",
       "format": "tar.gz",
       "filename": "node-runtime.tar.gz",
       "platform": "any",
       "component": "agent-compose",
-      "repo_path": "node-releases/20260831-2150/files/node-runtime.tar.gz",
-      "size_bytes": 5073044,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-runtime.tar.gz",
+      "size_bytes": 5078659,
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
@@ -96,220 +96,220 @@
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:d56887ace1f59acff90a91007d5d695a312c55fdba09ab54790e0889f1432772",
+      "digest": "sha256:65d003ee39d23140360f76dc2a38ece7894cce4a337924f8958755946a62e478",
       "format": "executable",
       "filename": "node-execution-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-execution-darwin-amd64",
-      "size_bytes": 16814048,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-execution-darwin-amd64",
+      "size_bytes": 16834864,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:ec25677019677616f472370bf8e1baf916bb24754dc6836de28779c90f25a24b",
+      "digest": "sha256:b2e5939f7d2d3ced1b1eadcfb56c7e179336b5a1c128fcae80479343978d924e",
       "format": "executable",
       "filename": "node-execution-darwin-arm64",
       "platform": "darwin",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-execution-darwin-arm64",
-      "size_bytes": 15945874,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-execution-darwin-arm64",
+      "size_bytes": 15962706,
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:dd0fc6c32e6a176ad64a85a731a0aba192ee94d984140bb8359a7a000daa4209",
+      "digest": "sha256:b279856d9ad156438d4406a07ccba7975aab5b3e459fc8a8e166b8af5fcbe439",
       "format": "executable",
       "filename": "node-execution-linux-amd64",
       "platform": "linux",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-execution-linux-amd64",
-      "size_bytes": 16400546,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-execution-linux-amd64",
+      "size_bytes": 16421026,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:049e1faf13a290217862ee187f053b09d7b31b83d8ef575a060852589cf8d9f8",
+      "digest": "sha256:6643631986328323ad7324a2c6f027225c27b81749791c0ea414bee26bfc630a",
       "format": "executable",
       "filename": "node-execution-linux-arm64",
       "platform": "linux",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-execution-linux-arm64",
+      "repo_path": "node-releases/20260902-1249/files/node-execution-linux-arm64",
       "size_bytes": 15466658,
-      "version": "20260831-2150"
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:579807856efa7e5838f6d66736063929e145b84cef13f4e2902e30426ecadfab",
+      "digest": "sha256:0e24df57408f88206e4b1b7ea73cfce81668e4e6dae6d0e50be8c3963641147e",
       "format": "executable",
       "filename": "node-execution-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-execution-windows-amd64.exe",
-      "size_bytes": 17031168,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-execution-windows-amd64.exe",
+      "size_bytes": 17050112,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:f201223451a386067e94c7729f40cf5972aba1dd70a66b2957a61cfa5741a135",
+      "digest": "sha256:384d649a43b6d738f17efa3e732341d83c8e23ee9ae14365bd04a06996602e91",
       "format": "executable",
       "filename": "node-execution-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-execution-windows-arm64.exe",
-      "size_bytes": 15803904,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-execution-windows-arm64.exe",
+      "size_bytes": 15821824,
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "ios_host",
-      "digest": "sha256:e314c35843311e2319a0299ab3f77e7bae65ef9e57ec4feeca670fa96ad18373",
+      "digest": "sha256:2108f3211ca443f4a8da2dafa20ae42f20c8437fb25f083e1ea5f843371a86ef",
       "format": "executable",
       "filename": "node-ios-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-ios-darwin-amd64",
-      "size_bytes": 17121136,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-ios-darwin-amd64",
+      "size_bytes": 17125520,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "ios_host",
-      "digest": "sha256:18dd984aac247c5cca3b8b213fc13a4d36763bdedc95fbeab30f97c392ee2bb3",
+      "digest": "sha256:cf2730e631eca2736875eedc2b917b21929a35f142c2755aae7c7713e0d37ffa",
       "format": "executable",
       "filename": "node-ios-darwin-arm64",
       "platform": "darwin",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-ios-darwin-arm64",
-      "size_bytes": 16185202,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-ios-darwin-arm64",
+      "size_bytes": 16185490,
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "ios_host",
-      "digest": "sha256:9b4af9a8417a1a01382c30afbc5ae90b53d31b28bde28bd9a72601dead212f97",
+      "digest": "sha256:76324450b498ab0b3dbff5c3d6cbf8838c42933b1b3f0aec2ae75731f72a0754",
       "format": "executable",
       "filename": "node-ios-linux-amd64",
       "platform": "linux",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-ios-linux-amd64",
-      "size_bytes": 16715938,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-ios-linux-amd64",
+      "size_bytes": 16720034,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "ios_host",
-      "digest": "sha256:9a5a286e4b520f8a43280a9e591517fd32f98d21f9e4fd23205d332e54e4adb4",
+      "digest": "sha256:830e797faacbd52595b9565353241e41d4ce0d8b4486dd80c6c5bdbab80f5673",
       "format": "executable",
       "filename": "node-ios-linux-arm64",
       "platform": "linux",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-ios-linux-arm64",
+      "repo_path": "node-releases/20260902-1249/files/node-ios-linux-arm64",
       "size_bytes": 15728802,
-      "version": "20260831-2150"
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "ios_host",
-      "digest": "sha256:d662620e1a85395904e6a473c7dcd777c067396d16a9870d9facfa18616c26dd",
+      "digest": "sha256:de873b0de1041114892f9f832bf928de7efeac1ef97145ca3465372db7d0a05c",
       "format": "executable",
       "filename": "node-ios-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-ios-windows-amd64.exe",
-      "size_bytes": 17252352,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-ios-windows-amd64.exe",
+      "size_bytes": 17256960,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "ios_host",
-      "digest": "sha256:3a003d763d1bc74c387c1950d1beb651b9c7ef6d95923b0362c58318c26652b7",
+      "digest": "sha256:511959be69b69931d7c27c6bb70a48e69a2f5fd36911fdccf545de12233bf8a0",
       "format": "executable",
       "filename": "node-ios-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/node-ios-windows-arm64.exe",
-      "size_bytes": 15952384,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/node-ios-windows-arm64.exe",
+      "size_bytes": 15956992,
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "management",
-      "digest": "sha256:497b15fbbb6df501bfe87d8a1b56ef72aec1ff1502b5b5413215297e9bfd4378",
+      "digest": "sha256:bf8c61d273fc94b2c83986691b59fbea02ec6ece18a6918f53b222d3f8a0da32",
       "format": "executable",
       "filename": "agent-compose-node-management-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/agent-compose-node-management-darwin-amd64",
-      "size_bytes": 14441888,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/agent-compose-node-management-darwin-amd64",
+      "size_bytes": 14446112,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "management",
-      "digest": "sha256:de3a93dea5fb50344f7e3039b9567d118a45d7850f728fc128a92a2bb069cfd2",
+      "digest": "sha256:7ff577f0b40b7d8b9ee9a910613525caa99e8868ae482f04c170c31b30fa4a5a",
       "format": "executable",
       "filename": "agent-compose-node-management-darwin-arm64",
       "platform": "darwin",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/agent-compose-node-management-darwin-arm64",
-      "size_bytes": 13724626,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/agent-compose-node-management-darwin-arm64",
+      "size_bytes": 13724754,
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "management",
-      "digest": "sha256:c7d99ea2ccf3610b5bbb661944ec0d7caa453a77be541abfdc88487e500d8ded",
+      "digest": "sha256:ef144760c72967b5809094921e841b85ce83d235cd6b81399f209eaa64378895",
       "format": "executable",
       "filename": "agent-compose-node-management-linux-amd64",
       "platform": "linux",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/agent-compose-node-management-linux-amd64",
-      "size_bytes": 14106786,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/agent-compose-node-management-linux-amd64",
+      "size_bytes": 14110882,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "management",
-      "digest": "sha256:fc5d80fb4d1342bfed92b1a1f8e375d333903406a581a1893725084b18660805",
+      "digest": "sha256:743d20d139071dcb634c5a1e11f0fffa901ecdb18288d268e9332ed9b9e34ba9",
       "format": "executable",
       "filename": "agent-compose-node-management-linux-arm64",
       "platform": "linux",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/agent-compose-node-management-linux-arm64",
+      "repo_path": "node-releases/20260902-1249/files/agent-compose-node-management-linux-arm64",
       "size_bytes": 13369506,
-      "version": "20260831-2150"
+      "version": "20260902-1249"
     },
     {
       "arch": "amd64",
       "role": "management",
-      "digest": "sha256:ad55208d421fe8cd4219ad463a480b42eb663d7353f4e28db08f30a97af9dfcb",
+      "digest": "sha256:a376a07bb687fc9e17e3933507a813e525626587770ae1f110efcb419def228a",
       "format": "executable",
       "filename": "agent-compose-node-management-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/agent-compose-node-management-windows-amd64.exe",
-      "size_bytes": 14624256,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/agent-compose-node-management-windows-amd64.exe",
+      "size_bytes": 14628864,
+      "version": "20260902-1249"
     },
     {
       "arch": "arm64",
       "role": "management",
-      "digest": "sha256:05ad2e934c84d15c7ce584cade0823725bf563c7d05417ce8fa81d49c568cd94",
+      "digest": "sha256:16bf682c7dee39f76cd0f9c8ae90f016fd47c73c62bdacd9f01d7dce095143d1",
       "format": "executable",
       "filename": "agent-compose-node-management-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "repo_path": "node-releases/20260831-2150/files/agent-compose-node-management-windows-arm64.exe",
-      "size_bytes": 13593088,
-      "version": "20260831-2150"
+      "repo_path": "node-releases/20260902-1249/files/agent-compose-node-management-windows-arm64.exe",
+      "size_bytes": 13597696,
+      "version": "20260902-1249"
     }
   ],
-  "updated_at": "2026-09-01T01:46:52.458236+00:00",
-  "release_tag": "node-suite-20260831-2150"
+  "updated_at": "2026-09-02T04:58:06.488222+00:00",
+  "release_tag": "node-suite-20260902-1249"
 }
