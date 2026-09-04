@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.lottery-advanced-analysis",
+  "kind": "skill",
+  "name": "lottery-advanced-analysis",
+  "tags": [
+    "双色球",
+    "大乐透",
+    "彩票"
+  ],
+  "status": "published",
+  "summary": "超级大乐透(DLT)与双色球(SSQ)号码高级统计分析引擎。自动增量拉取最新100-200期历史开奖数据（本地CSV持久化缓存+锚点防脏数据），可执行Python脚本输出下期推荐组合（默认5注单式，支持复式如8+3、胆拖、预算模式、带数学保证的缩水轮盘），附精确中奖概率/期望值参考/避热门优化与完整分析报告；14维指标与11项模型（马尔可夫、贝叶斯、蒙特卡洛等）作为零权重展示指标。当用户提到大乐透、双色球、DLT、SSQ、前区后区、红球蓝球、彩票号码分析、号码推荐、复式、胆拖、缩水、旋转矩阵、中奖概率、期望值、走势分析时使用。",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fd740-d3bf-7ed0-be06-402e9c2eda13/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fd740-d3bf-7ed0-be06-402e9c2eda13",
+  "display_name": "lottery-advanced-analysis"
+}
