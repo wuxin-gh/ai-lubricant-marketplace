@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.AI-doctor-book",
+  "kind": "skill",
+  "name": "AI-doctor-book",
+  "tags": [],
+  "status": "published",
+  "summary": "综合医学AI技能手册，整合877个专业医学和生物信息学技能，涵盖从基础研究到临床应用",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f2b98-4366-7517-947c-90cd3cc4efd0/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f2b98-4366-7517-947c-90cd3cc4efd0",
+  "display_name": "AI-doctor-book"
+}
