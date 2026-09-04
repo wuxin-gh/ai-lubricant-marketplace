@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.guomi_crypto_toolkit",
+  "kind": "skill",
+  "name": "guomi_crypto_toolkit",
+  "tags": [
+    "安全",
+    "过密"
+  ],
+  "status": "published",
+  "summary": "国密算法工具箱（SM2/SM3/SM4/SM9/ZUC）：算法选型、可直接运行的 Node.js 加解密/签名/摘要代码、国标测试向量自检、密评（GB/T 39786-2021）合规指导。当用户提到国密、商密、SM2、SM3、SM4、SM9、ZUC、TLCP、密评、国密改造，或要求用国密算法加密数据、数字签名、替换 MD5/SHA/RSA/AES 时使用。",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a05df7-67b1-746a-a394-7ebd0117a820/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a05df7-67b1-746a-a394-7ebd0117a820",
+  "display_name": "guomi_crypto_toolkit"
+}
