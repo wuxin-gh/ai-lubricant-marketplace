@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.skill-publish-guideline",
+  "kind": "skill",
+  "name": "skill-publish-guideline",
+  "tags": [
+    "qwenpaw",
+    "skill发布",
+    "skill规范"
+  ],
+  "status": "published",
+  "summary": "QwenPaw skill 技能发布规范，当需要校验本地 Skill、发布/更新到 QwenPaw 原生技能池、定向广播给指定 Agent 或查看同步状态时使用。默认只读；所有写操作必须明确授权。",
+  "version": "1.0.0",
+  "category": "Skills 管理",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ff8d0-109d-7f00-817c-1bde0e2276d1/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ff8d0-109d-7f00-817c-1bde0e2276d1",
+  "display_name": "skill-publish-guideline"
+}
