@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.teacher-prep-skill",
+  "kind": "skill",
+  "name": "teacher-prep-skill",
+  "tags": [],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "Skills 管理",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a060cb-04ca-7759-a7c3-8b780ff9bc6b/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a060cb-04ca-7759-a7c3-8b780ff9bc6b",
+  "display_name": "teacher-prep-skill"
+}
