@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.cxs-soul-profiler",
+  "kind": "skill",
+  "name": "cxs-soul-profiler",
+  "tags": [
+    "数字人",
+    "灵魂"
+  ],
+  "status": "published",
+  "summary": ">",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a03d38-f56f-7adb-a559-e65d540cc599/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a03d38-f56f-7adb-a559-e65d540cc599",
+  "display_name": "cxs-soul-profiler"
+}
