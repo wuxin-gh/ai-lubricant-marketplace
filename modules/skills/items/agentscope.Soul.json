@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.Soul",
+  "kind": "skill",
+  "name": "Soul",
+  "tags": [
+    "人格一致性",
+    "客服",
+    "数字人"
+  ],
+  "status": "published",
+  "summary": "Embody a defined digital identity with consistent worldview, voice, and behavioral boundaries.",
+  "version": "1.0.0",
+  "category": "营销增长 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a02bb3-48ea-74c7-813e-c806d0e2136f/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a02bb3-48ea-74c7-813e-c806d0e2136f",
+  "display_name": "Soul"
+}
