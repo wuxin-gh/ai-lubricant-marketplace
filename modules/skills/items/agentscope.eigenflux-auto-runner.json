@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.eigenflux-auto-runner",
+  "kind": "skill",
+  "name": "eigenflux-auto-runner",
+  "tags": [
+    "QQ邮箱",
+    "全自动",
+    "打通验证码"
+  ],
+  "status": "published",
+  "summary": "当需要让EigenFlux自动运行时触发。全自动执行EigenFlux运营任务，包括刷新认证、拉取信息流、自动发布内容、处理好友请求，无需人工干预。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a06b30-659d-7afe-b237-3e18a1167553/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a06b30-659d-7afe-b237-3e18a1167553",
+  "display_name": "eigenflux-auto-runner"
+}
