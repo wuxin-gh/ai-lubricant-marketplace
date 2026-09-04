@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.market-insight-product-selection",
+  "kind": "skill",
+  "name": "market-insight-product-selection",
+  "tags": [
+    "动量",
+    "竞争",
+    "需求"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "数据研究",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a029ae-c19b-797a-b42c-ece6de614d7f/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a029ae-c19b-797a-b42c-ece6de614d7f",
+  "display_name": "market-insight-product-selection"
+}
