@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.clinical-decoder",
+  "kind": "skill",
+  "name": "clinical-decoder",
+  "tags": [
+    "原点",
+    "投资",
+    "洞察"
+  ],
+  "status": "published",
+  "summary": "临床知识深度解码专家 - 专门处理医学、健康、生物领域的知识提取与分析，提供权威的临床方案解析",
+  "version": "1.0.0",
+  "category": "数据研究",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f266b-c9c5-7276-8ea5-8dc77e0fcbfc/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f266b-c9c5-7276-8ea5-8dc77e0fcbfc",
+  "display_name": "clinical-decoder"
+}
