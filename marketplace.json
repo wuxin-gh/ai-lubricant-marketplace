@@ -3,7 +3,8 @@
   "modules": [
     "channels",
     "node-versions",
-    "prompts"
+    "prompts",
+    "skills"
   ],
-  "updated_at": "2026-09-03T13:41:26.082968+00:00"
+  "updated_at": "2026-09-04T08:16:29.973564+00:00"
 }
