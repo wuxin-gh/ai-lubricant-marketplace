@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.super-claw",
+  "kind": "skill",
+  "name": "super-claw",
+  "tags": [],
+  "status": "published",
+  "summary": "启迪式AI学伴 -- 防依赖算法学习智能体。基于知识边界辅导学习，整合4个Skill：Skill1知识诊断(43节点图谱)、Skill2苏格拉底式四级引导(hint/direction/example/concept)、Skill3 RAG溯源(Graph RAG+课程资料索引)、Skill4闭环评估(变式题+掌握度报告)。全程不给答案只给启发。",
+  "version": "1.0.0",
+  "category": "教育知识",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f8f10-df58-79e3-bc32-15c4b83133b0/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f8f10-df58-79e3-bc32-15c4b83133b0",
+  "display_name": "super-claw"
+}
