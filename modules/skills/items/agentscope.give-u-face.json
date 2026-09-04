@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.give-u-face",
+  "kind": "skill",
+  "name": "give-u-face",
+  "tags": [],
+  "status": "published",
+  "summary": "创意图像生成技能，使用Pillow生成表情动画、广告动画、语音可视化等",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f2c32-842a-7561-a8bb-f96c5575dea7/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f2c32-842a-7561-a8bb-f96c5575dea7",
+  "display_name": "give-u-face"
+}
