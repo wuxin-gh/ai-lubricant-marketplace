@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.jiaoguan-12123-xuefa",
+  "kind": "skill",
+  "name": "jiaoguan-12123-xuefa",
+  "tags": [
+    "12123",
+    "学法减分",
+    "答题"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "安全合规",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fd258-28da-72b3-8ce8-7797069bf935/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fd258-28da-72b3-8ce8-7797069bf935",
+  "display_name": "jiaoguan-12123-xuefa"
+}
