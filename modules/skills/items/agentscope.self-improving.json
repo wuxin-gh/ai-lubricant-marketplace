@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.self-improving",
+  "kind": "skill",
+  "name": "self-improving",
+  "tags": [
+    "agent",
+    "优化"
+  ],
+  "status": "published",
+  "summary": ">",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a043fa-5416-7740-ba1d-b1501ae0af38/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a043fa-5416-7740-ba1d-b1501ae0af38",
+  "display_name": "self-improving"
+}
