@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.pen-master",
+  "kind": "skill",
+  "name": "pen-master",
+  "tags": [
+    "写作"
+  ],
+  "status": "published",
+  "summary": "结构化技术写作助手 — 博客、方案、报告的场景化写作引擎",
+  "version": "1.0.0",
+  "category": "文档办公",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a04810-1ffc-7a32-8246-7fa4b8f97fa4/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a04810-1ffc-7a32-8246-7fa4b8f97fa4",
+  "display_name": "pen-master"
+}
