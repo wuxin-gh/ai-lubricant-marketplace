@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.agent-mail-clamav-safe",
+  "kind": "skill",
+  "name": "agent-mail-clamav-safe",
+  "tags": [
+    "agent mail",
+    "clamav杀毒",
+    "安全防卫"
+  ],
+  "status": "published",
+  "summary": "安全邮件处理技能 - 融合 Agently Mail 邮件收发与 ClamAV 病毒扫描。当用户需要处理邮件（收发、回复、转发）且涉及附件安全扫描时使用此技能。支持自动下载附件、ClamAV 杀毒扫描、安全回复的完整工作流。",
+  "version": "1.0.0",
+  "category": "安全合规",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f5db6-35c4-735a-bcc6-0f256573be8b/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f5db6-35c4-735a-bcc6-0f256573be8b",
+  "display_name": "agent-mail-clamav-safe"
+}
