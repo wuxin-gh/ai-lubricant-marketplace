@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.web-extractor",
+  "kind": "skill",
+  "name": "web-extractor",
+  "tags": [
+    "Web Extractor",
+    "内容总结",
+    "网页内容"
+  ],
+  "status": "published",
+  "summary": "Extract the main body text of web pages (strip nav/ads/footers) and optionally summarize it — 网页正文抓取与摘要. Use when you need to fetch a page's clean readable content given a URL, pull article/news/blog text out of cluttered pages, batch-extract multiple pages to Markdown, or summarize a web article's key points. Triggered on: 抓网页正文、提取文章内容、网页转md、链接提取正文、批量抓取文章、网页摘要、总结链接内容、把网址内容整理出来.",
+  "version": "1.0.0",
+  "category": "文档办公",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00e56-76bf-7345-8103-c59542a709c0/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00e56-76bf-7345-8103-c59542a709c0",
+  "display_name": "web-extractor"
+}
