@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.plugin-creator",
+  "kind": "skill",
+  "name": "plugin-creator",
+  "tags": [],
+  "status": "published",
+  "summary": "Scaffold, build, and package QwenPaw 1.X plugins (manifest + Python backend + optional frontend JS bundle). Use when creating a new QwenPaw plugin, editing plugin.json, wiring a FastAPI router, registering tools/providers/hooks/skills via PluginApi, building the frontend bundle, or zipping a plugin for install.",
+  "version": "1.0.0",
+  "category": "Plugin 开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ebb1d-bd34-77b5-97a5-4a648d416ca5/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ebb1d-bd34-77b5-97a5-4a648d416ca5",
+  "display_name": "plugin-creator"
+}
