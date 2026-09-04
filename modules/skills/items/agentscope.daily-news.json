@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.daily-news",
+  "kind": "skill",
+  "name": "daily-news",
+  "tags": [
+    "新闻推送"
+  ],
+  "status": "published",
+  "summary": "Use this skill when the user wants today's domestic and international",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a038f7-8974-7e63-9723-c70b6e92dc06/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a038f7-8974-7e63-9723-c70b6e92dc06",
+  "display_name": "daily-news"
+}
