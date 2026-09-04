@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.RapidOCR",
+  "kind": "skill",
+  "name": "RapidOCR",
+  "tags": [
+    "OCR",
+    "RapidOCR",
+    "图片识别"
+  ],
+  "status": "published",
+  "summary": "Use when the user needs to extract text from an image, PDF-scan, screenshot, or picture — OCR / 图片文字识别 / 扫描件转文字 / 截图识字 / 抠图文字. Triggered on tasks like 识别图片文字、把图片转成文本、截图里的字抄出来、扫描件PDF抢救。Chinese-first OCR powered by RapidOCR (ONNX Runtime); no API key needed, works offline, auto-installs dependencies on first use.",
+  "version": "1.0.0",
+  "category": "文档办公",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00d98-566a-7cde-94fe-c2ce8a379e08/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00d98-566a-7cde-94fe-c2ce8a379e08",
+  "display_name": "RapidOCR"
+}
