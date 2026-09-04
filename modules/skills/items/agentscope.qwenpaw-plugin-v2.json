@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.qwenpaw-plugin-v2",
+  "kind": "skill",
+  "name": "qwenpaw-plugin-v2",
+  "tags": [
+    "plugin",
+    "经验"
+  ],
+  "status": "published",
+  "summary": "Build, migrate, and debug QwenPaw 2.0 plugins — with complete coverage of the agent-tool plugin lifecycle (plugin.json compatibility, @tool_descriptor, workspace ToolRegistry registration, governance DEFAULT_REGISTRY, zero-downtime reload survival). Use when adding agent tools via plugins, fixing tools invisible to AI, fixing 'governance denied by policy' errors, fixing tools lost after agent reload, or scaffolding any QwenPaw 2.0 plugin type.",
+  "version": "1.0.0",
+  "category": "Plugin 开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f5171-953b-7fc6-913a-1f78606c029d/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f5171-953b-7fc6-913a-1f78606c029d",
+  "display_name": "qwenpaw-plugin-v2"
+}
