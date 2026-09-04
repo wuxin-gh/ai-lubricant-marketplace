@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "skills",
-  "updated_at": "2026-09-04T08:22:30.313368+00:00",
+  "updated_at": "2026-09-04T08:24:36.570728+00:00",
   "items": [
     {
       "id": "agentscope.AI-doctor-book",
