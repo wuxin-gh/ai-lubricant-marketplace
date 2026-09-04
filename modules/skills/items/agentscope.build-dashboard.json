@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.build-dashboard",
+  "kind": "skill",
+  "name": "build-dashboard",
+  "tags": [
+    "图表",
+    "构建仪表板",
+    "筛选器"
+  ],
+  "status": "published",
+  "summary": "Build an interactive HTML dashboard with charts, filters, and tables. Use when creating an executive overview with KPI cards, turning query results into a shareable self-contained report, building a team monitoring snapshot, or needing multiple charts with filters in one browser-openable file.",
+  "version": "1.0.0",
+  "category": "设计创作",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a0156d-88e5-7571-bae4-4c34b45edd6a/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a0156d-88e5-7571-bae4-4c34b45edd6a",
+  "display_name": "build-dashboard"
+}
