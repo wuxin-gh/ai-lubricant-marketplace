@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.tgb-dashboard",
+  "kind": "skill",
+  "name": "tgb-dashboard",
+  "tags": [
+    "可视化报告",
+    "散点图",
+    "股票"
+  ],
+  "status": "published",
+  "summary": "将文字版/Markdown 报告一键转换为单文件 HTML 暗黑科技风图表仪表盘。当用户提供复盘、周报、分析、调研等纯文本/文件并希望\"做成可视化网页/图表报告/一眼看懂的看板\"时使用。两种模式：standard=七模块仪表盘（banner/KPI/强度条/生命周期/梯队/机会/风险/矩阵）；scatter=全信息周期散点图（所有信息压缩到一张图 + 悬停明细）。固定版式（玻璃拟态 + 渐变光晕 + 霓虹色板），数据驱动，仅替换 DATA 即可复用。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a06668-cb30-732c-9da7-3185b90e33b3/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a06668-cb30-732c-9da7-3185b90e33b3",
+  "display_name": "tgb-dashboard"
+}
