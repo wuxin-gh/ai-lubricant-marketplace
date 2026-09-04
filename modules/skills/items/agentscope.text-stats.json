@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.text-stats",
+  "kind": "skill",
+  "name": "text-stats",
+  "tags": [],
+  "status": "published",
+  "summary": "当用户想统计一段文本的篇幅时使用此技能——字数、字符数（含/不含空白）、行数、段落数、估算阅读时长。触发表达包括「统计字数」「这段话多少字」「count words」「文字统计」「阅读时长」。输入为一段文本或一个文本文件路径，输出为结构化的统计结果。不要用于翻译、摘要、改写等需要理解语义的任务。",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fefdc-a05d-7502-8e2d-f4df1e600f5e/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fefdc-a05d-7502-8e2d-f4df1e600f5e",
+  "display_name": "text-stats"
+}
