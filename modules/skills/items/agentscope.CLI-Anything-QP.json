@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.CLI-Anything-QP",
+  "kind": "skill",
+  "name": "CLI-Anything-QP",
+  "tags": [
+    "CLI命令",
+    "万能软件",
+    "打破办软件收费封印"
+  ],
+  "status": "published",
+  "summary": "万能办公与软件应用技能集 - 为 QwenPaw 打造的 CLI-Anything 融合版",
+  "version": "1.0.0",
+  "category": "文档办公",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a06237-d3fd-7e32-b274-9ecf14ca4596/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a06237-d3fd-7e32-b274-9ecf14ca4596",
+  "display_name": "CLI-Anything-QP"
+}
