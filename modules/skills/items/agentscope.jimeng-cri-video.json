@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.jimeng-cri-video",
+  "kind": "skill",
+  "name": "jimeng-cri-video",
+  "tags": [
+    "AI视频",
+    "即梦",
+    "高级版"
+  ],
+  "status": "published",
+  "summary": "当用户说“生成视频xx”“用即梦生成视频”“即梦视频生成”“生成一段视频”等自然语言视频生成需求时使用。该 skill 先检查并引导安装即梦 CRI/CLI（curl -s https://jimeng.jianying.com/cli | bash），再通过 CLI 给出的登录链接完成授权，然后润色视频提示词并调用即梦命令生成视频。",
+  "version": "1.0.0",
+  "category": "设计创作",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a02d24-967f-726f-ae00-74e53294ee18/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a02d24-967f-726f-ae00-74e53294ee18",
+  "display_name": "jimeng-cri-video"
+}
