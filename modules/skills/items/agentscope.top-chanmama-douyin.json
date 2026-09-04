@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.top-chanmama-douyin",
+  "kind": "skill",
+  "name": "top-chanmama-douyin",
+  "tags": [
+    "抖音",
+    "视频榜单"
+  ],
+  "status": "published",
+  "summary": "获取蝉妈妈抖音热门视频排行榜（具体视频按点赞/转发/评论排序的完整榜单），含视频标题、达人、粉丝数、点赞、转发、评论数据。当用户想要\"抖音热门视频榜\"\"抖音视频排行榜\"\"抖音视频热度榜\"\"抖音热门榜\"\"抖音视频榜\"或想按播放量/点赞看抖音热门视频时触发。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a047ea-3676-70fa-bf62-9a62ca2e2a1a/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a047ea-3676-70fa-bf62-9a62ca2e2a1a",
+  "display_name": "top-chanmama-douyin"
+}
