@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.qwenpaw-web-url",
+  "kind": "skill",
+  "name": "qwenpaw-web-url",
+  "tags": [
+    "双开",
+    "本地网页化",
+    "浏览器打开"
+  ],
+  "status": "published",
+  "summary": "当用户询问 QwenPaw 网页版地址、端口、访问问题或外网访问方案时触发，提供桌面版对应的网页版访问地址和故障排查指南。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a041fa-39de-7890-b471-09d672ba9ea7/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a041fa-39de-7890-b471-09d672ba9ea7",
+  "display_name": "qwenpaw-web-url"
+}
