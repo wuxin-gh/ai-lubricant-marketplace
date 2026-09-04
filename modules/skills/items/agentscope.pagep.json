@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.pagep",
+  "kind": "skill",
+  "name": "pagep",
+  "tags": [
+    "网页发布"
+  ],
+  "status": "published",
+  "summary": "当 Agent 需要生成 HTML、Markdown、ZIP 或多文件静态站点，发布或更新 PagePilot 应用，复用创作市场作品，管理访问密码、版本、Token、屏幕投放和截图时使用。",
+  "version": "1.0.0",
+  "category": "设计创作",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00e6e-c427-7a4f-88f0-a265e51b9abf/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00e6e-c427-7a4f-88f0-a265e51b9abf",
+  "display_name": "pagep"
+}
