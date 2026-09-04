@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.glm-vision",
+  "kind": "skill",
+  "name": "glm-vision",
+  "tags": [
+    "vision"
+  ],
+  "status": "published",
+  "summary": "使用本技能通过 QwenPaw 已配置的智谱免费多模态模型 GLM-4.6V-Flash（model id: glm-4.6v-flash）对图片做视觉识别：支持本地图片文件与网络图片 URL，可附带自定义问题，输出模型的理解结果（描述、OCR、图表解读等）。当用户说“看看这张图”、“识别一下这个图片”、“这张图里有什么”、“帮我 OCR 这张图”、“图表里写了什么”，或需要辅助视觉理解（截图分析、图片内容描述、多图对比）时使用本技能。API Key 由 QwenPaw 内部管理（ProviderManager 自动调用），脚本无需手动填写或解密 Key。",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fdc5f-16af-7095-b973-f9174223c08e/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fdc5f-16af-7095-b973-f9174223c08e",
+  "display_name": "glm-vision"
+}
