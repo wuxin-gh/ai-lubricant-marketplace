@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.ima_qwenpaw",
+  "kind": "skill",
+  "name": "ima_qwenpaw",
+  "tags": [
+    "IMA",
+    "知识库",
+    "订阅"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "文档办公",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a05605-a2cf-7a7a-b572-64fe2c08ae5f/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a05605-a2cf-7a7a-b572-64fe2c08ae5f",
+  "display_name": "ima_qwenpaw"
+}
