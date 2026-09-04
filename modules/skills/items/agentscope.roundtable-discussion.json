@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.roundtable-discussion",
+  "kind": "skill",
+  "name": "roundtable-discussion",
+  "tags": [
+    "brainstorm",
+    "discussion",
+    "multi-agent"
+  ],
+  "status": "published",
+  "summary": "当用户要求进行多角度讨论/头脑风暴/圆桌讨论/群体讨论时使用本 skill。第一次使用时自动检测并创建讨论智能体，后续直接使用 chat_with_agent 安排多轮讨论并总结共识。",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f0ea8-e61c-7bef-8ee2-c4709b9b026a/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f0ea8-e61c-7bef-8ee2-c4709b9b026a",
+  "display_name": "roundtable-discussion"
+}
