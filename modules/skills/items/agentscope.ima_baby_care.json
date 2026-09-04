@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.ima_baby_care",
+  "kind": "skill",
+  "name": "ima_baby_care",
+  "tags": [
+    "人之初",
+    "婴儿护理",
+    "新手带娃"
+  ],
+  "status": "published",
+  "summary": "婴幼儿育儿知识库技能 - 访问IMA空间的婴幼儿育儿知识库",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fdb13-b1ba-7205-81fc-5d23a5522649/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fdb13-b1ba-7205-81fc-5d23a5522649",
+  "display_name": "ima_baby_care"
+}
