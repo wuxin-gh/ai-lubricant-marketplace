@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.behance-grab",
+  "kind": "skill",
+  "name": "behance-grab",
+  "tags": [],
+  "status": "published",
+  "summary": "Download, organize, check, incrementally sync, and zip public Behance project or moodboard URLs. Use when the user provides a public Behance project link or moodboard link and wants local image extraction, update checks, incremental downloads, stable moodboard folders, or ZIP packaging.",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ef7a3-d408-74c0-81fc-524b6237f0c4/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ef7a3-d408-74c0-81fc-524b6237f0c4",
+  "display_name": "behance-grab"
+}
