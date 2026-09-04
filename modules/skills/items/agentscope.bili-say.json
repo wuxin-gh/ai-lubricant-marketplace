@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.bili-say",
+  "kind": "skill",
+  "name": "bili-say",
+  "tags": [
+    "B站"
+  ],
+  "status": "published",
+  "summary": ">",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ef557-9bc4-7d2e-8364-dc4c9022e9eb/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ef557-9bc4-7d2e-8364-dc4c9022e9eb",
+  "display_name": "bili-say"
+}
