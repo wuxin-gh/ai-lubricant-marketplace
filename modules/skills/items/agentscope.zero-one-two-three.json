@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.zero-one-two-three",
+  "kind": "skill",
+  "name": "zero-one-two-three",
+  "tags": [
+    "0+1+2≠3",
+    "∞",
+    "智库"
+  ],
+  "status": "published",
+  "summary": "基于中国道家思维从\"道\"到\"万物\"，执行第一性原理的智能体分发系统。核心理念：0+1+2≠3→∞。独创\"邮箱灵感笔记\"与\"人机协作知识创生引擎\"。探索知识资产变现交付方式：知识二创、知识还原、加密解密、阅后即焚、免费API接口等。完成数字分身胶囊\"造人→打包→部署→变现\"全闭环：通过微信上操作装灵魂+大脑，小微智能体小程序加枷锁+收钱+兑换码，微信生态一键分发裂变。其中包含 LangChain 向量连接器（支持 IMA/Get 笔记/语雀/飞书）、跨平台知识碰撞、大模型自动填补审批流，特色功能图书馆、沉默是金、发芽联想、风格克隆、语音分身。",
+  "version": "1.0.0",
+  "category": "产品管理",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f2237-a8c9-7045-8630-a07f5f1d95a5/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f2237-a8c9-7045-8630-a07f5f1d95a5",
+  "display_name": "zero-one-two-three"
+}
