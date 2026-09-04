@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.management-tools",
+  "kind": "skill",
+  "name": "management-tools",
+  "tags": [
+    "方法",
+    "管理",
+    "经营"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "教育知识",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00979-1a42-73be-beee-842a33fb68f9/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00979-1a42-73be-beee-842a33fb68f9",
+  "display_name": "management-tools"
+}
