@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.financial-analyzer-tool",
+  "kind": "skill",
+  "name": "financial-analyzer-tool",
+  "tags": [
+    "中小企业",
+    "可视化",
+    "报表分析"
+  ],
+  "status": "published",
+  "summary": "企业财务报表分析与可视化预测工具。当用户提到财务分析、看财报、分析某公司财务状况、制作财务报告、财务报表可视化，或需要分析企业盈利能力、成长性、健康度时触发。适用于企业财报解读、投资研究、业绩预测等场景。不适用于股票买卖建议、实时行情查询或会计记账。",
+  "version": "1.0.0",
+  "category": "数据研究",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f2311-ec81-715f-871a-30c450efe41b/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f2311-ec81-715f-871a-30c450efe41b",
+  "display_name": "financial-analyzer-tool"
+}
