@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.megaphone",
+  "kind": "skill",
+  "name": "megaphone",
+  "tags": [
+    "不同智能体对话",
+    "传话筒",
+    "频道对话"
+  ],
+  "status": "published",
+  "summary": "传话筒：跨频道、跨智能体消息传递。同一智能体在不同频道之间利用 /命令 发信息；不同智能体在相同频道之间利用 /命令 发信息。触发关键词：'传话筒'、'megaphone'、'跨频道'、'转发'、'跨频道发消息'、'给另一个频道发消息'、'让另一个智能体发消息'、'跨智能体'。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f27e2-910e-75d1-968a-d06e3b68f3d8/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f27e2-910e-75d1-968a-d06e3b68f3d8",
+  "display_name": "megaphone"
+}
