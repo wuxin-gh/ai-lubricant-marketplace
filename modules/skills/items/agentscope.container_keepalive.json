@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.container_keepalive",
+  "kind": "skill",
+  "name": "container_keepalive",
+  "tags": [
+    "建议安装",
+    "方便"
+  ],
+  "status": "published",
+  "summary": "通过定时任务检查当日聊天记录，保活容器免于自动关机，同时实现主动问候陪伴。适用于有 48h 空闲自动关机策略的容器环境。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f918b-1acc-7c66-89e7-34fb84eef18d/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f918b-1acc-7c66-89e7-34fb84eef18d",
+  "display_name": "container_keepalive"
+}
