@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.image-generator",
+  "kind": "skill",
+  "name": "image-generator",
+  "tags": [
+    "AI图片",
+    "图生图",
+    "文生图"
+  ],
+  "status": "published",
+  "summary": "专业的AI图片生成技能，支持文生图、图生图、图片编辑和批量生成。当用户需要生成或编辑图片时使用，包括：1) 根据文字描述生成图片（信息图、插画、产品图等），2) 基于参考图片生成风格一致的变体，3) 编辑和优化现有图片，4) 批量生成多张风格统一的图片系列，5) 为文档、演示、网站等创建配图。适用于营销、设计、文档配图、产品展示等多种场景。",
+  "version": "1.0.0",
+  "category": "设计创作",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a02d26-47e8-7926-9f02-e8a118cd3ddf/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a02d26-47e8-7926-9f02-e8a118cd3ddf",
+  "display_name": "image-generator"
+}
