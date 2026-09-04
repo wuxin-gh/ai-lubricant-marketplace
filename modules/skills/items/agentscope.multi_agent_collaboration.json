@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.multi_agent_collaboration",
+  "kind": "skill",
+  "name": "multi_agent_collaboration",
+  "tags": [],
+  "status": "published",
+  "summary": "Use this skill when another agent's expertise or context is needed, or when the user explicitly asks to involve another agent. First list agents, then use qwenpaw agents chat for two-way communication with replies.",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ec38a-c884-7617-94c6-38e88acab625/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ec38a-c884-7617-94c6-38e88acab625",
+  "display_name": "multi_agent_collaboration"
+}
