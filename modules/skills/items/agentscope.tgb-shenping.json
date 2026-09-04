@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.tgb-shenping",
+  "kind": "skill",
+  "name": "tgb-shenping",
+  "tags": [
+    "可视化报告",
+    "股票"
+  ],
+  "status": "published",
+  "summary": "抓取淘股吧「淘县神评」热门评论聚合流。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a06059-90d7-73a0-bf21-0ad3f26721fb/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a06059-90d7-73a0-bf21-0ad3f26721fb",
+  "display_name": "tgb-shenping"
+}
