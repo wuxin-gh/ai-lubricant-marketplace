@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.copilot",
+  "kind": "skill",
+  "name": "copilot",
+  "tags": [
+    "qwenpaw copilot",
+    "副驾",
+    "远程控制台"
+  ],
+  "status": "published",
+  "summary": "副驾模式：用户离开电脑时，通过语音或简短文字远程控制 QwenPaw。适用于用户通过手机、智能音箱等语音输入设备发送指令的场景。触发关键词包括：'副驾'、'copilot'、'帮我看看'、'查一下'、'帮我发'、'远程'、'不在电脑前'、'语音控制'等。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f275e-043e-7047-bee2-f516be8fb6e1/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f275e-043e-7047-bee2-f516be8fb6e1",
+  "display_name": "copilot"
+}
