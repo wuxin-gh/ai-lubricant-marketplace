@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.dual-registration",
+  "kind": "skill",
+  "name": "dual-registration",
+  "tags": [
+    "qwenpaw应用",
+    "插件",
+    "秒变"
+  ],
+  "status": "published",
+  "summary": "QwenPaw 2.0 插件双兼容注册技能。支持两种模式：双显示模式（应用栏目+侧边栏菜单）和纯应用模式（仅应用栏目）。包括前端注册、plugin.json 配置、后端 PluginApi 模式。参考实现：四国争霸、AI决策、Agent Kanban、TeamChat、心灵小岛。",
+  "version": "1.0.0",
+  "category": "Plugin 开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00988-db2e-7aec-867d-b1e019495821/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00988-db2e-7aec-867d-b1e019495821",
+  "display_name": "dual-registration"
+}
