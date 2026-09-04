@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.feishu-voice-bubble",
+  "kind": "skill",
+  "name": "feishu-voice-bubble",
+  "tags": [
+    "女声",
+    "气泡音",
+    "飞书语音"
+  ],
+  "status": "published",
+  "summary": "教飞书agent如何发送语音气泡消息。需要先将文字转语音（MP3），再转为opus格式，最后通过飞书API直接发送语音消息（绕过模型Formatter）。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a04e56-bf94-7da6-9876-59f1762f7ecd/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a04e56-bf94-7da6-9876-59f1762f7ecd",
+  "display_name": "feishu-voice-bubble"
+}
