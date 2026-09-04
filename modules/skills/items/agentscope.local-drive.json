@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.local-drive",
+  "kind": "skill",
+  "name": "local-drive",
+  "tags": [
+    "专属空间",
+    "网盘",
+    "龙虾盘"
+  ],
+  "status": "published",
+  "summary": "智能体本地网盘技能，为每个智能体提供独立的本地硬盘存储空间，支持文件上传、下载、列表、删除、分享、搜索。整合了文件管理、跨智能体文件传输等功能。结合多智能体系统下的网盘插件管理让资料像图书馆一样更直观。",
+  "version": "1.0.0",
+  "category": "Plugin 开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019eb762-6342-7b92-99bd-19ce2ec18f25/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019eb762-6342-7b92-99bd-19ce2ec18f25",
+  "display_name": "local-drive"
+}
