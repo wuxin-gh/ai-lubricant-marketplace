@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.plugin-migrator",
+  "kind": "skill",
+  "name": "plugin-migrator",
+  "tags": [
+    "工程开发"
+  ],
+  "status": "published",
+  "summary": "Migrate QwenPaw 1.x plugins to QwenPaw 2.0 and scaffold QwenPaw 2.0 plugins. Use when porting plugins, fixing plugin.json compatibility constraints (qwenpaw_version / min_version), debugging plugins disabled or inert in 2.0, fixing register_prompt_section errors, auditing agent/runtime internal API usage, or using 2.0 PluginApi methods such as register_middleware, register_slash_command, register_mode, register_runtime_hook, and register_agent_stop_handler.",
+  "version": "1.0.0",
+  "category": "Plugin 开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f3aa8-2c56-7285-9119-31c46481ee8e/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f3aa8-2c56-7285-9119-31c46481ee8e",
+  "display_name": "plugin-migrator"
+}
