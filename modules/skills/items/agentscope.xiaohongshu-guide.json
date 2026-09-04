@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.xiaohongshu-guide",
+  "kind": "skill",
+  "name": "xiaohongshu-guide",
+  "tags": [
+    "2026运营",
+    "xiaohongshu",
+    "小红书"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "教育知识",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00935-47b0-769a-af79-1c6dd981523e/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00935-47b0-769a-af79-1c6dd981523e",
+  "display_name": "xiaohongshu-guide"
+}
