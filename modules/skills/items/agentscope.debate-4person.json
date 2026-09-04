@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.debate-4person",
+  "kind": "skill",
+  "name": "debate-4person",
+  "tags": [
+    "八人",
+    "正反方",
+    "辩论"
+  ],
+  "status": "published",
+  "summary": "四人制标准辩论工具，AI 扮演正反方 8 名辩手，按立论→攻辩→总结流程辩论，支持打断、评委点评打分。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a014e4-167d-7be2-a7cc-11377f535bad/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a014e4-167d-7be2-a7cc-11377f535bad",
+  "display_name": "debate-4person"
+}
