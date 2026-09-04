@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.xinwenlianbo",
+  "kind": "skill",
+  "name": "xinwenlianbo",
+  "tags": [],
+  "status": "published",
+  "summary": "获取最新新闻联播文字版内容。支持多个数据源自动切换。当用户问新闻联播、CCTV新闻、每日新闻联播文字版时使用。",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f0352-5caa-7fb7-98e5-7bde427e19e5/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f0352-5caa-7fb7-98e5-7bde427e19e5",
+  "display_name": "xinwenlianbo"
+}
