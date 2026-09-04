@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.plugin-menu-show-but-not-work",
+  "kind": "skill",
+  "name": "plugin-menu-show-but-not-work",
+  "tags": [
+    "应用",
+    "快速修复",
+    "插件"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "Plugin 开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a04bb2-5cd9-7db1-bb93-79e73e4baab6/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a04bb2-5cd9-7db1-bb93-79e73e4baab6",
+  "display_name": "plugin-menu-show-but-not-work"
+}
