@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.job-match-analysis",
+  "kind": "skill",
+  "name": "job-match-analysis",
+  "tags": [
+    "辨别"
+  ],
+  "status": "published",
+  "summary": "招聘岗位匹配度与投递评估 Skill。当接收到新的招聘信息或包含 JD (Job Description) 的网页变更通知时调用，用于自动评估岗位匹配度、提取硬性门槛并提供简历优化与面试准备建议。",
+  "version": "1.0.0",
+  "category": "数据研究",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a039cd-0fee-78a8-9018-7365cf737448/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a039cd-0fee-78a8-9018-7365cf737448",
+  "display_name": "job-match-analysis"
+}
