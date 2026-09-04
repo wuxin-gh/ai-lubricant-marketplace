@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.research-report-helper",
+  "kind": "skill",
+  "name": "research-report-helper",
+  "tags": [
+    "企业",
+    "报告",
+    "数据分析"
+  ],
+  "status": "published",
+  "summary": "把一个有边界的研究问题做成**可直接汇报给老板/客户的企业级研究报告**。覆盖行业研究、企业研究、用户研究、社会议题、政策研究、学术综述。研究成果是一份**单体 HTML**——内嵌数据图 SVG、AntV Infographic 信息图、可被打印为 PDF、可被截屏分享。**核心原则**：（1）表格堆砌是假的咨询感，数据嵌入文字 + 叙事段落才是真的咨询感；（2）HTML 产物直接生成，**不走 md→html 正则转换**；（3）**数据可信度优先于信源权威**——**宁可不写，不可推测**；（4）图表按\"先论点后图表\"决策树匹配类型；信息图按**七大结构类型**（列表/对比/顺序/层级/关系/地理/统计）+ **L.A.T.C.H 组织维度**选模板，**编号 ≠ 顺序结构**（关键看连接元素），不滥用时间线；（5）**数据墨水比 + 60/40 信息密度**——装饰按\"是否降低理解成本\"取舍；（6）**渐进式披露**——主入口只承载入口与索引，细节按阶段读 `guides/*.md` 子文件。",
+  "version": "1.0.0",
+  "category": "数据研究",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f6108-ed0a-7bb1-80b3-742771d0622f/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f6108-ed0a-7bb1-80b3-742771d0622f",
+  "display_name": "research-report-helper"
+}
