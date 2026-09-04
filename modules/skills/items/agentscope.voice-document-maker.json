@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.voice-document-maker",
+  "kind": "skill",
+  "name": "voice-document-maker",
+  "tags": [
+    "声音海报",
+    "微信语音",
+    "汽泡"
+  ],
+  "status": "published",
+  "summary": "制作有声视频文档技能 - 将文字自动转为 TTS 语音，并配上 AI 生成的精美背景图，合成 MP4 视频文件。适用于微信视频卡片交付。",
+  "version": "1.0.0",
+  "category": "设计创作",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f17c6-7894-703a-8c6e-45ce8b0d4177/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f17c6-7894-703a-8c6e-45ce8b0d4177",
+  "display_name": "voice-document-maker"
+}
