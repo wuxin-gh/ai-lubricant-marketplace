@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.factory-safety-operation",
+  "kind": "skill",
+  "name": "factory-safety-operation",
+  "tags": [
+    "6S现场",
+    "机械操作",
+    "生产安全"
+  ],
+  "status": "published",
+  "summary": "基于《工厂安全操作说明手册》的智能安全指导系统，涵盖叉车、铲车、挖机、搅拌机、气焊、钢筋切断机、钢筋调直机、液压冲孔切断机八大类设备的安全操作规程",
+  "version": "1.0.0",
+  "category": "安全合规",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fdad7-79cf-7ca9-857b-f11ce58a0964/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fdad7-79cf-7ca9-857b-f11ce58a0964",
+  "display_name": "factory-safety-operation"
+}
