@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.top-ai-news",
+  "kind": "skill",
+  "name": "top-ai-news",
+  "tags": [
+    "ai资讯",
+    "新闻"
+  ],
+  "status": "published",
+  "summary": "从 ai-bot.cn/daily-ai-news 获取最新 AI 新闻标题，默认取前 10 条",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a047d8-e077-7117-bfde-b4b5fe792e77/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a047d8-e077-7117-bfde-b4b5fe792e77",
+  "display_name": "top-ai-news"
+}
