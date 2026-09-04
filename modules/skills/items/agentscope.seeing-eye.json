@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.seeing-eye",
+  "kind": "skill",
+  "name": "seeing-eye",
+  "tags": [
+    "图片",
+    "多模态",
+    "视觉能力"
+  ],
+  "status": "published",
+  "summary": ">-",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fe1cc-74c7-79a4-aacf-3382de0f3327/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fe1cc-74c7-79a4-aacf-3382de0f3327",
+  "display_name": "seeing-eye"
+}
