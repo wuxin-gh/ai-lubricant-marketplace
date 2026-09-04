@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.name-to-pinyin",
+  "kind": "skill",
+  "name": "name-to-pinyin",
+  "tags": [],
+  "status": "published",
+  "summary": "将中文姓名转换为拼音，输出小写全连写无声调格式（如 张三→zhangsan、欧阳修→ouyangxiu），姓氏按姓氏专用读音处理多音字（单→shan、解→xie、仇→qiu、曾→zeng、区→ou、朴→piao、尉迟→yuchi 等40余个单姓+50个复姓），名字用字也按人名常见读音处理多音字（靓→liang、焯→zhuo、隽→jun、莞→wan、朝→zhao、长→chang、重→chong、晟→sheng 等）。当用户给出中文姓名要求转拼音、输出拼音、姓名怎么拼、pinyin 时使用；只返回拼音本身，不输出解释。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ff97b-7952-7a25-a268-0d329ac958df/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ff97b-7952-7a25-a268-0d329ac958df",
+  "display_name": "name-to-pinyin"
+}
