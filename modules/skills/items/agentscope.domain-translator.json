@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.domain-translator",
+  "kind": "skill",
+  "name": "domain-translator",
+  "tags": [
+    "AI翻译",
+    "垂直行业",
+    "跨行业"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "Skills 管理",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fcd3b-bddf-7539-a989-e74605e61a5c/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fcd3b-bddf-7539-a989-e74605e61a5c",
+  "display_name": "domain-translator"
+}
