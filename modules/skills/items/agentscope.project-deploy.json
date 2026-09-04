@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.project-deploy",
+  "kind": "skill",
+  "name": "project-deploy",
+  "tags": [
+    "github",
+    "服务器",
+    "部署"
+  ],
+  "status": "published",
+  "summary": "用户提供 GitHub/项目链接并希望部署到远程服务器时使用本技能：先审查项目、评估服务器资源，再在合适时以 Nginx/HTTPS 完成部署。触发场景：\"部署这个项目\"\"装到我服务器上\"、服务器环境搭建、Nginx/反向代理/SSL 配置、VPS Swap/内存管理、Oracle Cloud 防火墙。",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a03ba2-044b-7e2b-afbc-0d7d816005e7/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a03ba2-044b-7e2b-afbc-0d7d816005e7",
+  "display_name": "project-deploy"
+}
