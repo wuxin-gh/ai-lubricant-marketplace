@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.audio-lyrics-translator",
+  "kind": "skill",
+  "name": "audio-lyrics-translator",
+  "tags": [
+    "音频"
+  ],
+  "status": "published",
+  "summary": "Transcribe song audio into English lyrics and provide a Chinese translation, with best-effort cleanup for repeated hooks and uncertain phrases.",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a03ee1-b811-7030-9895-08039d5dde75/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a03ee1-b811-7030-9895-08039d5dde75",
+  "display_name": "audio-lyrics-translator"
+}
