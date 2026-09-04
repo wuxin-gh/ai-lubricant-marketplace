@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.love-coach",
+  "kind": "skill",
+  "name": "love-coach",
+  "tags": [
+    "人类恋爱",
+    "感情",
+    "爱情"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fdb0e-9055-7242-880e-754e6b738587/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fdb0e-9055-7242-880e-754e6b738587",
+  "display_name": "love-coach"
+}
