@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.agentscope-platform-persistent-storage",
+  "kind": "skill",
+  "name": "agentscope-platform-persistent-storage",
+  "tags": [
+    "AgentScope-Platform",
+    "best-practice"
+  ],
+  "status": "published",
+  "summary": "Use this skill when the agent needs to know where to write files on agentscope-platform, when the user asks about persistent storage, why files disappeared after restart, or where to place artifacts. This skill prevents data loss by teaching agents to always write to /app/working/ and never to volatile locations like /tmp/ or /root/.",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a03c86-2465-7913-a14d-0f33c46d6aaf/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a03c86-2465-7913-a14d-0f33c46d6aaf",
+  "display_name": "agentscope-platform-persistent-storage"
+}
