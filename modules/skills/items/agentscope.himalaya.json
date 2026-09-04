@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.himalaya",
+  "kind": "skill",
+  "name": "himalaya",
+  "tags": [],
+  "status": "published",
+  "summary": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f6a7e-d383-77e0-b6e1-5226ae8f8ebb/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f6a7e-d383-77e0-b6e1-5226ae8f8ebb",
+  "display_name": "himalaya"
+}
