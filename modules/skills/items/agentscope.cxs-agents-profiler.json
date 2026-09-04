@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.cxs-agents-profiler",
+  "kind": "skill",
+  "name": "cxs-agents-profiler",
+  "tags": [
+    "人物侧写",
+    "数字人",
+    "灵魂"
+  ],
+  "status": "published",
+  "summary": ">",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a03d3a-b98c-7c80-8466-55d2ff2a665a/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a03d3a-b98c-7c80-8466-55d2ff2a665a",
+  "display_name": "cxs-agents-profiler"
+}
