@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.install-Codex-in-agentscope-platform",
+  "kind": "skill",
+  "name": "install-Codex-in-agentscope-platform",
+  "tags": [
+    "Codex"
+  ],
+  "status": "published",
+  "summary": "'Use when installing/connecting OpenAI Codex CLI on agentscope-platform",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a02226-768f-704e-af87-fc47d37a9e3f/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a02226-768f-704e-af87-fc47d37a9e3f",
+  "display_name": "install-Codex-in-agentscope-platform"
+}
