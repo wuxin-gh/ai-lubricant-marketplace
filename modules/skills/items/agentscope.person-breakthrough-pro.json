@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.person-breakthrough-pro",
+  "kind": "skill",
+  "name": "person-breakthrough-pro",
+  "tags": [
+    "人物",
+    "关键",
+    "决策人"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "数据研究",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f2b20-cfbf-7f1a-9dc9-272eba6d788e/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f2b20-cfbf-7f1a-9dc9-272eba6d788e",
+  "display_name": "person-breakthrough-pro"
+}
