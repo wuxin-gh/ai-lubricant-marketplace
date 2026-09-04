@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.qwenpaw-github-issue",
+  "kind": "skill",
+  "name": "qwenpaw-github-issue",
+  "tags": [
+    "github",
+    "一键反馈",
+    "需求整理"
+  ],
+  "status": "published",
+  "summary": "当用户想向 QwenPaw GitHub 提交建议、反馈问题或写 Issue 时触发。用户说\"写个issue\"、\"提交建议\"、\"反馈问题\"、\"总结成issue\"等时使用此技能。自动收集症状和期望，生成中英双语格式的",
+  "version": "1.0.0",
+  "category": "产品管理",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f0360-2b14-7e8c-8590-a946ed26cbbe/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f0360-2b14-7e8c-8590-a946ed26cbbe",
+  "display_name": "qwenpaw-github-issue"
+}
