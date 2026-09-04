@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.fused-cs-quality-sop",
+  "kind": "skill",
+  "name": "fused-cs-quality-sop",
+  "tags": [],
+  "status": "published",
+  "summary": "融合客服平台-服务质检系统操作指导（依据《融合客服平台-服务质检操作手册 V1.0》）。当用户询问质检系统如何操作、如何配置质检标准模板、如何维护时长规则、如何新建/执行/分配/暂停/重启质检任务、如何打分评分、如何查看评分明细、如何处理申诉、如何维护评级规则，或遇到质检系统操作类问题（如任务抽取为0、录音无法播放、总分不归零）时使用。覆盖规则管理、时长规则管理、质检任务管理、我的质检、评分明细、申诉审核、评级管理七大模块的全部操作步骤、校验规则、后置规则与常见问题排查。触发词包括\"服务质检\"、\"人工质检\"、\"质检模板\"、\"质检任务\"、\"打分\"、\"评分明细\"、\"申诉审核\"、\"评级管理\"、\"时长规则\"、\"质检操作手册\"等。",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a0379e-aa45-71b3-9ba6-3c73f259e551/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a0379e-aa45-71b3-9ba6-3c73f259e551",
+  "display_name": "fused-cs-quality-sop"
+}
