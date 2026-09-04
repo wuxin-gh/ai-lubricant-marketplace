@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.a-share-oversold-rebound-strategy",
+  "kind": "skill",
+  "name": "a-share-oversold-rebound-strategy",
+  "tags": [
+    "股票"
+  ],
+  "status": "published",
+  "summary": "A股超跌反弹隔日短线选股策略——针对A股市场的隔日短线选股策略，识别因大盘或板块系统性下跌（非个股利空）导致单日跌幅6%-8%且尾盘企稳的个股，当日14:30推送选股池，次日9:45提醒平仓并计算盈亏。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019edd42-227f-7d52-8d3a-885de59dfa72/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019edd42-227f-7d52-8d3a-885de59dfa72",
+  "display_name": "a-share-oversold-rebound-strategy"
+}
