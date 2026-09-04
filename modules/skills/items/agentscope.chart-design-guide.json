@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.chart-design-guide",
+  "kind": "skill",
+  "name": "chart-design-guide",
+  "tags": [
+    "图表",
+    "指南",
+    "设计"
+  ],
+  "status": "published",
+  "summary": "A comprehensive bilingual (English/Chinese) guide for data visualization using Seaborn and Matplotlib. Covers best practices for chart selection, color palettes, theme configuration, and data storytelling. Use this skill when creating charts, selecting visualization types, choosing color schemes, or optimizing chart aesthetics for reports and presentations.",
+  "version": "1.0.0",
+  "category": "设计创作",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a029a9-a4e7-7614-938c-d1404885cbc9/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a029a9-a4e7-7614-938c-d1404885cbc9",
+  "display_name": "chart-design-guide"
+}
