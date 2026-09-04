@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.doubao-search",
+  "kind": "skill",
+  "name": "doubao-search",
+  "tags": [
+    "联网搜索"
+  ],
+  "status": "published",
+  "summary": "'Use this skill when the user wants to search the web, fact-check, or",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019faae4-808e-7513-aa54-e8109ef50858/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019faae4-808e-7513-aa54-e8109ef50858",
+  "display_name": "doubao-search"
+}
