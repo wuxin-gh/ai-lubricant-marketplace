@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.platform_api",
+  "kind": "skill",
+  "name": "platform_api",
+  "tags": [
+    "QwenPaw",
+    "api"
+  ],
+  "status": "published",
+  "summary": "使用本技能通过纯 HTTPS API 调用 AgentScope Platform（qwenpaw.platform.agentscope.io）上云端部署的 QwenPaw：登录/刷新 token、列出运行中的部署、获取控制台地址与临时 console_token，并使用基于 cookie 的认证与云端 QwenPaw 智能体对话。当用户希望以编程方式（CLI/脚本）驱动云端 QwenPaw、查看部署状态，或向 AgentScope Platform 上的远程智能体发送消息时使用本技能。",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019fdb31-f547-79a6-a6f9-0b7ee3c1b690/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019fdb31-f547-79a6-a6f9-0b7ee3c1b690",
+  "display_name": "platform_api"
+}
