@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.agentscope-skill",
+  "kind": "skill",
+  "name": "agentscope-skill",
+  "tags": [],
+  "status": "published",
+  "summary": "This guide covers the design philosophy, core concepts, and practical usage of the AgentScope framework. Use this skill whenever the user wants to do anything with the AgentScope (Python) library. This includes building agent applications using AgentScope, answering questions about AgentScope, looking for guidance on how to use AgentScope, searching for examples or specific information (functions/classes/modules).",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ea725-1975-7605-8f75-40c225f8b023/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ea725-1975-7605-8f75-40c225f8b023",
+  "display_name": "agentscope-skill"
+}
