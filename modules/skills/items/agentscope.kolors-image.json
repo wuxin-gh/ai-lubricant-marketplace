@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.kolors-image",
+  "kind": "skill",
+  "name": "kolors-image",
+  "tags": [
+    "#ai绘画",
+    "#免费",
+    "#文章配图"
+  ],
+  "status": "published",
+  "summary": "使用快手可图 Kolors 模型生成精美图片。支持文生图、中文提示词、多尺寸输出、风格预设。适用于文章配图、社交媒体、创意设计等场景。",
+  "version": "1.0.0",
+  "category": "营销增长 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019efc8c-25bc-7534-90b5-13047b2bc2bf/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019efc8c-25bc-7534-90b5-13047b2bc2bf",
+  "display_name": "kolors-image"
+}
