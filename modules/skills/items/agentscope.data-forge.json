@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.data-forge",
+  "kind": "skill",
+  "name": "data-forge",
+  "tags": [
+    "blockchain",
+    "crypto",
+    "risk-analysis"
+  ],
+  "status": "published",
+  "summary": "Intelligent data cleaning, format conversion, and quality validation tool. Use when you need to clean messy/dirty data, convert between CSV/JSON/Excel/Markdown/SQL formats, infer data schemas, deduplicate, handle missing values, normalize formats, detect anomalies, map columns fuzzy-matching, or generate data quality reports. Essential for any agent working with extracted tables, scraped web data, API responses, or user-provided datasets.",
+  "version": "1.0.0",
+  "category": "其它",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a01ec0-f97c-74cd-a32a-12846d9fdc13/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a01ec0-f97c-74cd-a32a-12846d9fdc13",
+  "display_name": "data-forge"
+}
