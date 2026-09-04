@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.alert-clinic",
+  "kind": "skill",
+  "name": "alert-clinic",
+  "tags": [
+    "告警故障自动诊断",
+    "故障自愈",
+    "运维"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f031f-5bef-7593-aac0-4de354410bf8/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f031f-5bef-7593-aac0-4de354410bf8",
+  "display_name": "alert-clinic"
+}
