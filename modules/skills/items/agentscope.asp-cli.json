@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.asp-cli",
+  "kind": "skill",
+  "name": "asp-cli",
+  "tags": [
+    "ASP CLI"
+  ],
+  "status": "published",
+  "summary": "Use AgentScope Platform CLI (asp) against the production AgentScope Platform to search, inspect, install, publish, and track marketplace Skills and Plugins. Also handle authentication, JSON automation, and publish troubleshooting required by those workflows. Trigger when a user asks to find, compare, install, or publish an AgentScope Skill or Plugin, manage a publication, inspect marketplace versions, or use ASP CLI.",
+  "version": "1.0.0",
+  "category": "Skills 管理",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a03871-29fc-78fd-bd96-9fd19a21e94e/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a03871-29fc-78fd-bd96-9fd19a21e94e",
+  "display_name": "asp-cli"
+}
