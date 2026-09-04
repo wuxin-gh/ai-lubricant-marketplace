@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.legal-breaker",
+  "kind": "skill",
+  "name": "legal-breaker",
+  "tags": [
+    "严谨",
+    "法律应用",
+    "深度理解"
+  ],
+  "status": "published",
+  "summary": "法律知识解构专家 - 专门处理法律、合同、合规领域的知识提取，拆解复杂法律逻辑",
+  "version": "1.0.0",
+  "category": "教育知识",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f2fa1-3ce8-7bab-a26a-35b6ba0bf19d/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f2fa1-3ce8-7bab-a26a-35b6ba0bf19d",
+  "display_name": "legal-breaker"
+}
