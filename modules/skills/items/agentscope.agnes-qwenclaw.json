@@ -1,0 +1,19 @@
+{
+  "id": "agentscope.agnes-qwenclaw",
+  "kind": "skill",
+  "name": "agnes-qwenclaw",
+  "tags": [],
+  "status": "published",
+  "summary": "帮助 QwenClaw/QwenPaw 接入 Agnes AI 的 OpenAI 兼容文本、视觉理解与图像生成接口，尤其关注 Agnes 图像请求的参数写法。",
+  "version": "1.0.0",
+  "category": "未分类",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f0def-42dd-70e2-a31b-bd3e024a1352/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f0def-42dd-70e2-a31b-bd3e024a1352",
+  "display_name": "agnes-qwenclaw"
+}
