@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.tax-planning-advisor",
+  "kind": "skill",
+  "name": "tax-planning-advisor",
+  "tags": [
+    "中小企业",
+    "节税方案",
+    "野路子"
+  ],
+  "status": "published",
+  "summary": "财务节税智能体，提供专业级税务筹划建议。当用户提到节税、税务筹划、减税、税务优化、怎么少交税、税收优惠，或上传了财务数据/收入支出明细希望分析时触发。不适用于会计记账、报税流程指导或税务纠纷处理。",
+  "version": "1.0.0",
+  "category": "教育知识",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f17cb-4277-791b-a22e-d11cedf48da7/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f17cb-4277-791b-a22e-d11cedf48da7",
+  "display_name": "tax-planning-advisor"
+}
