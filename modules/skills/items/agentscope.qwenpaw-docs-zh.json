@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.qwenpaw-docs-zh",
+  "kind": "skill",
+  "name": "qwenpaw-docs-zh",
+  "tags": [
+    "快捷",
+    "方便"
+  ],
+  "status": "published",
+  "summary": "当用户询问 QwenPaw 的安装、配置、使用、命令、技能、频道、定时任务、多智能体、记忆系统、MCP、API、架构、循环工程等时，使用此技能查阅官方中文文档。触发场景包括提到 'QwenPaw'、'qwenpaw'、'配置'、'频道'、'定时任务'、'技能'、'多智能体'、'记忆'、'MCP'、'API'、'架构'、'Goal'、'Mission' 等关键词。不要用于与 QwenPaw 无关的一般编程问题。",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f5c27-c57d-7584-8617-9bf93c383950/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f5c27-c57d-7584-8617-9bf93c383950",
+  "display_name": "qwenpaw-docs-zh"
+}
