@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.low-carbon-medicine",
+  "kind": "skill",
+  "name": "low-carbon-medicine",
+  "tags": [
+    "低碳生活"
+  ],
+  "status": "published",
+  "summary": "低碳生活方式医学咨询与健康管理。当用户提到低碳饮食、生酮饮食、低碳医学、低碳水化合物、减肥控糖、糖尿病逆转、代谢综合征调理、胰岛素抵抗、生活方式医学，或询问低碳饮食怎么吃、低碳饮食好处、生酮饮食入门等意图时触发。不适用于：一般营养咨询（非低碳方向）、运动损伤治疗、急性病急诊处理。",
+  "version": "1.0.0",
+  "category": "教育知识",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019f17c4-708f-72dd-813a-662e23be4c51/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019f17c4-708f-72dd-813a-662e23be4c51",
+  "display_name": "low-carbon-medicine"
+}
