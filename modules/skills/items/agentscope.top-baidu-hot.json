@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.top-baidu-hot",
+  "kind": "skill",
+  "name": "top-baidu-hot",
+  "tags": [
+    "百度热搜"
+  ],
+  "status": "published",
+  "summary": "获取百度热搜榜 TOP 10，包含日期标题和热搜排名 + 标题，格式简洁",
+  "version": "1.0.0",
+  "category": "自动化集成 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a047d7-52b3-759e-9f8c-3f6e9f2c384a/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a047d7-52b3-759e-9f8c-3f6e9f2c384a",
+  "display_name": "top-baidu-hot"
+}
