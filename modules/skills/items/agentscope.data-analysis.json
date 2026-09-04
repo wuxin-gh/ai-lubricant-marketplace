@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.data-analysis",
+  "kind": "skill",
+  "name": "data-analysis",
+  "tags": [
+    "Data Analysis",
+    "数据分析",
+    "数据处理"
+  ],
+  "status": "published",
+  "summary": "通用数据分析工具 — 对任意数据源(本地文件/数据库/粘贴文本/剪贴板)一条命令生成洞察报告。Use when the user needs to analyze a dataset: 分析数据、数据分析、出数据报告、看数据情况、统计、趋势、同环比、同比环比、多维下钻、数据洞察、Explore data, EDA, descriptive stats. Loads CSV/Excel/TSV/JSON/Parquet or SQL databases, diagnostics (missing/duplicates/outliers), EDA (distributions/correlation/top), multi-dimension drill-down, year-over-year & month-over-month, outputs Markdown + HTML with charts. 零公司绑定，任何用户可分析自己公司的数据.",
+  "version": "1.0.0",
+  "category": "文档办公",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00e66-8d6d-7745-867d-c03fe4e93002/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00e66-8d6d-7745-867d-c03fe4e93002",
+  "display_name": "data-analysis"
+}
