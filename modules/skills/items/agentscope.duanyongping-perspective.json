@@ -1,0 +1,23 @@
+{
+  "id": "agentscope.duanyongping-perspective",
+  "kind": "skill",
+  "name": "duanyongping-perspective",
+  "tags": [
+    "企业家",
+    "投资者",
+    "段永平"
+  ],
+  "status": "published",
+  "summary": "|",
+  "version": "1.0.0",
+  "category": "营销增长 ",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a014f0-67c2-7aa2-b4cf-66048f306b98/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a014f0-67c2-7aa2-b4cf-66048f306b98",
+  "display_name": "duanyongping-perspective"
+}
