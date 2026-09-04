@@ -1,0 +1,22 @@
+{
+  "id": "agentscope.image-ai-detection",
+  "kind": "skill",
+  "name": "image-ai-detection",
+  "tags": [
+    "图片",
+    "鉴定"
+  ],
+  "status": "published",
+  "summary": "基于技术手段判定图片是否存在AI生成嫌疑。综合三条证据链：经典信号取证（ELA/噪声/频谱/元数据，本地Python脚本）、多模态大模型语义审查（bl CLI 调 Qwen-VL）、来源线索核验（EXIF/反向搜图）。适用于用户提供图片路径并要求判断是否AI生成、AI修图、深度伪造，或审核素材真实性的场景。触发词：AI生成检测、图片鉴别、是否AI图、forensics、deepfake检测。",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/019ff9d4-3d6e-7225-bcdc-8867d4f3e898/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/019ff9d4-3d6e-7225-bcdc-8867d4f3e898",
+  "display_name": "image-ai-detection"
+}
