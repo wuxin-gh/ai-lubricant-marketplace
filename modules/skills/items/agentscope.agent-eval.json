@@ -1,0 +1,21 @@
+{
+  "id": "agentscope.agent-eval",
+  "kind": "skill",
+  "name": "agent-eval",
+  "tags": [
+    "agent"
+  ],
+  "status": "published",
+  "summary": ">-",
+  "version": "1.0.0",
+  "category": "工程开发",
+  "resource": {
+    "url": "https://platform.agentscope.io/api/v1/skills/01a00de1-250d-717f-b0b2-a36a0446eeec/download",
+    "type": "skill_package",
+    "entry": "SKILL.md",
+    "source": "agentscope"
+  },
+  "publisher": "agentscope",
+  "source_url": "https://platform.agentscope.io/skills/01a00de1-250d-717f-b0b2-a36a0446eeec",
+  "display_name": "agent-eval"
+}
