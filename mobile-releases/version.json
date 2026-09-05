@@ -1,0 +1,18 @@
+{
+  "schema": "ai-lubricant.mobile-release/v1",
+  "version": "260902",
+  "version_notes": "1",
+  "assets": [
+    {
+      "digest": "sha256:53c74f2d992d6289783f1066de798b92b2c4c27b50c196604512f42deab92a04",
+      "format": "apk",
+      "filename": "ai-lubricant-260902-android.apk",
+      "platform": "android",
+      "size_bytes": 52018840,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-mobile/releases/download/mobile-v260902/ai-lubricant-260902-android.apk",
+      "version": "260902"
+    }
+  ],
+  "updated_at": "2026-09-05T13:50:56.973340+00:00",
+  "release_tag": "mobile-v260902"
+}
