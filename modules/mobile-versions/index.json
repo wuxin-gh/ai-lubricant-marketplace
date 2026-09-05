@@ -1,0 +1,27 @@
+{
+  "schema": "ai-lubricant.market.index.v1",
+  "module": "mobile-versions",
+  "updated_at": "2026-09-05T13:50:54.014501+00:00",
+  "items": [
+    {
+      "id": "mobile-260902",
+      "kind": "mobile_app_version",
+      "name": "ai-lubricant-mobile",
+      "tags": [
+        "mobile",
+        "android"
+      ],
+      "module": "mobile-versions",
+      "status": "published",
+      "summary": "1",
+      "category": "mobile-app",
+      "item_path": "modules/mobile-versions/items/mobile-260902.json",
+      "publisher": "mobile-260902",
+      "node_assets": 0,
+      "display_name": "移动控制端 260902",
+      "test_version": null,
+      "latest_version": "260902",
+      "runtime_assets": 0
+    }
+  ]
+}
