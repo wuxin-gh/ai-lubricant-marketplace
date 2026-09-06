@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-09-05T16:42:25.366025+00:00",
+  "updated_at": "2026-09-06T07:39:36.578319+00:00",
   "items": [
     {
       "id": "device-control-0.1.0",
@@ -41,6 +41,26 @@
       "display_name": "设备控制 App 0.1.1",
       "test_version": null,
       "latest_version": "0.1.1",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.1.6",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "修复连接ui、增加升级检测、显示当前版本的功能",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.1.6.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.1.6",
+      "test_version": null,
+      "latest_version": "0.1.6",
       "runtime_assets": 0
     }
   ]
