@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.1.6",
-  "version_notes": "修复连接ui、增加升级检测、显示当前版本的功能",
+  "version": "0.1.7",
+  "version_notes": "增加手机信息显示\r\n增加升级功能",
   "assets": [
     {
-      "digest": "sha256:631e44b2cff3102a91fd5b0d4f4f9ecdc46d0b864f45d706871e46b44150ff53",
+      "digest": "sha256:45e21ae5aedb7e856dd688c14ee7ddd49738d5a902ffe7ec1e8aa7b29b54e327",
       "format": "apk",
-      "filename": "device-control-0.1.6-android.apk",
+      "filename": "device-control-0.1.7-android.apk",
       "platform": "android",
-      "size_bytes": 12009527,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.1.6/device-control-0.1.6-android.apk",
-      "version": "0.1.6"
+      "size_bytes": 12011391,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.1.7/device-control-0.1.7-android.apk",
+      "version": "0.1.7"
     }
   ],
-  "updated_at": "2026-09-06T07:39:38.251572+00:00",
-  "release_tag": "device-control-v0.1.6"
+  "updated_at": "2026-09-07T14:30:52.204318+00:00",
+  "release_tag": "device-control-v0.1.7"
 }
