@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.mobile-release/v1",
-  "version": "260908",
-  "version_notes": "工具、配置、资源中心接入",
+  "version": "260909",
+  "version_notes": "接入通知",
   "assets": [
     {
-      "digest": "sha256:fdb6a0dce8de12205ca5abfa0e0a1a8f225be51fc217c56dcef77b75019d27b3",
+      "digest": "sha256:cced5144f6785d1e76c14b4904bec616425d95ac84fb16a97be3ec700660ed2d",
       "format": "apk",
-      "filename": "ai-lubricant-260908-android.apk",
+      "filename": "ai-lubricant-260909-android.apk",
       "platform": "android",
-      "size_bytes": 52044520,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-mobile/releases/download/mobile-v260908/ai-lubricant-260908-android.apk",
-      "version": "260908"
+      "size_bytes": 53577751,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-mobile/releases/download/mobile-v260909/ai-lubricant-260909-android.apk",
+      "version": "260909"
     }
   ],
-  "updated_at": "2026-09-08T05:46:19.278274+00:00",
-  "release_tag": "mobile-v260908"
+  "updated_at": "2026-09-08T15:42:17.022593+00:00",
+  "release_tag": "mobile-v260909"
 }
