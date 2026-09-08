@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.1.8",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:f7bbb6f9f5892e20817b7db3c2a05545b96699fac16a64424fd10186e9d84ce9",
+      "format": "apk",
+      "filename": "device-control-0.1.8-android.apk",
+      "platform": "android",
+      "size_bytes": 12020383,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.1.8/device-control-0.1.8-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.1.8",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.1.8",
+  "display_name": "设备控制 App 0.1.8",
+  "version_notes": "电池优化白名单——主页新状态行 + 申请按钮（系统弹窗，ROM 吞掉时回退列表页）\r\n开机自启——已配对开机自动重连\r\n划掉任务自愈——最近任务划掉 1 秒后自动拉回\r\n无障碍状态三态实时显示——「未启用 / 已启用（运行中）/ 已开启但服务未运行」，1.5 秒自动刷新，你说的「开了还显示未开启」误报不会再有\r\n厂商后台设置按钮——按手机品牌跳自启动/省电管理页"
+}
