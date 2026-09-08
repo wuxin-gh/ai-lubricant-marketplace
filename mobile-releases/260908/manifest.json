@@ -23,5 +23,5 @@
   "release_tag": "mobile-v260908",
   "display_name": "移动控制端 260908",
   "ios_store_url": "",
-  "version_notes": "工具页面优化、增加局域网扫描、页面标题统一"
+  "version_notes": "工具、配置、资源中心接入"
 }
