@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "mobile-versions",
-  "updated_at": "2026-09-08T00:51:15.547237+00:00",
+  "updated_at": "2026-09-08T05:46:17.445468+00:00",
   "items": [
     {
       "id": "mobile-260902",
@@ -53,7 +53,7 @@
       ],
       "module": "mobile-versions",
       "status": "published",
-      "summary": "工具页面优化、增加局域网扫描、页面标题统一",
+      "summary": "工具、配置、资源中心接入",
       "category": "mobile-app",
       "item_path": "modules/mobile-versions/items/mobile-260908.json",
       "publisher": "mobile-260908",
