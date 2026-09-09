@@ -1,68 +1,8 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "mobile-versions",
-  "updated_at": "2026-09-08T15:42:15.225403+00:00",
+  "updated_at": "2026-09-09T02:53:26.647562+00:00",
   "items": [
-    {
-      "id": "mobile-260902",
-      "kind": "mobile_app_version",
-      "name": "ai-lubricant-mobile",
-      "tags": [
-        "mobile",
-        "android"
-      ],
-      "module": "mobile-versions",
-      "status": "published",
-      "summary": "1",
-      "category": "mobile-app",
-      "item_path": "modules/mobile-versions/items/mobile-260902.json",
-      "publisher": "mobile-260902",
-      "node_assets": 0,
-      "display_name": "移动控制端 260902",
-      "test_version": null,
-      "latest_version": "260902",
-      "runtime_assets": 0
-    },
-    {
-      "id": "mobile-260907",
-      "kind": "mobile_app_version",
-      "name": "ai-lubricant-mobile",
-      "tags": [
-        "mobile",
-        "android"
-      ],
-      "module": "mobile-versions",
-      "status": "published",
-      "summary": "修复http不能访问问题",
-      "category": "mobile-app",
-      "item_path": "modules/mobile-versions/items/mobile-260907.json",
-      "publisher": "mobile-260907",
-      "node_assets": 0,
-      "display_name": "移动控制端 260907",
-      "test_version": null,
-      "latest_version": "260907",
-      "runtime_assets": 0
-    },
-    {
-      "id": "mobile-260908",
-      "kind": "mobile_app_version",
-      "name": "ai-lubricant-mobile",
-      "tags": [
-        "mobile",
-        "android"
-      ],
-      "module": "mobile-versions",
-      "status": "published",
-      "summary": "工具、配置、资源中心接入",
-      "category": "mobile-app",
-      "item_path": "modules/mobile-versions/items/mobile-260908.json",
-      "publisher": "mobile-260908",
-      "node_assets": 0,
-      "display_name": "移动控制端 260908",
-      "test_version": null,
-      "latest_version": "260908",
-      "runtime_assets": 0
-    },
     {
       "id": "mobile-260909",
       "kind": "mobile_app_version",
@@ -73,7 +13,7 @@
       ],
       "module": "mobile-versions",
       "status": "published",
-      "summary": "接入通知",
+      "summary": "初始版本",
       "category": "mobile-app",
       "item_path": "modules/mobile-versions/items/mobile-260909.json",
       "publisher": "mobile-260909",
