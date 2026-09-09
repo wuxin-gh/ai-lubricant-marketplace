@@ -1,10 +1,7 @@
 {
   "schema": "ai-lubricant.market.v1",
   "modules": [
-    "channels",
-    "device-control-versions",
-    "mobile-versions",
-    "node-versions"
+    "mobile-versions"
   ],
-  "updated_at": "2026-09-06T05:36:08.635258+00:00"
+  "updated_at": "2026-09-09T02:53:30.418852+00:00"
 }
