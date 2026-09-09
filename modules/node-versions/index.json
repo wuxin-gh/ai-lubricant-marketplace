@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-09-09T02:55:54.618961+00:00",
+  "updated_at": "2026-09-09T13:20:05.663443+00:00",
   "items": [
     {
       "id": "node-suite-20260909-1049",
@@ -21,6 +21,26 @@
       "display_name": "节点程序套件 20260909-1049",
       "test_version": false,
       "latest_version": "20260909-1049",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20260909-2033",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "优化结构",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20260909-2033.json",
+      "publisher": "node-suite-20260909-2033",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20260909-2033",
+      "test_version": false,
+      "latest_version": "20260909-2033",
       "runtime_assets": 1
     }
   ]
