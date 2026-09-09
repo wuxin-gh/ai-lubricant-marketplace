@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.mobile-release/v1",
   "version": "260909",
-  "version_notes": "接入通知",
+  "version_notes": "初始版本",
   "assets": [
     {
       "digest": "sha256:cced5144f6785d1e76c14b4904bec616425d95ac84fb16a97be3ec700660ed2d",
@@ -13,6 +13,6 @@
       "version": "260909"
     }
   ],
-  "updated_at": "2026-09-08T15:42:17.022593+00:00",
+  "updated_at": "2026-09-09T02:53:31.746608+00:00",
   "release_tag": "mobile-v260909"
 }
