@@ -1,88 +1,8 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-09-08T05:47:48.310844+00:00",
+  "updated_at": "2026-09-09T02:58:29.784836+00:00",
   "items": [
-    {
-      "id": "device-control-0.1.0",
-      "kind": "device_control_app_version",
-      "name": "device-control",
-      "tags": [
-        "device-control",
-        "android"
-      ],
-      "module": "device-control-versions",
-      "status": "published",
-      "summary": "1",
-      "category": "device-control-app",
-      "item_path": "modules/device-control-versions/items/device-control-0.1.0.json",
-      "publisher": "device-control-0",
-      "node_assets": 0,
-      "display_name": "设备控制 App 0.1.0",
-      "test_version": null,
-      "latest_version": "0.1.0",
-      "runtime_assets": 0
-    },
-    {
-      "id": "device-control-0.1.1",
-      "kind": "device_control_app_version",
-      "name": "device-control",
-      "tags": [
-        "device-control",
-        "android"
-      ],
-      "module": "device-control-versions",
-      "status": "published",
-      "summary": "1",
-      "category": "device-control-app",
-      "item_path": "modules/device-control-versions/items/device-control-0.1.1.json",
-      "publisher": "device-control-0",
-      "node_assets": 0,
-      "display_name": "设备控制 App 0.1.1",
-      "test_version": null,
-      "latest_version": "0.1.1",
-      "runtime_assets": 0
-    },
-    {
-      "id": "device-control-0.1.6",
-      "kind": "device_control_app_version",
-      "name": "device-control",
-      "tags": [
-        "device-control",
-        "android"
-      ],
-      "module": "device-control-versions",
-      "status": "published",
-      "summary": "修复连接ui、增加升级检测、显示当前版本的功能",
-      "category": "device-control-app",
-      "item_path": "modules/device-control-versions/items/device-control-0.1.6.json",
-      "publisher": "device-control-0",
-      "node_assets": 0,
-      "display_name": "设备控制 App 0.1.6",
-      "test_version": null,
-      "latest_version": "0.1.6",
-      "runtime_assets": 0
-    },
-    {
-      "id": "device-control-0.1.7",
-      "kind": "device_control_app_version",
-      "name": "device-control",
-      "tags": [
-        "device-control",
-        "android"
-      ],
-      "module": "device-control-versions",
-      "status": "published",
-      "summary": "增加手机信息显示",
-      "category": "device-control-app",
-      "item_path": "modules/device-control-versions/items/device-control-0.1.7.json",
-      "publisher": "device-control-0",
-      "node_assets": 0,
-      "display_name": "设备控制 App 0.1.7",
-      "test_version": null,
-      "latest_version": "0.1.7",
-      "runtime_assets": 0
-    },
     {
       "id": "device-control-0.1.8",
       "kind": "device_control_app_version",
@@ -93,7 +13,7 @@
       ],
       "module": "device-control-versions",
       "status": "published",
-      "summary": "电池优化白名单——主页新状态行 + 申请按钮（系统弹窗，ROM 吞掉时回退列表页）",
+      "summary": "发布通知",
       "category": "device-control-app",
       "item_path": "modules/device-control-versions/items/device-control-0.1.8.json",
       "publisher": "device-control-0",
