@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-09-10T05:51:16.151236+00:00",
+  "updated_at": "2026-09-10T06:48:21.208260+00:00",
   "items": [
     {
       "id": "node-suite-20260909-1049",
@@ -82,6 +82,26 @@
       "test_version": false,
       "latest_version": "20260910-1349",
       "runtime_assets": 0
+    },
+    {
+      "id": "node-suite-20260910-1435",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "1. 检查阶段补齐检测链（xcodejob.go:224-236）：新增 detectInstalledXcode() ——裸探测失败后自动发现已装 Xcode → 激活（xcode-select 或 DEVELOPER_DIR 兜底并持久",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20260910-1435.json",
+      "publisher": "node-suite-20260910-1435",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20260910-1435",
+      "test_version": false,
+      "latest_version": "20260910-1435",
+      "runtime_assets": 1
     }
   ]
 }
