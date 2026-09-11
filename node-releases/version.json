@@ -1,237 +1,237 @@
 {
   "schema": "ai-lubricant.node-release/v1",
-  "version": "20260910-1809",
-  "version_notes": "mac 节点build功能检测优化",
+  "version": "20260910-2357",
+  "version_notes": "增加一些调试日志",
   "assets": [
     {
       "arch": "any",
       "role": "runtime",
-      "digest": "sha256:673ad50bb7db0bb2e1e3ee2cd988f9b66679889a00dab5393aab2397a957844f",
+      "digest": "sha256:e231191da756edadf65a9fd56279e06961e52b76e78a6abd9df164b95f2283ff",
       "format": "tar.gz",
       "filename": "node-runtime.tar.gz",
       "platform": "any",
       "component": "agent-compose",
-      "size_bytes": 5092499,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-runtime.tar.gz",
-      "version": "20260910-1809"
+      "size_bytes": 5135738,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-runtime.tar.gz",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:9b41427ed5f887f5bd4dce7181f87d6b767ef9085b267a5f2f4d60ee4ed42023",
+      "digest": "sha256:78f3192cfff3dcbb28b622c3bbfcb62ac4d2d845a0edbd71b1ebdda11b23c778",
       "format": "executable",
       "filename": "node-execution-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 17638960,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-execution-darwin-amd64",
-      "version": "20260910-1809"
+      "size_bytes": 17639088,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-execution-darwin-amd64",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:c2d4a2f271606689ed9bf1f26deb79eb0e7a18808bc9c2b5f73715404bf490c3",
+      "digest": "sha256:bd2a61d0f5b08a2ff28c3f9f14d63d675d2b72988ffd59d911edca8ec267a1f4",
       "format": "executable",
       "filename": "node-execution-darwin-arm64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 16715442,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-execution-darwin-arm64",
-      "version": "20260910-1809"
+      "size_bytes": 16715570,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-execution-darwin-arm64",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:7d6f5f6ff68424a05cee24a4bd532e13dc011913cd350dda9e52098ea5cc0906",
+      "digest": "sha256:3b3748b1491967dc10f061c93438c44ed7c3c8fc1189a9bf13d7f957d0a20e3c",
       "format": "executable",
       "filename": "node-execution-linux-amd64",
       "platform": "linux",
       "component": "node",
-      "size_bytes": 17199266,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-execution-linux-amd64",
-      "version": "20260910-1809"
+      "size_bytes": 17203362,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-execution-linux-amd64",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:1c7693977a1ece269d98b364e68f47e5710f3bef39d8539f6241af43c3de94e2",
+      "digest": "sha256:9a9b6e28a4823da929005adeeeb0f7e34036f6b26d74a9704e3ac622a85b19eb",
       "format": "executable",
       "filename": "node-execution-linux-arm64",
       "platform": "linux",
       "component": "node",
-      "size_bytes": 16187554,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-execution-linux-arm64",
-      "version": "20260910-1809"
+      "size_bytes": 16253090,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-execution-linux-arm64",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:312337fb6e7eb851d72cd746f8605941718db7fda4bacdfdd3dd30b9a15f06a7",
+      "digest": "sha256:cd60e758ee21cb61e7898fbf036b7413b954d4d3133675ce4405ba3dc6055cd2",
       "format": "executable",
       "filename": "node-execution-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 17836544,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-execution-windows-amd64.exe",
-      "version": "20260910-1809"
+      "size_bytes": 17838080,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-execution-windows-amd64.exe",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:abf79e56c7462ddf32f21b2c421898975154dab437f91390e295ab87ceac16a2",
+      "digest": "sha256:291cd3e12ff2ad744e02202347b1e2561426918ab7707ec44774edd377369811",
       "format": "executable",
       "filename": "node-execution-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 16556544,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-execution-windows-arm64.exe",
-      "version": "20260910-1809"
+      "size_bytes": 16559104,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-execution-windows-arm64.exe",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "ios_host",
-      "digest": "sha256:5c7afd4af74a507343e728d6a04b144362ab1c641dfe4c86968d73e2a8c24fe7",
+      "digest": "sha256:f9e6d9f4731a51d057d1e4e8d0bdf593746f9b54924bc2335c956a98a5ced45e",
       "format": "executable",
       "filename": "node-ios-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 26643808,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-ios-darwin-amd64",
-      "version": "20260910-1809"
+      "size_bytes": 26643968,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-ios-darwin-amd64",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "ios_host",
-      "digest": "sha256:b08916c159588d0a8b70b9e0ad5bba6a1e14e05ad01ba1563dc081474c80c6e2",
+      "digest": "sha256:92a6c726e2963c96e3fe776ab002e56637af1c3a6b04c8380a3c605ffd7efb06",
       "format": "executable",
       "filename": "node-ios-darwin-arm64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 25238498,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-ios-darwin-arm64",
-      "version": "20260910-1809"
+      "size_bytes": 25238658,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-ios-darwin-arm64",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "ios_host",
-      "digest": "sha256:9f4c180810c4daae312899e3b317d40acfe5e78f16ab15e35cbbd2414c0111ba",
+      "digest": "sha256:80c3cba2c5fdfe8bfb6ae4ad04cf1fea923c190bc7e989d4ee524721be88cd98",
       "format": "executable",
       "filename": "node-ios-linux-amd64",
       "platform": "linux",
       "component": "node",
-      "size_bytes": 26202274,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-ios-linux-amd64",
-      "version": "20260910-1809"
+      "size_bytes": 26206370,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-ios-linux-amd64",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "ios_host",
-      "digest": "sha256:f54c0c311224c831930b1025ed9eaaf4f89c1c0f1748108a77cb86722c4c9bcf",
+      "digest": "sha256:cb0dadf16572d42a1fe56a9da2def902b242f34b232480333887acd17bd98d52",
       "format": "executable",
       "filename": "node-ios-linux-arm64",
       "platform": "linux",
       "component": "node",
       "size_bytes": 24641698,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-ios-linux-arm64",
-      "version": "20260910-1809"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-ios-linux-arm64",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "ios_host",
-      "digest": "sha256:da87e296e920f8497f1b6762b15e746b0ce1aeed350a8788c0333743206314ec",
+      "digest": "sha256:2bcbfebf0e20de41cf4446fbb555ebae54cacd9b40b2cdc88643a6f3c204beba",
       "format": "executable",
       "filename": "node-ios-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 26644480,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-ios-windows-amd64.exe",
-      "version": "20260910-1809"
+      "size_bytes": 26648064,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-ios-windows-amd64.exe",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "ios_host",
-      "digest": "sha256:0018e98c52cf2deef92969d4dfc2ecae5b9717c4ad0c13a404b379d0cf3ffc47",
+      "digest": "sha256:d20dd148784fe400275b13b9a3bccfe25e4da0517e5e8d7024146e6fc010c203",
       "format": "executable",
       "filename": "node-ios-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 24693248,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/node-ios-windows-arm64.exe",
-      "version": "20260910-1809"
+      "size_bytes": 24695808,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/node-ios-windows-arm64.exe",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "management",
-      "digest": "sha256:d4f1d6a305493e52190151abccdee7f3525cf44236c00ecfa3c39ea4e1da8d52",
+      "digest": "sha256:ecc508e0bf223be858d0620e30c27ac5e61b33adbf163eba2cdf362de972e52b",
       "format": "executable",
       "filename": "agent-compose-node-management-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 15161568,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/agent-compose-node-management-darwin-amd64",
-      "version": "20260910-1809"
+      "size_bytes": 15161696,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/agent-compose-node-management-darwin-amd64",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "management",
-      "digest": "sha256:c2b619506188162b6d4f8864f99fdc2e1a2741c03761c701d0e8b71c8cb52442",
+      "digest": "sha256:2684b1d449f1b1b0fee82f94eb46d9156d26f159e487352e0d9d94242bf476d6",
       "format": "executable",
       "filename": "agent-compose-node-management-darwin-arm64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 14404338,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/agent-compose-node-management-darwin-arm64",
-      "version": "20260910-1809"
+      "size_bytes": 14404434,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/agent-compose-node-management-darwin-arm64",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "management",
-      "digest": "sha256:2054d6c1deb53aceef7ce54a0bcd7a97a9f3b7e79f6b4e59861cfd4d008e6285",
+      "digest": "sha256:4b321c50155e76fedf9f2fd181ae50272bdbba01b1db022e820f42e5417ee0ed",
       "format": "executable",
       "filename": "agent-compose-node-management-linux-amd64",
       "platform": "linux",
       "component": "node",
       "size_bytes": 14803106,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/agent-compose-node-management-linux-amd64",
-      "version": "20260910-1809"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/agent-compose-node-management-linux-amd64",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "management",
-      "digest": "sha256:5e5503912c6e6b2d1b97305ff702813f5f60c9d5b45020e73b5fbd38fccc4fb0",
+      "digest": "sha256:9feea0fb66bc3f98f3b043cabd70904fc0bbdf567a253d6654f43d7e9f78d2cc",
       "format": "executable",
       "filename": "agent-compose-node-management-linux-arm64",
       "platform": "linux",
       "component": "node",
       "size_bytes": 14024866,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/agent-compose-node-management-linux-arm64",
-      "version": "20260910-1809"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/agent-compose-node-management-linux-arm64",
+      "version": "20260910-2357"
     },
     {
       "arch": "amd64",
       "role": "management",
-      "digest": "sha256:44595754d3bd550661862aa7e5865c94f8f6fe3d0d877f3d3a305bf03c32560b",
+      "digest": "sha256:6d5d40173009aad9d52c971314a81b218bd993d232ace974c58f2639a504b46f",
       "format": "executable",
       "filename": "agent-compose-node-management-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 15325184,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/agent-compose-node-management-windows-amd64.exe",
-      "version": "20260910-1809"
+      "size_bytes": 15327744,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/agent-compose-node-management-windows-amd64.exe",
+      "version": "20260910-2357"
     },
     {
       "arch": "arm64",
       "role": "management",
-      "digest": "sha256:e641cd2eec1975871059154cd91ddbb99d2c6cba193f834857a25ff32b25bead",
+      "digest": "sha256:31f8c113c2d213dd8a24c9cafe20cecc12a8756ecc1afcf08c2d4bf9c43e68dc",
       "format": "executable",
       "filename": "agent-compose-node-management-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 14254592,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-1809/agent-compose-node-management-windows-arm64.exe",
-      "version": "20260910-1809"
+      "size_bytes": 14257152,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20260910-2357/agent-compose-node-management-windows-arm64.exe",
+      "version": "20260910-2357"
     }
   ],
-  "updated_at": "2026-09-10T16:11:52.358128+00:00",
-  "release_tag": "node-v20260910-1809"
+  "updated_at": "2026-09-11T00:38:16.006964+00:00",
+  "release_tag": "node-v20260910-2357"
 }
