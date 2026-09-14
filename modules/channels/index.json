@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "channels",
-  "updated_at": "2026-09-14T00:56:42.885191+00:00",
+  "updated_at": "2026-09-14T02:56:53.041616+00:00",
   "items": [
     {
       "id": "local.aliyun-plan",
@@ -18,6 +18,26 @@
       "publisher": "local-ai-lubricant",
       "node_assets": 0,
       "display_name": "aliyun",
+      "test_version": null,
+      "latest_version": "1.0.0",
+      "runtime_assets": 0
+    },
+    {
+      "id": "local.codebuddy-workbuddy",
+      "kind": "channel_template",
+      "name": "codebuddy-workbuddy",
+      "tags": [
+        "测试",
+        "火山"
+      ],
+      "module": "channels",
+      "status": "published",
+      "summary": "",
+      "category": "code",
+      "item_path": "modules/channels/items/local.codebuddy-workbuddy.json",
+      "publisher": "local-ai-lubricant",
+      "node_assets": 0,
+      "display_name": "CodeBuddy (WorkBuddy)(国际)",
       "test_version": null,
       "latest_version": "1.0.0",
       "runtime_assets": 0
