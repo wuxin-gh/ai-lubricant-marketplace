@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-10-04T03:58:22.365239+00:00",
+  "updated_at": "2026-10-04T21:28:32.728404+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -241,6 +241,26 @@
       "display_name": "节点程序套件 20261004-1126",
       "test_version": false,
       "latest_version": "20261004-1126",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261005-0155",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "environments.go::manageEnvironment：CREATE 时若有 git spec 就 ensureEnvRepo clone（target_path 空 = worktree 共享检出，非空 = fresh 的 ",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261005-0155.json",
+      "publisher": "node-suite-20261005-0155",
+      "node_assets": 12,
+      "display_name": "节点程序套件 20261005-0155",
+      "test_version": false,
+      "latest_version": "20261005-0155",
       "runtime_assets": 1
     }
   ]
