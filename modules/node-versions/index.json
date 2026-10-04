@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-09-28T10:12:31.814308+00:00",
+  "updated_at": "2026-10-04T03:58:22.365239+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -221,6 +221,26 @@
       "display_name": "节点程序套件 20260928-1753",
       "test_version": false,
       "latest_version": "20260928-1753",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261004-1126",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "1. claude（claude.ts）：claudeSettingsLlmEnv 现在会把四个角色档 ANTHROPIC_DEFAULT_{SONNET,OPUS,FABLE,HAIKU}_MODEL 提进 SDK settings en",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261004-1126.json",
+      "publisher": "node-suite-20261004-1126",
+      "node_assets": 12,
+      "display_name": "节点程序套件 20261004-1126",
+      "test_version": false,
+      "latest_version": "20261004-1126",
       "runtime_assets": 1
     }
   ]
