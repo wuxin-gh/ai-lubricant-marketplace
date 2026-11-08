@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "mobile-versions",
-  "updated_at": "2026-09-09T02:53:26.647562+00:00",
+  "updated_at": "2026-11-08T06:55:36.674490+00:00",
   "items": [
     {
       "id": "mobile-260909",
@@ -21,6 +21,26 @@
       "display_name": "移动控制端 260909",
       "test_version": null,
       "latest_version": "260909",
+      "runtime_assets": 0
+    },
+    {
+      "id": "mobile-260916",
+      "kind": "mobile_app_version",
+      "name": "ai-lubricant-mobile",
+      "tags": [
+        "mobile",
+        "android"
+      ],
+      "module": "mobile-versions",
+      "status": "published",
+      "summary": "android补齐缺失的能力",
+      "category": "mobile-app",
+      "item_path": "modules/mobile-versions/items/mobile-260916.json",
+      "publisher": "mobile-260916",
+      "node_assets": 0,
+      "display_name": "移动控制端 260916",
+      "test_version": null,
+      "latest_version": "260916",
       "runtime_assets": 0
     }
   ]
