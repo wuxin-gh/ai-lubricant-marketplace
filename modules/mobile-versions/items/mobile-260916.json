@@ -1,0 +1,27 @@
+{
+  "id": "mobile-260916",
+  "kind": "mobile_app_version",
+  "name": "ai-lubricant-mobile",
+  "tags": [
+    "mobile",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:ff64ce4d8bff672486cb32e622f9005663158b31b59a074d4f0bd3e2130e3826",
+      "format": "apk",
+      "filename": "ai-lubricant-260916-android.apk",
+      "platform": "android",
+      "size_bytes": 53624643,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-mobile/releases/download/mobile-v260916/ai-lubricant-260916-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.mobile-version/v1",
+  "status": "published",
+  "version": "260916",
+  "category": "mobile-app",
+  "release_tag": "mobile-v260916",
+  "display_name": "移动控制端 260916",
+  "ios_store_url": "",
+  "version_notes": "android补齐缺失的能力"
+}
