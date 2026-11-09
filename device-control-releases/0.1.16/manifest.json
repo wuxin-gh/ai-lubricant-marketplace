@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.1.16",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:c94cab8f8ff9f04df69952b0e5c4e3c26e1fad84f8f3f4e766e43b36556c08c0",
+      "format": "apk",
+      "filename": "device-control-0.1.16-android.apk",
+      "platform": "android",
+      "size_bytes": 17103162,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.1.16/device-control-0.1.16-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.1.16",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.1.16",
+  "display_name": "设备控制 App 0.1.16",
+  "version_notes": "77"
+}
