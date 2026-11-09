@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-09T14:02:18.919698+00:00",
+  "updated_at": "2026-11-09T14:02:25.912952+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -21,46 +21,6 @@
       "display_name": "设备控制 App 0.1.11",
       "test_version": null,
       "latest_version": "0.1.11",
-      "runtime_assets": 0
-    },
-    {
-      "id": "device-control-0.1.13",
-      "kind": "device_control_app_version",
-      "name": "device-control",
-      "tags": [
-        "device-control",
-        "android"
-      ],
-      "module": "device-control-versions",
-      "status": "published",
-      "summary": "优化android版本",
-      "category": "device-control-app",
-      "item_path": "modules/device-control-versions/items/device-control-0.1.13.json",
-      "publisher": "device-control-0",
-      "node_assets": 0,
-      "display_name": "设备控制 App 0.1.13",
-      "test_version": null,
-      "latest_version": "0.1.13",
-      "runtime_assets": 0
-    },
-    {
-      "id": "device-control-0.1.14",
-      "kind": "device_control_app_version",
-      "name": "device-control",
-      "tags": [
-        "device-control",
-        "android"
-      ],
-      "module": "device-control-versions",
-      "status": "published",
-      "summary": "优化adb",
-      "category": "device-control-app",
-      "item_path": "modules/device-control-versions/items/device-control-0.1.14.json",
-      "publisher": "device-control-0",
-      "node_assets": 0,
-      "display_name": "设备控制 App 0.1.14",
-      "test_version": null,
-      "latest_version": "0.1.14",
       "runtime_assets": 0
     },
     {
