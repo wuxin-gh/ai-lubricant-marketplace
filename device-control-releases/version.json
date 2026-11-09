@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.1.14",
-  "version_notes": "优化adb",
+  "version": "0.1.15",
+  "version_notes": "gg",
   "assets": [
     {
-      "digest": "sha256:72a79f6d7987f76bbd01a23517f94b6ec66247829f718803fe0cc2f5e3bc6488",
+      "digest": "sha256:dede993014bf02fdbe3098b735dbad94b3382fa315fa62e9be1c1497e5cd3184",
       "format": "apk",
-      "filename": "device-control-0.1.14-android.apk",
+      "filename": "device-control-0.1.15-android.apk",
       "platform": "android",
-      "size_bytes": 17100546,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.1.14/device-control-0.1.14-android.apk",
-      "version": "0.1.14"
+      "size_bytes": 17101798,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.1.15/device-control-0.1.15-android.apk",
+      "version": "0.1.15"
     }
   ],
-  "updated_at": "2026-11-09T13:08:07.192764+00:00",
-  "release_tag": "device-control-v0.1.14"
+  "updated_at": "2026-11-09T13:42:36.444758+00:00",
+  "release_tag": "device-control-v0.1.15"
 }
