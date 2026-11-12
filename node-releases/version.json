@@ -1,19 +1,19 @@
 {
   "schema": "ai-lubricant.node-release/v1",
-  "version": "20261112-1906",
-  "version_notes": "inline iOS claim credential: 认领帧直接携带凭据，节点零 HTTP，只认自己配置的 server 地址",
+  "version": "20261112-2014",
+  "version_notes": "节点内置运行时对话链路：网关回连地址由节点自身解析（AGENT_COMPOSE_GATEWAY_ORIGIN）+ runtime llm 兜底",
   "assets": [
     {
       "arch": "any",
       "role": "runtime",
-      "digest": "sha256:1799854aa962c5f58cf6d9e6ba2a07295ee9616adcb2f2a0595a8396085516d3",
+      "digest": "sha256:ebb8447050cc640b4aeae2c1f9e61e2f56719e2f7e3c154d34b025a0c3f2b7e4",
       "format": "tar.gz",
       "filename": "node-runtime.tar.gz",
       "platform": "any",
       "component": "agent-compose",
-      "size_bytes": 7537600,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261112-1906/node-runtime.tar.gz",
-      "version": "20261112-1906"
+      "size_bytes": 7534808,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261112-2014/node-runtime.tar.gz",
+      "version": "20261112-2014"
     },
     {
       "arch": "amd64",
@@ -30,14 +30,14 @@
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:3adc9b0df206b8d970ab0ee5617424d50ddfb6699fcdb2681da22d3cf33ca3c5",
+      "digest": "sha256:ffbd1420197a375ac494f4e6685cd96644950d6f51a96f8aee656c13f86766f2",
       "format": "executable",
       "filename": "node-execution-darwin-arm64",
       "platform": "darwin",
       "component": "node",
       "size_bytes": 24286242,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261112-1906/node-execution-darwin-arm64",
-      "version": "20261112-1906"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261112-2014/node-execution-darwin-arm64",
+      "version": "20261112-2014"
     },
     {
       "arch": "amd64",
@@ -232,6 +232,6 @@
       "version": "20260928-1753"
     }
   ],
-  "updated_at": "2026-11-12T11:18:20.243437+00:00",
-  "release_tag": "node-v20261112-1906"
+  "updated_at": "2026-11-12T12:26:56.943772+00:00",
+  "release_tag": "node-v20261112-2014"
 }
