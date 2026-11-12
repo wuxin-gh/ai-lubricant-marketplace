@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-12T11:18:18.433174+00:00",
+  "updated_at": "2026-11-12T12:26:54.729491+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -241,6 +241,26 @@
       "display_name": "节点程序套件 20261112-1906",
       "test_version": false,
       "latest_version": "20261112-1906",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261112-2014",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "节点内置运行时对话链路：网关回连地址由节点自身解析（AGENT_COMPOSE_GATEWAY_ORIGIN）+ runtime llm 兜底",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261112-2014.json",
+      "publisher": "node-suite-20261112-2014",
+      "node_assets": 1,
+      "display_name": "节点程序套件 20261112-2014",
+      "test_version": false,
+      "latest_version": "20261112-2014",
       "runtime_assets": 1
     }
   ]
