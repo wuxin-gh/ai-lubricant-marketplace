@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-13T09:34:45.544058+00:00",
+  "updated_at": "2026-11-13T09:55:58.810471+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -141,6 +141,26 @@
       "display_name": "设备控制 App 0.3.1",
       "test_version": null,
       "latest_version": "0.3.1",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.2",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "修复 0.3.1 误删连接状态监听导致的「App 恒显示连接中 / 断开按钮无反应」回归（0.3.1 首包坏、修复包同 versionCode 被覆盖未生效，故升 0.3.2）；adb 移除保持不变",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.2.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.2",
+      "test_version": null,
+      "latest_version": "0.3.2",
       "runtime_assets": 0
     }
   ]
