@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.1",
-  "version_notes": "彻底移除 adb（自连通道/探测循环/无障碍自愈/配对 UI 全删）；修复 0.3.1 首包误删连接状态监听导致 App 恒显示「连接中」的回归；扫码配对保留",
+  "version": "0.3.2",
+  "version_notes": "修复 0.3.1 误删连接状态监听导致的「App 恒显示连接中 / 断开按钮无反应」回归（0.3.1 首包坏、修复包同 versionCode 被覆盖未生效，故升 0.3.2）；adb 移除保持不变",
   "assets": [
     {
-      "digest": "sha256:4ffd3523f669b27e80c91c86b889e1a7d21c7f9fa3738b9a7b9cdf01f29b94f8",
+      "digest": "sha256:ad93d9ad33f14029b3e88e92033996b74b24416cfcb90ae8a0d89a1d7ff706e1",
       "format": "apk",
-      "filename": "device-control-0.3.1-android.apk",
+      "filename": "device-control-0.3.2-android.apk",
       "platform": "android",
       "size_bytes": 18847131,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.1/device-control-0.3.1-android.apk",
-      "version": "0.3.1"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.2/device-control-0.3.2-android.apk",
+      "version": "0.3.2"
     }
   ],
-  "updated_at": "2026-11-13T09:34:48.947530+00:00",
-  "release_tag": "device-control-v0.3.1"
+  "updated_at": "2026-11-13T09:56:03.608305+00:00",
+  "release_tag": "device-control-v0.3.2"
 }
