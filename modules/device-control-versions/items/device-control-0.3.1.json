@@ -8,11 +8,11 @@
   ],
   "assets": [
     {
-      "digest": "sha256:7aa93525c3fc1d12e3fa0b5b2ea08f0c3dc45e427a5042cc8260fd521302c01b",
+      "digest": "sha256:4ffd3523f669b27e80c91c86b889e1a7d21c7f9fa3738b9a7b9cdf01f29b94f8",
       "format": "apk",
       "filename": "device-control-0.3.1-android.apk",
       "platform": "android",
-      "size_bytes": 18845459,
+      "size_bytes": 18847131,
       "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.1/device-control-0.3.1-android.apk"
     }
   ],
@@ -22,5 +22,5 @@
   "category": "device-control-app",
   "release_tag": "device-control-v0.3.1",
   "display_name": "设备控制 App 0.3.1",
-  "version_notes": "彻底移除 adb：删除自连 adb 通道/四态探测/自动配对/无障碍自愈/配对 UI 与内嵌 adb 二进制；安装仍走设备侧下载+系统安装器，卸载走系统确认；扫码配对保留"
+  "version_notes": "彻底移除 adb（自连通道/探测循环/无障碍自愈/配对 UI 全删）；修复 0.3.1 首包误删连接状态监听导致 App 恒显示「连接中」的回归；扫码配对保留"
 }
