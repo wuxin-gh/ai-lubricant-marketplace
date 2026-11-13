@@ -1,0 +1,85 @@
+{
+  "id": "node-suite-20261114-0025",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:a66346a832a710726cbc95af89b28e3ca2cca216c3f8c952e80131ee1149c391",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 25811072,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261114-0025/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:4b85b84c69f0eb99095df146abb6dee583d1c2b2548edc3d4f277cbe31bf4636",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24337394,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261114-0025/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:d88f17f5a610f8e7f5d29918c278f6183411bec0ae922121ee63578176769b25",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25407650,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261114-0025/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:b1453a64f81a547cb1cfcf5c53fecede6d36f612c2c9b10c2a79044236ff2c2e",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 23789730,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261114-0025/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:e4dd2075cfb19f03dc94971dd08a41ed89f389a23696915dd5b4d76644996f70",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 25897472,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261114-0025/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:210de52d16a8d5d8c482c1738ff3841d9ff554bc188ff6b03cd59739e18fc1a0",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 23900672,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261114-0025/node-execution-windows-arm64.exe"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261114-0025",
+  "category": "node-suite",
+  "release_tag": "node-v20261114-0025",
+  "display_name": "节点程序套件 20261114-0025",
+  "test_version": false,
+  "version_notes": "iOS 初始化排障修复：开发者模式真实探测 + runner 启动错误透传 + device_locked/ui_automation_required 错误分类"
+}
