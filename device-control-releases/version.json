@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.3",
-  "version_notes": "无障碍脚本运行时：JS 脚本部署/启停/日志 + 悬浮急停按钮（本地闸门，急停时远程控制全禁）+ 输入三通道（节点直写/剪贴板粘贴/IME）+ 可选唤起键盘 + accessibilityReady/serverUrl 桥接",
+  "version": "0.3.4",
+  "version_notes": "悬浮急停按钮升级：有脚本运行时显示⏹点击即停（本地闸门），停止态显示▶点击恢复；急停与无障碍状态合并进脚本查询 accessibilityReady",
   "assets": [
     {
-      "filename": "device-control-0.3.3-android.apk",
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.3/device-control-0.3.3-android.apk",
+      "filename": "device-control-0.3.4-android.apk",
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.4/device-control-0.3.4-android.apk",
       "platform": "android",
       "format": "apk",
-      "digest": "sha256:4fe642cdd8e4631111eff260b2df898af8d890a8d8ef15ee6ed7234a0bbb9c8c",
-      "size_bytes": 18877007,
-      "version": "0.3.3"
+      "digest": "sha256:68315892070465d26a6c79db516fd4bd4c35861809dbe17e7262aa5337001711",
+      "size_bytes": 18877851,
+      "version": "0.3.4"
     }
   ],
-  "updated_at": "2026-11-13T16:12:16.971997+00:00",
-  "release_tag": "device-control-v0.3.3"
+  "updated_at": "2026-11-13T16:39:51.602078+00:00",
+  "release_tag": "device-control-v0.3.4"
 }
