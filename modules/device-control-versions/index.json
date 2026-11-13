@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-13T08:57:53.072240+00:00",
+  "updated_at": "2026-11-13T09:34:45.544058+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -133,7 +133,7 @@
       ],
       "module": "device-control-versions",
       "status": "published",
-      "summary": "彻底移除 adb：删除自连 adb 通道/四态探测/自动配对/无障碍自愈/配对 UI 与内嵌 adb 二进制；安装仍走设备侧下载+系统安装器，卸载走系统确认；扫码配对保留",
+      "summary": "彻底移除 adb（自连通道/探测循环/无障碍自愈/配对 UI 全删）；修复 0.3.1 首包误删连接状态监听导致 App 恒显示「连接中」的回归；扫码配对保留",
       "category": "device-control-app",
       "item_path": "modules/device-control-versions/items/device-control-0.3.1.json",
       "publisher": "device-control-0",
