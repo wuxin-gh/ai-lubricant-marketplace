@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-12T12:26:54.729491+00:00",
+  "updated_at": "2026-11-13T04:35:32.800921+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -261,6 +261,26 @@
       "display_name": "节点程序套件 20261112-2014",
       "test_version": false,
       "latest_version": "20261112-2014",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261113-1220",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "设备平台收敛：Android 弃节点 adb 改 App 直连+扫码配对；iOS 应用安装/卸载 app job；状态统一 online/control_ready/phase/failed_reason/renewal；MCP 收敛 20",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261113-1220.json",
+      "publisher": "node-suite-20261113-1220",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261113-1220",
+      "test_version": false,
+      "latest_version": "20261113-1220",
       "runtime_assets": 1
     }
   ]
