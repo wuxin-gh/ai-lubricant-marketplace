@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-13T07:20:08.713160+00:00",
+  "updated_at": "2026-11-13T08:57:53.072240+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -121,6 +121,26 @@
       "display_name": "设备控制 App 0.3.0",
       "test_version": null,
       "latest_version": "0.3.0",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.1",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "彻底移除 adb：删除自连 adb 通道/四态探测/自动配对/无障碍自愈/配对 UI 与内嵌 adb 二进制；安装仍走设备侧下载+系统安装器，卸载走系统确认；扫码配对保留",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.1.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.1",
+      "test_version": null,
+      "latest_version": "0.3.1",
       "runtime_assets": 0
     }
   ]
