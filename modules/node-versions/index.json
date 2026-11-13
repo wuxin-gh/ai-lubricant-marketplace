@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-13T04:35:32.800921+00:00",
+  "updated_at": "2026-11-13T17:24:34.178054+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -282,6 +282,26 @@
       "test_version": false,
       "latest_version": "20261113-1220",
       "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261114-0025",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 初始化排障修复：开发者模式真实探测 + runner 启动错误透传 + device_locked/ui_automation_required 错误分类",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261114-0025.json",
+      "publisher": "node-suite-20261114-0025",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261114-0025",
+      "test_version": false,
+      "latest_version": "20261114-0025",
+      "runtime_assets": 0
     }
   ]
 }
