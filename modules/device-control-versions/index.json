@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-09T14:17:29.997526+00:00",
+  "updated_at": "2026-11-13T07:20:08.713160+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -101,6 +101,26 @@
       "display_name": "设备控制 App 0.1.9",
       "test_version": null,
       "latest_version": "0.1.9",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.0",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "设备平台收敛：扫码配对（解析后可编辑预填）；安装改为设备侧下载+系统安装器（去 adb 静默路径）；卸载走系统确认；移除 adb 独占命令（脚本运行时保留）",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.0.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.0",
+      "test_version": null,
+      "latest_version": "0.3.0",
       "runtime_assets": 0
     }
   ]
