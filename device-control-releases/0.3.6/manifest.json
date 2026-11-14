@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.6",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.6",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.6",
+  "display_name": "设备控制 App 0.3.6",
+  "version_notes": "卸载重装免重配：配对时按 ANDROID_ID 自动接回旧设备行（device_id/网页设备历史/脚本部署/绑定关系全保留，凭据自动轮换）；含 0.3.5 升级链修复（下载前清旧包+版本化文件名+sha 校验）+ 脚本输入三通道 + 悬浮急停",
+  "assets": [
+    {
+      "filename": "device-control-0.3.6-android.apk",
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.6/device-control-0.3.6-android.apk",
+      "platform": "android",
+      "format": "apk",
+      "digest": "sha256:9cba131b83ec834cef7a7826ba363bb6aa88ca2c29fb5678162f5f671cb38375",
+      "size_bytes": 18881895
+    }
+  ]
+}
