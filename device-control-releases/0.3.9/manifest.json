@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.9",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.9",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.9",
+  "display_name": "设备控制 App 0.3.9",
+  "version_notes": "上报字段更名为 serial_number（含 0.3.8 序列号接回逻辑：iOS=udid 同口径，Android=serial/ANDROID_ID 兜底）",
+  "assets": [
+    {
+      "filename": "device-control-0.3.9-android.apk",
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.9/device-control-0.3.9-android.apk",
+      "platform": "android",
+      "format": "apk",
+      "digest": "sha256:7471b290caee162dc263f79884ad6fb0b80eb3674412a3ab8abdaebe877aba17",
+      "size_bytes": 18883783
+    }
+  ]
+}
