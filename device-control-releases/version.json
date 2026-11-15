@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.8",
-  "version_notes": "设备身份改用序列号上报（Android Build.getSerial 优先，取不到退 ANDROID_ID；iOS 用 udid 同口径）：重置/卸载重装后配对按序列号接回原设备记录，device_id 不变；卡片显示厂商+型号+系统版本+IP",
+  "version": "0.3.9",
+  "version_notes": "上报字段更名为 serial_number（含 0.3.8 序列号接回逻辑：iOS=udid 同口径，Android=serial/ANDROID_ID 兜底）",
   "assets": [
     {
-      "filename": "device-control-0.3.8-android.apk",
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.8/device-control-0.3.8-android.apk",
+      "filename": "device-control-0.3.9-android.apk",
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.9/device-control-0.3.9-android.apk",
       "platform": "android",
       "format": "apk",
-      "digest": "sha256:071f4bcfe29d447dc2f4af9051f5487f6e708adf07e635f913e8d000468e8f5a",
-      "size_bytes": 18883775,
-      "version": "0.3.8"
+      "digest": "sha256:7471b290caee162dc263f79884ad6fb0b80eb3674412a3ab8abdaebe877aba17",
+      "size_bytes": 18883783,
+      "version": "0.3.9"
     }
   ],
-  "updated_at": "2026-11-15T14:52:39.404190+00:00",
-  "release_tag": "device-control-v0.3.8"
+  "updated_at": "2026-11-15T15:31:56.729228+00:00",
+  "release_tag": "device-control-v0.3.9"
 }
