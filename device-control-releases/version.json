@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.10",
-  "version_notes": "修复脚本误判「App 未到前台」：前台包名查询加实时窗口回退（App 已在前台时不再无限重试 open），脚本空转问题根修",
+  "version": "0.3.11",
+  "version_notes": "新增「保持唤醒」开关：App 内一键让屏幕永不休眠，开关状态本地持久化，进程重启/开机自启后自动恢复。息屏会导致无障碍注入与截图失效，自动化设备建议开启（耗电增加，建议插电）。其余为脚本运行时与稳定性修复。",
   "assets": [
     {
-      "filename": "device-control-0.3.10-android.apk",
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.10/device-control-0.3.10-android.apk",
-      "platform": "android",
+      "digest": "sha256:b61a7661e2df6f4e05133bfd05178be30e415a2b6d5c4ec8413234a723db1f32",
       "format": "apk",
-      "digest": "sha256:091231e49a4f9700245ad872d13a7f5da8932fcd24c8a1b5cad2c7a606c72e93",
-      "size_bytes": 18884539,
-      "version": "0.3.10"
+      "filename": "device-control-0.3.11-android.apk",
+      "platform": "android",
+      "size_bytes": 18891759,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.11/device-control-0.3.11-android.apk",
+      "version": "0.3.11"
     }
   ],
-  "updated_at": "2026-11-16T06:44:44.674057+00:00",
-  "release_tag": "device-control-v0.3.10"
+  "updated_at": "2026-11-16T16:56:23.566519+00:00",
+  "release_tag": "device-control-v0.3.11"
 }
