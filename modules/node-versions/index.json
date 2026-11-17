@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-17T08:43:15.371999+00:00",
+  "updated_at": "2026-11-17T09:48:54.144176+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -341,6 +341,26 @@
       "display_name": "节点程序套件 20261117-1501",
       "test_version": false,
       "latest_version": "20261117-1501",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261117-1612",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "Android adb 设备管理（发现即装+tcpip+兑换码认领+初始化状态机）、iOS MJPEG 实时画面流转发、adb 宿主工具恢复",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261117-1612.json",
+      "publisher": "node-suite-20261117-1612",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261117-1612",
+      "test_version": false,
+      "latest_version": "20261117-1612",
       "runtime_assets": 1
     }
   ]
