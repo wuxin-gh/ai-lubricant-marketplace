@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.19",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:c4b6df30a09b4b6fe1356a47f80c6b3fb252f4b487f4caa659f0cc30afe225b0",
+      "format": "apk",
+      "filename": "device-control-0.3.19-android.apk",
+      "platform": "android",
+      "size_bytes": 19002819,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.19/device-control-0.3.19-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.19",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.19",
+  "display_name": "设备控制 App 0.3.19",
+  "version_notes": "紧急修复 0.3.18 引入的严重回归：无障碍服务注册 SOURCE_TOUCHSCREEN 触摸源导致系统拦截触摸投递，整机屏幕无法点击。已移除 onMotionEvent 与 motionEventSources，触摸传递恢复。空闲降亮恢复到「远程命令/脚本活动 + 回到控制 App 立即恢复」的可靠路径。"
+}
