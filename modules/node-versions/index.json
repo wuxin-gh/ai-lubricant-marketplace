@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-17T13:05:45.565012+00:00",
+  "updated_at": "2026-11-17T14:18:35.010573+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -381,6 +381,26 @@
       "display_name": "节点程序套件 20261117-1612",
       "test_version": false,
       "latest_version": "20261117-1612",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261117-2110",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "修复 20261117-1501/1612 的启动崩溃（androidhost NewTicker(0) panic：ProbeInterval 默认值在结构体拷贝后赋值导致 0 值，含 adb 的宿主机升级后起不来）。附带 iOS 17.",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261117-2110.json",
+      "publisher": "node-suite-20261117-2110",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261117-2110",
+      "test_version": false,
+      "latest_version": "20261117-2110",
       "runtime_assets": 1
     }
   ]
