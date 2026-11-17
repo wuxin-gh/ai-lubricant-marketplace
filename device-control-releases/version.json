@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.13",
-  "version_notes": "修复保持唤醒在其他 App 前台时失效息屏的问题：Android 13+ 对无可见窗口的 App 忽略睡眠锁，现改由无障碍服务挂全屏透明窗口（FLAG_KEEP_SCREEN_ON）防息屏，任意前台 App 下都生效；空闲降亮的亮度也改走窗口级覆盖，不改系统亮度设置。要求已开启无障碍服务。",
+  "version": "0.3.14",
+  "version_notes": "adb 通道自愈升级（借鉴 adb-guardian）：自连 adb 通道可用时自动经 pm grant 一次性取得 WRITE_SECURE_SETTINGS，此后系统「无线调试」开关被重启/网络确认/误碰关掉时，20s 自愈循环自动写回 adb_wifi_enabled=1 再重连——重启后无需 USB 或人工去开发者选项，tcpip 与 mDNS 两条路径均自愈。只写这一个设置键，不读配对码/密钥/账号。",
   "assets": [
     {
-      "digest": "sha256:fd57f5b6eb5b39fcf7871edd7a37a485da81e33bd969e0ac1231e5dc15b734f1",
+      "digest": "sha256:6c373c4d9cb0f3f69b5663bd1a059c3fad8678df5d5997796271b00094d6b543",
       "format": "apk",
-      "filename": "device-control-0.3.13-android.apk",
+      "filename": "device-control-0.3.14-android.apk",
       "platform": "android",
-      "size_bytes": 18996051,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.13/device-control-0.3.13-android.apk",
-      "version": "0.3.13"
+      "size_bytes": 18999555,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.14/device-control-0.3.14-android.apk",
+      "version": "0.3.14"
     }
   ],
-  "updated_at": "2026-11-17T08:05:47.829368+00:00",
-  "release_tag": "device-control-v0.3.13"
+  "updated_at": "2026-11-17T09:36:33.193028+00:00",
+  "release_tag": "device-control-v0.3.14"
 }
