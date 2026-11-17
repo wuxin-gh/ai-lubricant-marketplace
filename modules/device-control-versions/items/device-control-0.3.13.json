@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.13",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:fd57f5b6eb5b39fcf7871edd7a37a485da81e33bd969e0ac1231e5dc15b734f1",
+      "format": "apk",
+      "filename": "device-control-0.3.13-android.apk",
+      "platform": "android",
+      "size_bytes": 18996051,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.13/device-control-0.3.13-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.13",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.13",
+  "display_name": "设备控制 App 0.3.13",
+  "version_notes": "修复保持唤醒在其他 App 前台时失效息屏的问题：Android 13+ 对无可见窗口的 App 忽略睡眠锁，现改由无障碍服务挂全屏透明窗口（FLAG_KEEP_SCREEN_ON）防息屏，任意前台 App 下都生效；空闲降亮的亮度也改走窗口级覆盖，不改系统亮度设置。要求已开启无障碍服务。"
+}
