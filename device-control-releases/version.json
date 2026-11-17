@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.12",
-  "version_notes": "保持唤醒新增空闲降亮：开关开启后屏幕不灭，空闲约 3 分钟自动降为暗屏档；任何远程命令、脚本活动或重连会立即恢复正常亮度。用于设备农场长时间待机省电护屏，同时保证息屏不失效（息屏会杀死无障碍注入与截图）。",
+  "version": "0.3.13",
+  "version_notes": "修复保持唤醒在其他 App 前台时失效息屏的问题：Android 13+ 对无可见窗口的 App 忽略睡眠锁，现改由无障碍服务挂全屏透明窗口（FLAG_KEEP_SCREEN_ON）防息屏，任意前台 App 下都生效；空闲降亮的亮度也改走窗口级覆盖，不改系统亮度设置。要求已开启无障碍服务。",
   "assets": [
     {
-      "digest": "sha256:fd3cc40ac791dffe17c2fd68c350e2b86e4e0382d5d8be1e860e82fe00d57cfb",
+      "digest": "sha256:fd57f5b6eb5b39fcf7871edd7a37a485da81e33bd969e0ac1231e5dc15b734f1",
       "format": "apk",
-      "filename": "device-control-0.3.12-android.apk",
+      "filename": "device-control-0.3.13-android.apk",
       "platform": "android",
-      "size_bytes": 18985715,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.12/device-control-0.3.12-android.apk",
-      "version": "0.3.12"
+      "size_bytes": 18996051,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.13/device-control-0.3.13-android.apk",
+      "version": "0.3.13"
     }
   ],
-  "updated_at": "2026-11-17T06:33:57.237511+00:00",
-  "release_tag": "device-control-v0.3.12"
+  "updated_at": "2026-11-17T08:05:47.829368+00:00",
+  "release_tag": "device-control-v0.3.13"
 }
