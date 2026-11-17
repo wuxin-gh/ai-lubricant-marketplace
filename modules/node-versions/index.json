@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-13T17:24:34.178054+00:00",
+  "updated_at": "2026-11-17T03:20:00.074327+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -301,6 +301,26 @@
       "display_name": "节点程序套件 20261114-0025",
       "test_version": false,
       "latest_version": "20261114-0025",
+      "runtime_assets": 0
+    },
+    {
+      "id": "node-suite-20261117-1044",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "节点CLI增强：status 显示服务端连接状态（/health 探测，区分不可达/端口错配/控制面OK），新增 logs 命令查看日志尾部（-n N）。仅 node-execution 二进制变更（隔离构建，HEAD 基线，不含并发 WI",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261117-1044.json",
+      "publisher": "node-suite-20261117-1044",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261117-1044",
+      "test_version": false,
+      "latest_version": "20261117-1044",
       "runtime_assets": 0
     }
   ]
