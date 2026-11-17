@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.15",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:adc4d1c3226af39d568c8f5097f34f4d53f93fcc1307a1649e890ff34a287197",
+      "format": "apk",
+      "filename": "device-control-0.3.15-android.apk",
+      "platform": "android",
+      "size_bytes": 19000327,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.15/device-control-0.3.15-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.15",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.15",
+  "display_name": "设备控制 App 0.3.15",
+  "version_notes": "修复空闲降亮后不再恢复的问题：①手动触摸屏幕现在也算活动——降亮后碰一下屏幕立即恢复正常亮度（经无障碍触摸事件，注入的手势同样生效）；②脚本运行期间刷新空闲计时，脚本结束后不再秒降亮；③降亮状态每 20s 周期性重申，亮度切换事件丢失可自愈，不会再出现「调暗后永远回不来」。"
+}
