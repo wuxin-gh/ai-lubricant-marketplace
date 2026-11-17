@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.15",
-  "version_notes": "修复空闲降亮后不再恢复的问题：①手动触摸屏幕现在也算活动——降亮后碰一下屏幕立即恢复正常亮度（经无障碍触摸事件，注入的手势同样生效）；②脚本运行期间刷新空闲计时，脚本结束后不再秒降亮；③降亮状态每 20s 周期性重申，亮度切换事件丢失可自愈，不会再出现「调暗后永远回不来」。",
+  "version": "0.3.16",
+  "version_notes": "删除「重置连接」按钮；「解除配对」改为先弹确认框（默认焦点在「取消」，误触可直接返回取消），确认后才停止脚本、清除凭据并断开连接。",
   "assets": [
     {
-      "digest": "sha256:adc4d1c3226af39d568c8f5097f34f4d53f93fcc1307a1649e890ff34a287197",
+      "digest": "sha256:e02226648b07b700348254423479f2d2829f8787a1dc40f56f36bcf7a684ca2e",
       "format": "apk",
-      "filename": "device-control-0.3.15-android.apk",
+      "filename": "device-control-0.3.16-android.apk",
       "platform": "android",
-      "size_bytes": 19000327,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.15/device-control-0.3.15-android.apk",
-      "version": "0.3.15"
+      "size_bytes": 19002283,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.16/device-control-0.3.16-android.apk",
+      "version": "0.3.16"
     }
   ],
-  "updated_at": "2026-11-17T10:07:24.099479+00:00",
-  "release_tag": "device-control-v0.3.15"
+  "updated_at": "2026-11-17T11:17:54.573971+00:00",
+  "release_tag": "device-control-v0.3.16"
 }
