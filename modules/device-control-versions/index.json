@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-16T16:56:19.664903+00:00",
+  "updated_at": "2026-11-17T06:33:55.067776+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -161,6 +161,26 @@
       "display_name": "设备控制 App 0.3.11",
       "test_version": null,
       "latest_version": "0.3.11",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.12",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "保持唤醒新增空闲降亮：开关开启后屏幕不灭，空闲约 3 分钟自动降为暗屏档；任何远程命令、脚本活动或重连会立即恢复正常亮度。用于设备农场长时间待机省电护屏，同时保证息屏不失效（息屏会杀死无障碍注入与截图）。",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.12.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.12",
+      "test_version": null,
+      "latest_version": "0.3.12",
       "runtime_assets": 0
     },
     {
