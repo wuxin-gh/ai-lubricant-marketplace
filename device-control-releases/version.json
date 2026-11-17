@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.11",
-  "version_notes": "新增「保持唤醒」开关：App 内一键让屏幕永不休眠，开关状态本地持久化，进程重启/开机自启后自动恢复。息屏会导致无障碍注入与截图失效，自动化设备建议开启（耗电增加，建议插电）。其余为脚本运行时与稳定性修复。",
+  "version": "0.3.12",
+  "version_notes": "保持唤醒新增空闲降亮：开关开启后屏幕不灭，空闲约 3 分钟自动降为暗屏档；任何远程命令、脚本活动或重连会立即恢复正常亮度。用于设备农场长时间待机省电护屏，同时保证息屏不失效（息屏会杀死无障碍注入与截图）。",
   "assets": [
     {
-      "digest": "sha256:b61a7661e2df6f4e05133bfd05178be30e415a2b6d5c4ec8413234a723db1f32",
+      "digest": "sha256:fd3cc40ac791dffe17c2fd68c350e2b86e4e0382d5d8be1e860e82fe00d57cfb",
       "format": "apk",
-      "filename": "device-control-0.3.11-android.apk",
+      "filename": "device-control-0.3.12-android.apk",
       "platform": "android",
-      "size_bytes": 18891759,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.11/device-control-0.3.11-android.apk",
-      "version": "0.3.11"
+      "size_bytes": 18985715,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.12/device-control-0.3.12-android.apk",
+      "version": "0.3.12"
     }
   ],
-  "updated_at": "2026-11-16T16:56:23.566519+00:00",
-  "release_tag": "device-control-v0.3.11"
+  "updated_at": "2026-11-17T06:33:57.237511+00:00",
+  "release_tag": "device-control-v0.3.12"
 }
