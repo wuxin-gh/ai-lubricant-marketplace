@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-17T08:05:36.049654+00:00",
+  "updated_at": "2026-11-17T09:36:24.514371+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -201,6 +201,26 @@
       "display_name": "设备控制 App 0.3.13",
       "test_version": null,
       "latest_version": "0.3.13",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.14",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "adb 通道自愈升级（借鉴 adb-guardian）：自连 adb 通道可用时自动经 pm grant 一次性取得 WRITE_SECURE_SETTINGS，此后系统「无线调试」开关被重启/网络确认/误碰关掉时，20s 自愈循环自动写回",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.14.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.14",
+      "test_version": null,
+      "latest_version": "0.3.14",
       "runtime_assets": 0
     },
     {
