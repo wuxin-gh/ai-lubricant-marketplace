@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-17T12:22:02.179095+00:00",
+  "updated_at": "2026-11-17T14:11:17.762681+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -281,6 +281,26 @@
       "display_name": "设备控制 App 0.3.17",
       "test_version": null,
       "latest_version": "0.3.17",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.18",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "修复空闲降亮后在任何 App 触摸都无法恢复亮度的问题：改用无障碍 onMotionEvent（motionEventSources=SOURCE_TOUCHSCREEN）观察所有 App 的真实触摸，不依赖触摸浏览事件（TYPE_TOUC",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.18.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.18",
+      "test_version": null,
+      "latest_version": "0.3.18",
       "runtime_assets": 0
     },
     {
