@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.12",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:fd3cc40ac791dffe17c2fd68c350e2b86e4e0382d5d8be1e860e82fe00d57cfb",
+      "format": "apk",
+      "filename": "device-control-0.3.12-android.apk",
+      "platform": "android",
+      "size_bytes": 18985715,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.12/device-control-0.3.12-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.12",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.12",
+  "display_name": "设备控制 App 0.3.12",
+  "version_notes": "保持唤醒新增空闲降亮：开关开启后屏幕不灭，空闲约 3 分钟自动降为暗屏档；任何远程命令、脚本活动或重连会立即恢复正常亮度。用于设备农场长时间待机省电护屏，同时保证息屏不失效（息屏会杀死无障碍注入与截图）。"
+}
