@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.18",
-  "version_notes": "修复空闲降亮后在任何 App 触摸都无法恢复亮度的问题：改用无障碍 onMotionEvent（motionEventSources=SOURCE_TOUCHSCREEN）观察所有 App 的真实触摸，不依赖触摸浏览事件（TYPE_TOUCH_INTERACTION_START 多数 ROM 只在触摸浏览下发）。降亮期间 2 秒快巡检，触摸后约 2 秒内恢复亮档。",
+  "version": "0.3.19",
+  "version_notes": "紧急修复 0.3.18 引入的严重回归：无障碍服务注册 SOURCE_TOUCHSCREEN 触摸源导致系统拦截触摸投递，整机屏幕无法点击。已移除 onMotionEvent 与 motionEventSources，触摸传递恢复。空闲降亮恢复到「远程命令/脚本活动 + 回到控制 App 立即恢复」的可靠路径。",
   "assets": [
     {
-      "digest": "sha256:61d06708ae1d8e8370588d26663ecd36bc94b6cd49a7a722ad6505a51569d1c9",
+      "digest": "sha256:c4b6df30a09b4b6fe1356a47f80c6b3fb252f4b487f4caa659f0cc30afe225b0",
       "format": "apk",
-      "filename": "device-control-0.3.18-android.apk",
+      "filename": "device-control-0.3.19-android.apk",
       "platform": "android",
-      "size_bytes": 19003935,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.18/device-control-0.3.18-android.apk",
-      "version": "0.3.18"
+      "size_bytes": 19002819,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.19/device-control-0.3.19-android.apk",
+      "version": "0.3.19"
     }
   ],
-  "updated_at": "2026-11-17T14:11:20.321439+00:00",
-  "release_tag": "device-control-v0.3.18"
+  "updated_at": "2026-11-17T14:44:43.360594+00:00",
+  "release_tag": "device-control-v0.3.19"
 }
