@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.16",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:e02226648b07b700348254423479f2d2829f8787a1dc40f56f36bcf7a684ca2e",
+      "format": "apk",
+      "filename": "device-control-0.3.16-android.apk",
+      "platform": "android",
+      "size_bytes": 19002283,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.16/device-control-0.3.16-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.16",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.16",
+  "display_name": "设备控制 App 0.3.16",
+  "version_notes": "删除「重置连接」按钮；「解除配对」改为先弹确认框（默认焦点在「取消」，误触可直接返回取消），确认后才停止脚本、清除凭据并断开连接。"
+}
