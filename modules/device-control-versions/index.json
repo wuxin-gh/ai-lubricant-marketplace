@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-17T11:17:49.838052+00:00",
+  "updated_at": "2026-11-17T12:22:02.179095+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -261,6 +261,26 @@
       "display_name": "设备控制 App 0.3.16",
       "test_version": null,
       "latest_version": "0.3.16",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.17",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "修复部分 ROM 上空闲降亮后永远不恢复亮度的严重问题：窗口亮度改用移除重建方式切换（updateViewLayout 在部分 ROM 上对无障碍窗口不重新评估亮度，亮度卡死在暗档只能关开关恢复）；巡检改为无条件重申当前亮度状态（亮/暗两态",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.17.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.17",
+      "test_version": null,
+      "latest_version": "0.3.17",
       "runtime_assets": 0
     },
     {
