@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-17T09:36:24.514371+00:00",
+  "updated_at": "2026-11-17T10:07:20.028773+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -221,6 +221,26 @@
       "display_name": "设备控制 App 0.3.14",
       "test_version": null,
       "latest_version": "0.3.14",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.15",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "修复空闲降亮后不再恢复的问题：①手动触摸屏幕现在也算活动——降亮后碰一下屏幕立即恢复正常亮度（经无障碍触摸事件，注入的手势同样生效）；②脚本运行期间刷新空闲计时，脚本结束后不再秒降亮；③降亮状态每 20s 周期性重申，亮度切换事件丢失可自愈",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.15.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.15",
+      "test_version": null,
+      "latest_version": "0.3.15",
       "runtime_assets": 0
     },
     {
