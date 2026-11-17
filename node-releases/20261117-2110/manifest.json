@@ -1,0 +1,96 @@
+{
+  "id": "node-suite-20261117-2110",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:0dbb89351d902f6b76e8368cd4fb1a9b5e54686e3162a630911a9bbd022ec029",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26052672,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:991a10519f46779fb4233498d9acffd84a044418b039ec86f21110b622b59494",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24560210,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:7003a98d5af9675f651382d4f62f02bec9c8f4654f8d291533305c6a13b59a29",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25641122,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:ceb9d79127d31af3c9d959eeb684bf277c7593b825de3050ff5e0b0f877619ab",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 23986338,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:dda91d041877243c9bef1d9afae168f7eb58da4bf9c106a69d11f9873ca4fac1",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26573824,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:b525bf28d437378a4513186a1540a96f6eda686baabbfb38843fd87fe58cfcd4",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24564224,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-execution-windows-arm64.exe"
+    },
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:83ec52ac515db3629b451921ab698cddbbfa17dfd4ec36a2ad8aac88065c1840",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 7537956,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-2110/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261117-2110",
+  "category": "node-suite",
+  "release_tag": "node-v20261117-2110",
+  "display_name": "节点程序套件 20261117-2110",
+  "test_version": false,
+  "version_notes": "修复 20261117-1501/1612 的启动崩溃（androidhost NewTicker(0) panic：ProbeInterval 默认值在结构体拷贝后赋值导致 0 值，含 adb 的宿主机升级后起不来）。附带 iOS 17.0–17.3 内核隧道支持与 Windows 管理员重启节点链路。"
+}
