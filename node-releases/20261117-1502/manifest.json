@@ -1,0 +1,30 @@
+{
+  "id": "node-suite-20261117-1502",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 1,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261117-1502/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261117-1502",
+  "category": "node-suite",
+  "release_tag": "node-v20261117-1502",
+  "display_name": "节点程序套件 20261117-1502",
+  "test_version": false,
+  "version_notes": "probe"
+}
