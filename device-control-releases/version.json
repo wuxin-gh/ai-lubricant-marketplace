@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.20",
-  "version_notes": "防息屏改用 adb-guardian 实测配方：屏幕锁改为 90 秒超时 + 每轮巡检续期（国产 ROM 会静默回收永久持有的锁，被清后下一轮自动重建）；vivo/iQOO 额外每 30 秒打一次 ON_AFTER_RELEASE 短脉冲（vivo 框架对 DIM 锁有专属回收逻辑）。App 状态行新增「屏幕锁：持有/未持有」自检显示。",
+  "version": "0.3.21",
+  "version_notes": "空闲降亮度从 5% 调到 45%（之前太暗看不清内容）；屏幕右边缘新增触摸把手：降亮期间点一下把手立即恢复全亮（把手只收自己窗口内的触摸，不影响其他 App 的触摸操作），点错取消直接忽略。",
   "assets": [
     {
-      "digest": "sha256:5bc15e8f4088e09f6558484deffd24ceb6d0b02a553811bf6f35807f74eac321",
+      "digest": "sha256:efef2aa4f673feb35429a31dbe1722f7a6fcf23ae9dbcd11aca2fcdb6d126123",
       "format": "apk",
-      "filename": "device-control-0.3.20-android.apk",
+      "filename": "device-control-0.3.21-android.apk",
       "platform": "android",
-      "size_bytes": 19005463,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.20/device-control-0.3.20-android.apk",
-      "version": "0.3.20"
+      "size_bytes": 19007583,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.21/device-control-0.3.21-android.apk",
+      "version": "0.3.21"
     }
   ],
-  "updated_at": "2026-11-18T15:28:20.297451+00:00",
-  "release_tag": "device-control-v0.3.20"
+  "updated_at": "2026-11-18T15:51:53.397612+00:00",
+  "release_tag": "device-control-v0.3.21"
 }
