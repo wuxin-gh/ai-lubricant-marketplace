@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.22",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:2da0d7aead809ee6f90cd8c7af38f7eea619d3df057055564a2a816102e22855",
+      "format": "apk",
+      "filename": "device-control-0.3.22-android.apk",
+      "platform": "android",
+      "size_bytes": 19007579,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.22/device-control-0.3.22-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.22",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.22",
+  "display_name": "设备控制 App 0.3.22",
+  "version_notes": "空闲降亮档从 45% 调到 25%（省电优先，仍可辨认屏幕内容）。"
+}
