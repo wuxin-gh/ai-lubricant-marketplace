@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-18T15:28:17.518324+00:00",
+  "updated_at": "2026-11-18T15:51:51.177979+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -361,6 +361,26 @@
       "display_name": "设备控制 App 0.3.20",
       "test_version": null,
       "latest_version": "0.3.20",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.21",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "空闲降亮度从 5% 调到 45%（之前太暗看不清内容）；屏幕右边缘新增触摸把手：降亮期间点一下把手立即恢复全亮（把手只收自己窗口内的触摸，不影响其他 App 的触摸操作），点错取消直接忽略。",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.21.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.21",
+      "test_version": null,
+      "latest_version": "0.3.21",
       "runtime_assets": 0
     }
   ]
