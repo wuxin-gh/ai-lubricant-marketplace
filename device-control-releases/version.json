@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.21",
-  "version_notes": "空闲降亮度从 5% 调到 45%（之前太暗看不清内容）；屏幕右边缘新增触摸把手：降亮期间点一下把手立即恢复全亮（把手只收自己窗口内的触摸，不影响其他 App 的触摸操作），点错取消直接忽略。",
+  "version": "0.3.22",
+  "version_notes": "空闲降亮档从 45% 调到 25%（省电优先，仍可辨认屏幕内容）。",
   "assets": [
     {
-      "digest": "sha256:efef2aa4f673feb35429a31dbe1722f7a6fcf23ae9dbcd11aca2fcdb6d126123",
+      "digest": "sha256:2da0d7aead809ee6f90cd8c7af38f7eea619d3df057055564a2a816102e22855",
       "format": "apk",
-      "filename": "device-control-0.3.21-android.apk",
+      "filename": "device-control-0.3.22-android.apk",
       "platform": "android",
-      "size_bytes": 19007583,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.21/device-control-0.3.21-android.apk",
-      "version": "0.3.21"
+      "size_bytes": 19007579,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.22/device-control-0.3.22-android.apk",
+      "version": "0.3.22"
     }
   ],
-  "updated_at": "2026-11-18T15:51:53.397612+00:00",
-  "release_tag": "device-control-v0.3.21"
+  "updated_at": "2026-11-18T16:19:57.784493+00:00",
+  "release_tag": "device-control-v0.3.22"
 }
