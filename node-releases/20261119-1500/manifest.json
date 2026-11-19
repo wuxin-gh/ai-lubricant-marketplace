@@ -1,0 +1,96 @@
+{
+  "id": "node-suite-20261119-1500",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:d092da42c1cebba2eb2122a619587bcb2056e9ecf8ceef3256c0bbe3ecc18516",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26065120,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:2279d223281a2c6643c486ef244856cddc1fdbd0eec0297c0def06b9b17dffc3",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24576914,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:75e3c34e4970af7832240e9a8e610164f88089dbe1fce885c16ba8041165ea5b",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25649314,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:034aa0cf90c2b310c9476a1c6f7df469af37fc4b777a21d026e7afb91087e829",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 23986338,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:0a209c1274171ef01521682795c92a114047064ab4e0292f82bc4e14f9f9fd9c",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26578432,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:a02e30cd99302dff14a6f39c2bdd6aae3a38952239240f476710755d0e8130e5",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24568320,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-execution-windows-arm64.exe"
+    },
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:9f5b3dcddbd49284427bba698f59e1943d541595ab36cb5ac78a516bb1d9d110",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 7537875,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-1500/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261119-1500",
+  "category": "node-suite",
+  "release_tag": "node-v20261119-1500",
+  "display_name": "节点程序套件 20261119-1500",
+  "test_version": false,
+  "version_notes": "修复 iOS「查看」面板截图与画面比例：DeviceKit runner 的 device.screenshot 需显式 format=png（空参数被拒导致截图永远失败），返回 data URL 需剥离前缀解码；device.info 分辨率嵌套在 screenSize（此前解析为 0 导致画面撕裂）。含 20261118-1100 全部修复。"
+}
