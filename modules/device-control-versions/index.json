@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-19T06:04:17.884715+00:00",
+  "updated_at": "2026-11-19T07:39:36.418584+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -421,6 +421,26 @@
       "display_name": "设备控制 App 0.3.23",
       "test_version": null,
       "latest_version": "0.3.23",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.24",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "0.3.24：① 悬浮控件合并——右边缘灰把手 + 急停小圆圈合成一个气泡，点击弹出操作面板（保持唤醒开/关、恢复亮度、停止/恢复远程控制、打开控制 App），不再点一下变个样；② 亮度修复——关闭保持唤醒/退出降亮时用「亮档重建 → 移除",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.24.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.24",
+      "test_version": null,
+      "latest_version": "0.3.24",
       "runtime_assets": 0
     }
   ]
