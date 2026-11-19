@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-18T16:19:54.542762+00:00",
+  "updated_at": "2026-11-19T06:04:17.884715+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -401,6 +401,26 @@
       "display_name": "设备控制 App 0.3.22",
       "test_version": null,
       "latest_version": "0.3.22",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.23",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "0.3.23：① adb 通道状态上报（adb_connected/adb_channel，tcpip/mdns/last-port）——服务端初始化新增 adb 硬条件，掉线也会撤销 shell/录屏能力声明；② WS 死链检测：OkHt",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.23.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.23",
+      "test_version": null,
+      "latest_version": "0.3.23",
       "runtime_assets": 0
     }
   ]
