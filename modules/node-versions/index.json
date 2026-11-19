@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-19T15:40:23.999727+00:00",
+  "updated_at": "2026-11-19T16:27:30.426374+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -541,6 +541,26 @@
       "display_name": "节点程序套件 20261119-2330",
       "test_version": false,
       "latest_version": "20261119-2330",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261119-2359",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "缺参自动补上下文透传+issue-workflow工作任务适配（替代2330，2330不含runtime透传改动）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261119-2359.json",
+      "publisher": "node-suite-20261119-2359",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261119-2359",
+      "test_version": false,
+      "latest_version": "20261119-2359",
       "runtime_assets": 1
     }
   ]
