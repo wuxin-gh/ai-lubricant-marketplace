@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-19T07:13:15.442502+00:00",
+  "updated_at": "2026-11-19T08:18:53.054904+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -441,6 +441,26 @@
       "display_name": "节点程序套件 20261119-1500",
       "test_version": false,
       "latest_version": "20261119-1500",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261119-1700",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 截图第二轮修复：device.screenshot 返回对象信封 {\"format\":\"png\",\"data\":\"data:image/png;base64,...\"}，按对象解码后再剥 data-URL 前缀（1500 版按裸字符",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261119-1700.json",
+      "publisher": "node-suite-20261119-1700",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261119-1700",
+      "test_version": false,
+      "latest_version": "20261119-1700",
       "runtime_assets": 1
     }
   ]
