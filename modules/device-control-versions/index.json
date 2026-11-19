@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-19T07:39:36.418584+00:00",
+  "updated_at": "2026-11-19T15:23:54.158838+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -441,6 +441,26 @@
       "display_name": "设备控制 App 0.3.24",
       "test_version": null,
       "latest_version": "0.3.24",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.25",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "adb 通道就绪时自动解锁 Android 13+ 受限设置(ACCESS_RESTRICTED_SETTINGS)并自动开启无障碍服务；模拟器实测卡点修复",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.25.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.25",
+      "test_version": null,
+      "latest_version": "0.3.25",
       "runtime_assets": 0
     }
   ]
