@@ -1,0 +1,96 @@
+{
+  "id": "node-suite-20261119-2330",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:b91c0dbae249187f07c122804a5683228b9011e0b09a6075fd47d50600e4a5e6",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26119664,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:b2546d60b39783ec53804232c719e9d3099789493b63351954fe0843b135ac9c",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24627714,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:d687ac95cb7044d75a3340ebf6bba627ce5c4e35211b8d73db0588b54f972527",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25690274,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:e30ee6932a685273c2ccf9b066ac3ba80ad9be09284b8aee93ad50719343acc1",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 24051874,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:ad56ee3419a4f717041fda861de2198d6e9a84741baf1ae025b415df8b42f309",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26619392,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:87af872696dd9da23277aa5bb3488d114fe9a22657b482f559b7c0595f4c616c",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24604160,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-execution-windows-arm64.exe"
+    },
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:653cdbdd8524b216f3c268ff392ad86ef1246d053ae59bf87c73acc191d7e782",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 7535055,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261119-2330/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261119-2330",
+  "category": "node-suite",
+  "release_tag": "node-v20261119-2330",
+  "display_name": "节点程序套件 20261119-2330",
+  "test_version": false,
+  "version_notes": "修复 macOS LaunchDaemon 自杀式重启循环：installLaunchdDaemon 每次启动无条件 bootout+bootstrap，当进程本身就是该 daemon 的子进程时会把自己杀掉→launchd 重拉→再自杀。改为：plist 内容未变且 job 已加载则幂等 no-op；需要重载时用 kickstart -k（保持 job 加载、由 launchd 重拉，不依赖调用方存活）。含 2200 的模拟器自动开关与全部既有修复。"
+}
