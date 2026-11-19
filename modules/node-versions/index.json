@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-18T15:39:33.618943+00:00",
+  "updated_at": "2026-11-19T07:13:15.442502+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -421,6 +421,26 @@
       "display_name": "节点程序套件 20261118-1100",
       "test_version": false,
       "latest_version": "20261118-1100",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261119-1500",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "修复 iOS「查看」面板截图与画面比例：DeviceKit runner 的 device.screenshot 需显式 format=png（空参数被拒导致截图永远失败），返回 data URL 需剥离前缀解码；device.info 分",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261119-1500.json",
+      "publisher": "node-suite-20261119-1500",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261119-1500",
+      "test_version": false,
+      "latest_version": "20261119-1500",
       "runtime_assets": 1
     }
   ]
