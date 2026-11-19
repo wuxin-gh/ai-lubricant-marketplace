@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-19T08:18:53.054904+00:00",
+  "updated_at": "2026-11-19T12:04:57.410476+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -461,6 +461,26 @@
       "display_name": "节点程序套件 20261119-1700",
       "test_version": false,
       "latest_version": "20261119-1700",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261119-2030",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 模拟器支持（默认关闭）：节点加 --enable-simulator / AGENT_COMPOSE_IOS_SIMULATOR=1 开关，开启后经 xcrun simctl 枚举模拟器（connection_type=SIMULA",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261119-2030.json",
+      "publisher": "node-suite-20261119-2030",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261119-2030",
+      "test_version": false,
+      "latest_version": "20261119-2030",
       "runtime_assets": 1
     }
   ]
