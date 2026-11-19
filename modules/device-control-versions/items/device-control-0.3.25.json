@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.25",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:27f6c1c0fb4f8685f16a577d01b5e58aaf48c6e764a4e82275caf9277dd90fdd",
+      "format": "apk",
+      "filename": "device-control-0.3.25-android.apk",
+      "platform": "android",
+      "size_bytes": 19021595,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.25/device-control-0.3.25-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.25",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.25",
+  "display_name": "设备控制 App 0.3.25",
+  "version_notes": "adb 通道就绪时自动解锁 Android 13+ 受限设置(ACCESS_RESTRICTED_SETTINGS)并自动开启无障碍服务；模拟器实测卡点修复"
+}
