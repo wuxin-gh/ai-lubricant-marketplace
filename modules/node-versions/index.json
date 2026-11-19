@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-19T13:00:44.586906+00:00",
+  "updated_at": "2026-11-19T14:31:18.116912+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -501,6 +501,26 @@
       "display_name": "节点程序套件 20261119-2200",
       "test_version": false,
       "latest_version": "20261119-2200",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261119-2330",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "修复 macOS LaunchDaemon 自杀式重启循环：installLaunchdDaemon 每次启动无条件 bootout+bootstrap，当进程本身就是该 daemon 的子进程时会把自己杀掉→launchd 重拉→再自杀。",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261119-2330.json",
+      "publisher": "node-suite-20261119-2330",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261119-2330",
+      "test_version": false,
+      "latest_version": "20261119-2330",
       "runtime_assets": 1
     }
   ]
