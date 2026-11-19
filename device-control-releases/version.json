@@ -1,18 +1,18 @@
 {
   "schema": "ai-lubricant.device-control-release/v1",
-  "version": "0.3.23",
-  "version_notes": "0.3.23：① adb 通道状态上报（adb_connected/adb_channel，tcpip/mdns/last-port）——服务端初始化新增 adb 硬条件，掉线也会撤销 shell/录屏能力声明；② WS 死链检测：OkHttp pingInterval 20s，半开连接（WiFi/蜂窝切换、NAT 老化）不再假在线；③ 网络切换监听，恢复后主动重拨；④ 断开原因细分（服务端断开/网络超时/连不上服务器），排障更准。",
+  "version": "0.3.24",
+  "version_notes": "0.3.24：① 悬浮控件合并——右边缘灰把手 + 急停小圆圈合成一个气泡，点击弹出操作面板（保持唤醒开/关、恢复亮度、停止/恢复远程控制、打开控制 App），不再点一下变个样；② 亮度修复——关闭保持唤醒/退出降亮时用「亮档重建 → 移除」两段式撤掉窗口亮度覆盖（部分 ROM 移除不重估导致屏幕卡暗），并监听系统亮度变化：用户手动调高亮度立即退出降亮。",
   "assets": [
     {
-      "digest": "sha256:b5677c5f86f5e6530e393395f09b44d8ccd271e13855fc3c0a402bc2e19d4502",
+      "digest": "sha256:7b2a3692b08122a3d28e4015f9a0f015e5a1b50fecdde29e5d0f048687bcbffe",
       "format": "apk",
-      "filename": "device-control-0.3.23-android.apk",
+      "filename": "device-control-0.3.24-android.apk",
       "platform": "android",
-      "size_bytes": 19012979,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.23/device-control-0.3.23-android.apk",
-      "version": "0.3.23"
+      "size_bytes": 19016115,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.24/device-control-0.3.24-android.apk",
+      "version": "0.3.24"
     }
   ],
-  "updated_at": "2026-11-19T06:04:22.871079+00:00",
-  "release_tag": "device-control-v0.3.23"
+  "updated_at": "2026-11-19T07:39:39.439429+00:00",
+  "release_tag": "device-control-v0.3.24"
 }
