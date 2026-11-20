@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-19T15:23:54.158838+00:00",
+  "updated_at": "2026-11-20T05:49:08.099921+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -461,6 +461,26 @@
       "display_name": "设备控制 App 0.3.25",
       "test_version": null,
       "latest_version": "0.3.25",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.26",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "adb 通道连上的瞬间立即解锁受限设置并开启无障碍（不等自愈循环下一轮）；自愈循环保留兜底巡检",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.26.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.26",
+      "test_version": null,
+      "latest_version": "0.3.26",
       "runtime_assets": 0
     }
   ]
