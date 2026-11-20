@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-19T16:27:30.426374+00:00",
+  "updated_at": "2026-11-20T17:10:17.696015+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -561,6 +561,26 @@
       "display_name": "节点程序套件 20261119-2359",
       "test_version": false,
       "latest_version": "20261119-2359",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261119-2400",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 模拟器直接可操控：节点侧模拟器认领+Booted 直接置 READY（跳过 WDA 部署流程），前端模拟器卡片隐藏签名配置/初始化 Runner/Automation 等真机专属 UI，直接显示「模拟器可直接操控」。含 2330 的",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261119-2400.json",
+      "publisher": "node-suite-20261119-2400",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261119-2400",
+      "test_version": false,
+      "latest_version": "20261119-2400",
       "runtime_assets": 1
     }
   ]
