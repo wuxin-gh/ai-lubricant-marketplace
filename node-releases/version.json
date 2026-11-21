@@ -1,91 +1,91 @@
 {
   "schema": "ai-lubricant.node-release/v1",
-  "version": "20261121-2200",
-  "version_notes": "修复模拟器触控注入双缺陷：①认领时 runner bundle 覆写为 WDA（此前误用 DeviceKit bundle，launch 后 /status 永远等不到）；②服务端 binaries 白名单补 WDA zip 条目（zip 下载 404 根因——/api/v1/public/nodes/binaries 有两份路由，user_platform 侧旧白名单漏了 zip）。WDA runner = Appium 官方预编译包（免构建免签名）。",
+  "version": "20261122-0000",
+  "version_notes": "统一 Runner 链路：模拟器不再特判——删除 toProto 的 READY 特判、Claim 的 bundle 覆写；启动方式改为「手动构造 xctestrun + simctl launch 带 XCTestConfigurationFilePath」，等价 xcodebuild test-without-building 的会话启动（绕开本机 xcodebuild 挂死）。模拟器与真机同一条 WDA 链路，差异仅在：跳过签名、simctl 装包、会话启动方式。",
   "assets": [
     {
       "arch": "any",
       "role": "runtime",
-      "digest": "sha256:1912d07e0493b784c16dbe7f0cd64c45c11d72af767db4ab5498fbf65bfd0f89",
+      "digest": "sha256:c3affe8521f411ca83a676fcb575dcafe594b2a33845b0614895d6984f2c47f0",
       "format": "tar.gz",
       "filename": "node-runtime.tar.gz",
       "platform": "any",
       "component": "agent-compose",
-      "size_bytes": 7536580,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-runtime.tar.gz",
-      "version": "20261121-2200"
+      "size_bytes": 7535001,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-runtime.tar.gz",
+      "version": "20261122-0000"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:abfb6d0ca4759dd19c15b4256ba0f4e44f7592121d068da4ed1ece2cd489804b",
+      "digest": "sha256:8cca6fdfaeeef8255408a645789efb7114484d73db5d03974e54a7d61b4a0560",
       "format": "executable",
       "filename": "node-execution-darwin-amd64",
       "platform": "darwin",
       "component": "node",
-      "size_bytes": 26152880,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-darwin-amd64",
-      "version": "20261121-2200"
+      "size_bytes": 26156992,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-execution-darwin-amd64",
+      "version": "20261122-0000"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:143624da064beecde3594aceead5e0b99803d9aafddabeb8806dcdbc13b26623",
+      "digest": "sha256:181dbfdac903623cfa1d1e8af55129b5231756a9cb82def184c1db54187e4a38",
       "format": "executable",
       "filename": "node-execution-darwin-arm64",
       "platform": "darwin",
       "component": "node",
       "size_bytes": 24661218,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-darwin-arm64",
-      "version": "20261121-2200"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-execution-darwin-arm64",
+      "version": "20261122-0000"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:7f303b8a00875309aa2b36245df1e93ae51f1a82c96fe89a770e9fb5bdc9e084",
+      "digest": "sha256:113015edcfdcc635e59a3e3ac513b2b79963cec3112abf88e7e31d4d550f1a89",
       "format": "executable",
       "filename": "node-execution-linux-amd64",
       "platform": "linux",
       "component": "node",
       "size_bytes": 25727138,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-linux-amd64",
-      "version": "20261121-2200"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-execution-linux-amd64",
+      "version": "20261122-0000"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:b165e50b6a700f76f2c369864410faa90ad9ac490cc5b38b1fea071385bf7b83",
+      "digest": "sha256:4be9b1e846fc416e0bb3d5d32890ad07751677db7c42b26895ce0013a6310a7c",
       "format": "executable",
       "filename": "node-execution-linux-arm64",
       "platform": "linux",
       "component": "node",
-      "size_bytes": 24051874,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-linux-arm64",
-      "version": "20261121-2200"
+      "size_bytes": 24117410,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-execution-linux-arm64",
+      "version": "20261122-0000"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:89b45542d0e4d3433da6e6f0707a87ba1cfc5115bf6886227e94124f67c61178",
+      "digest": "sha256:906642e7130881b7ec57b1311bf873307dcafcb03b7b54801d8fa98e637c683b",
       "format": "executable",
       "filename": "node-execution-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 26655232,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-windows-amd64.exe",
-      "version": "20261121-2200"
+      "size_bytes": 26659328,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-execution-windows-amd64.exe",
+      "version": "20261122-0000"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:79946839ed1d2ef9f684a89f8f2d369ef478ef02ddc8c29fbfccbaf34284b619",
+      "digest": "sha256:48e9296d6e6ac8281a4ffe49d2f66e95882d00e7408068e25eafe05b1c962414",
       "format": "executable",
       "filename": "node-execution-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 24636928,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-windows-arm64.exe",
-      "version": "20261121-2200"
+      "size_bytes": 24641024,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0000/node-execution-windows-arm64.exe",
+      "version": "20261122-0000"
     },
     {
       "arch": "amd64",
@@ -232,6 +232,6 @@
       "version": "20260928-1753"
     }
   ],
-  "updated_at": "2026-11-21T10:54:37.184151+00:00",
-  "release_tag": "node-v20261121-2200"
+  "updated_at": "2026-11-21T13:35:42.742125+00:00",
+  "release_tag": "node-v20261122-0000"
 }
