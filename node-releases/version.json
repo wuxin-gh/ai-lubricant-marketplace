@@ -6,14 +6,14 @@
     {
       "arch": "any",
       "role": "runtime",
-      "digest": "sha256:16cfd5f1e8934fc901e470479c4ce6e7b67433fe85831b3ae9f4f2cfe395788d",
+      "digest": "sha256:7d669f4e253d92f1be0febcb9f2ffaa06eab65b6fa27c112e5ae90ca91f5d58d",
       "format": "tar.gz",
       "filename": "node-runtime.tar.gz",
       "platform": "any",
       "component": "agent-compose",
-      "size_bytes": 7533215,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0100/node-runtime.tar.gz",
-      "version": "20261122-0100"
+      "size_bytes": 7535377,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261122-0200/node-runtime.tar.gz",
+      "version": "20261122-0200"
     },
     {
       "arch": "amd64",
@@ -232,6 +232,6 @@
       "version": "20260928-1753"
     }
   ],
-  "updated_at": "2026-11-21T16:26:21.944308+00:00",
+  "updated_at": "2026-11-21T17:49:25.855851+00:00",
   "release_tag": "node-v20261122-0230"
 }
