@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-21T16:26:19.153735+00:00",
+  "updated_at": "2026-11-21T17:49:23.216571+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -801,6 +801,26 @@
       "display_name": "节点程序套件 20261122-0100",
       "test_version": false,
       "latest_version": "20261122-0100",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-0200",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 模拟器 WDA：Go 实现 IDE 侧 testmanagerd DTX 握手（unix socket 直连，免 xcodebuild）+ 模拟器 bundle 自愈 + SIMCTL_CHILD_ 启动",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-0200.json",
+      "publisher": "node-suite-20261122-0200",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-0200",
+      "test_version": false,
+      "latest_version": "20261122-0200",
       "runtime_assets": 1
     },
     {
