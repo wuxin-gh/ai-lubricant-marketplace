@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-21T13:35:40.490172+00:00",
+  "updated_at": "2026-11-21T14:23:10.205343+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -761,6 +761,26 @@
       "display_name": "节点程序套件 20261122-0000",
       "test_version": false,
       "latest_version": "20261122-0000",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-0100",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 模拟器统一 Runner 链路：SimulatorLink XCTest 会话启动 WDA（Appium 预编译包经 /wda-simulator/{arch} 独立路由分发）+ bootstrap 语法修复",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-0100.json",
+      "publisher": "node-suite-20261122-0100",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-0100",
+      "test_version": false,
+      "latest_version": "20261122-0100",
       "runtime_assets": 1
     }
   ]
