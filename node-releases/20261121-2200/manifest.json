@@ -1,0 +1,96 @@
+{
+  "id": "node-suite-20261121-2200",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:abfb6d0ca4759dd19c15b4256ba0f4e44f7592121d068da4ed1ece2cd489804b",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26152880,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:143624da064beecde3594aceead5e0b99803d9aafddabeb8806dcdbc13b26623",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24661218,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:7f303b8a00875309aa2b36245df1e93ae51f1a82c96fe89a770e9fb5bdc9e084",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25727138,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:b165e50b6a700f76f2c369864410faa90ad9ac490cc5b38b1fea071385bf7b83",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 24051874,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:89b45542d0e4d3433da6e6f0707a87ba1cfc5115bf6886227e94124f67c61178",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26655232,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:79946839ed1d2ef9f684a89f8f2d369ef478ef02ddc8c29fbfccbaf34284b619",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24636928,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-execution-windows-arm64.exe"
+    },
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:1912d07e0493b784c16dbe7f0cd64c45c11d72af767db4ab5498fbf65bfd0f89",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 7536580,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2200/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261121-2200",
+  "category": "node-suite",
+  "release_tag": "node-v20261121-2200",
+  "display_name": "节点程序套件 20261121-2200",
+  "test_version": false,
+  "version_notes": "修复模拟器触控注入双缺陷：①认领时 runner bundle 覆写为 WDA（此前误用 DeviceKit bundle，launch 后 /status 永远等不到）；②服务端 binaries 白名单补 WDA zip 条目（zip 下载 404 根因——/api/v1/public/nodes/binaries 有两份路由，user_platform 侧旧白名单漏了 zip）。WDA runner = Appium 官方预编译包（免构建免签名）。"
+}
