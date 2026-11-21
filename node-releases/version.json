@@ -1,91 +1,91 @@
 {
   "schema": "ai-lubricant.node-release/v1",
-  "version": "20261121-1700",
-  "version_notes": "Rescan 模拟器枚举结果 INFO 日志（usb_devices/simulators 计数）+ simctl 失败 Debug→Warn。功能同 1600：模拟器统一走真机认领链路。注意 1400/1500 内容错位已作废，请勿使用。",
+  "version": "20261121-1800",
+  "version_notes": "模拟器稳定性三修复：simctl 枚举超时 10s→60s（繁忙宿主机上被 kill 导致枚举空）；认领不再自动 boot Shutdown 模拟器（12 台并发 boot 打爆宿主机）；rescan 探测对 Booted 的已认领模拟器自动接管 WS。含 1700 全部内容。",
   "assets": [
     {
       "arch": "any",
       "role": "runtime",
-      "digest": "sha256:40890985e8ba63346374c46af03ff0be60ef5680bce98ddbcb6b5f9f44d5a0e3",
+      "digest": "sha256:1ad62cb55a37847dca478cbefb1f9d96cbbcc607a1c7f178df75d9f334374546",
       "format": "tar.gz",
       "filename": "node-runtime.tar.gz",
       "platform": "any",
       "component": "agent-compose",
-      "size_bytes": 7536290,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-runtime.tar.gz",
-      "version": "20261121-1700"
+      "size_bytes": 7537328,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-runtime.tar.gz",
+      "version": "20261121-1800"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:eebb7230b8e9b9b9be47f59ae8f3eac64be3c379b331a4dbac8dc46ed0c58959",
+      "digest": "sha256:16a825fac74687600618539517ebb98f06e481a54601a22df3648592fa92c349",
       "format": "executable",
       "filename": "node-execution-darwin-amd64",
       "platform": "darwin",
       "component": "node",
       "size_bytes": 26132224,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-execution-darwin-amd64",
-      "version": "20261121-1700"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-execution-darwin-amd64",
+      "version": "20261121-1800"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:78691877dcde36047af8f7ffbd315cc6082d0fef159d4e8d449b179e014d86a5",
+      "digest": "sha256:611c222b5b911cc1671b6561d569fdc718cf8a7e37e3cbe67b5d2133552fbb11",
       "format": "executable",
       "filename": "node-execution-darwin-arm64",
       "platform": "darwin",
       "component": "node",
       "size_bytes": 24644514,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-execution-darwin-arm64",
-      "version": "20261121-1700"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-execution-darwin-arm64",
+      "version": "20261121-1800"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:a084b808ac93cefee98ef64a303137366e1744a5b78f0e70be887bbc9d59b279",
+      "digest": "sha256:89c1988c91921f11c0534fd378c429aa8c2f55e41295ee8c202c063a20340bcc",
       "format": "executable",
       "filename": "node-execution-linux-amd64",
       "platform": "linux",
       "component": "node",
       "size_bytes": 25702562,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-execution-linux-amd64",
-      "version": "20261121-1700"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-execution-linux-amd64",
+      "version": "20261121-1800"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:ab09b7b65997ac445bd8b216c222bdacbb49a48de083d1edd6fe33776e60cfbc",
+      "digest": "sha256:97257a44f6ea4b65fdeaba32d98720a817dd03a56e7c5fe994213eff3e71cb3d",
       "format": "executable",
       "filename": "node-execution-linux-arm64",
       "platform": "linux",
       "component": "node",
       "size_bytes": 24051874,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-execution-linux-arm64",
-      "version": "20261121-1700"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-execution-linux-arm64",
+      "version": "20261121-1800"
     },
     {
       "arch": "amd64",
       "role": "execution",
-      "digest": "sha256:1ecc8d0b0a1338371c4c6173e0f59b7762f6bd437b200ae5eca03516d3c36b02",
+      "digest": "sha256:d20b2d068938bab960bbd46613591cc3f3e6a518420f13f46b9051edc5cf56b7",
       "format": "executable",
       "filename": "node-execution-windows-amd64.exe",
       "platform": "windows",
       "component": "node",
-      "size_bytes": 26633216,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-execution-windows-amd64.exe",
-      "version": "20261121-1700"
+      "size_bytes": 26633728,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-execution-windows-amd64.exe",
+      "version": "20261121-1800"
     },
     {
       "arch": "arm64",
       "role": "execution",
-      "digest": "sha256:9f53907ea09928b6e7ad0a6b5c236194cdfefd56207676e72fbe5bbce7de365a",
+      "digest": "sha256:78898014ab7d10df2d7fe4118594c722e8a7a349a7a5fe2e8b009ce423556ad0",
       "format": "executable",
       "filename": "node-execution-windows-arm64.exe",
       "platform": "windows",
       "component": "node",
       "size_bytes": 24617984,
-      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1700/node-execution-windows-arm64.exe",
-      "version": "20261121-1700"
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1800/node-execution-windows-arm64.exe",
+      "version": "20261121-1800"
     },
     {
       "arch": "amd64",
@@ -232,6 +232,6 @@
       "version": "20260928-1753"
     }
   ],
-  "updated_at": "2026-11-21T02:51:56.304622+00:00",
-  "release_tag": "node-v20261121-1700"
+  "updated_at": "2026-11-21T04:47:03.592924+00:00",
+  "release_tag": "node-v20261121-1800"
 }
