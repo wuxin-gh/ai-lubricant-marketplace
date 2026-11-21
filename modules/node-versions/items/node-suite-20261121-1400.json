@@ -1,0 +1,96 @@
+{
+  "id": "node-suite-20261121-1400",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:d6c073eb06a15d833a29cbdf258caa36f64fdcd107baf0014b55a943a60625a1",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26132176,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:d4fb84cf762c3bb7bd1ec21ad0ce2bd13c8357734a4250f9498bd1e854d44977",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24644482,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:ee40a6fe03f5fe07b1862d197f3fd62fde239d29070877288dfaae892fc93f48",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25702562,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:f3bf628bf3881bb7b730be0716026a87c2d8467b32f89509da8fb084070eef2e",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 24051874,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:98b59319d6adf06ef87c485fdbb04552311c5f7d1e3732d0e5e2141c5cbd44fa",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26632704,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:52233c056214ca9ff337ac4b06a1b880108311f7326a745595a8a37f8ec21bd7",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24616960,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-execution-windows-arm64.exe"
+    },
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:bd34c12c0945ca7ae57af6ce94c96c0e62d3049093b9c9ef8155e35a483faf87",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 7539130,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-1400/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261121-1400",
+  "category": "node-suite",
+  "release_tag": "node-v20261121-1400",
+  "display_name": "节点程序套件 20261121-1400",
+  "test_version": false,
+  "version_notes": "模拟器统一走真机认领链路：节点侧模拟器认领 mint inline 凭据并起同款 device-control WS（Transport=simulator 路由到 simctl 驱动），服务端/前端零特判——WS 在线即控制就绪，device-command 原样可用。含 2400 的全部修复（流断开落盘重放/模拟器直接可操控/plist 自杀循环修复）。"
+}
