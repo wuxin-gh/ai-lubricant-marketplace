@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-21T02:51:53.822893+00:00",
+  "updated_at": "2026-11-21T04:47:01.693117+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -661,6 +661,26 @@
       "display_name": "节点程序套件 20261121-1700",
       "test_version": false,
       "latest_version": "20261121-1700",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261121-1800",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器稳定性三修复：simctl 枚举超时 10s→60s（繁忙宿主机上被 kill 导致枚举空）；认领不再自动 boot Shutdown 模拟器（12 台并发 boot 打爆宿主机）；rescan 探测对 Booted 的已认领模拟器自",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261121-1800.json",
+      "publisher": "node-suite-20261121-1800",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261121-1800",
+      "test_version": false,
+      "latest_version": "20261121-1800",
       "runtime_assets": 1
     }
   ]
