@@ -1,0 +1,85 @@
+{
+  "id": "node-suite-20261121-2346",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:0675ae6daffd9c96e11810f06d5716146eb69f5a34c52e1f87dc375cf0251cd6",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26271472,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2346/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:e2926e2e941a37af021f153837c4c3d19d151e56a08a7d3ef7d6ba9ab193c61a",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24764322,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2346/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:8e2e34e7dd08b539e921a44c4ad55ff5f776580ef2b815587b22fa1ff4e030d6",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25813154,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2346/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:23a688d5b691b72f30fa9922ee00c8bce8745d2d3a55ea7f510bceb9d23a0d41",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 24182946,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2346/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:5826fe6c6459964d74cbc142119096f60e7dd249ca844de994c24cb449d29050",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26749440,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2346/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:4911c6f900c05fea89bf465b3ec7917b4777fe3e869889737b12d1810e837f3d",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24726016,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261121-2346/node-execution-windows-arm64.exe"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261121-2346",
+  "category": "node-suite",
+  "release_tag": "node-v20261121-2346",
+  "display_name": "节点程序套件 20261121-2346",
+  "test_version": false,
+  "version_notes": "Android 模拟器全自动接入：节点侧模拟器引擎管理（engines/create/control 帧，官方 AVD 引擎，固定 -port 端口锚定 serial 不漂移，headless 默认开随 AVD 偏好持久化，系统镜像缺失走清华镜像自动补装）+ apkjob 模拟器跳过 ENABLE_TCPIP + fetchApk 提前 Close 修复（真机下载 APK 必败的存量 bug）+ android_emulator 能力标签。设备层零特判：开机实例由自动认领循环当普通设备捡走。"
+}
