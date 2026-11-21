@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-21T16:03:48.760132+00:00",
+  "updated_at": "2026-11-21T16:26:19.153735+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -802,6 +802,26 @@
       "test_version": false,
       "latest_version": "20261122-0100",
       "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-0230",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "Android 模拟器全自动接入：节点侧模拟器引擎管理（engines/create/control 帧，官方 AVD 引擎，固定 -port 端口锚定 serial 不漂移，headless 默认开随 AVD 偏好持久化，系统镜像缺失走清",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-0230.json",
+      "publisher": "node-suite-20261122-0230",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-0230",
+      "test_version": false,
+      "latest_version": "20261122-0230",
+      "runtime_assets": 0
     }
   ]
 }
