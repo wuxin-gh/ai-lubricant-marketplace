@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-21T02:32:45.691521+00:00",
+  "updated_at": "2026-11-21T02:51:53.822893+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -641,6 +641,26 @@
       "display_name": "节点程序套件 20261121-1600",
       "test_version": false,
       "latest_version": "20261121-1600",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261121-1700",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "Rescan 模拟器枚举结果 INFO 日志（usb_devices/simulators 计数）+ simctl 失败 Debug→Warn。功能同 1600：模拟器统一走真机认领链路。注意 1400/1500 内容错位已作废，请勿使用。",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261121-1700.json",
+      "publisher": "node-suite-20261121-1700",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261121-1700",
+      "test_version": false,
+      "latest_version": "20261121-1700",
       "runtime_assets": 1
     }
   ]
