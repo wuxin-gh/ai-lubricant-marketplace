@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-21T04:47:01.693117+00:00",
+  "updated_at": "2026-11-21T05:22:38.047051+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -681,6 +681,26 @@
       "display_name": "节点程序套件 20261121-1800",
       "test_version": false,
       "latest_version": "20261121-1800",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261121-2000",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器 get_screen_state 降级：Source（UI 树）unsupported 时不再整条失败，返回空树+tree_note 说明，screenshot/screen 照常——模拟器「查看」面板现在可用（截图 + 屏幕信息；",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261121-2000.json",
+      "publisher": "node-suite-20261121-2000",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261121-2000",
+      "test_version": false,
+      "latest_version": "20261121-2000",
       "runtime_assets": 1
     }
   ]
