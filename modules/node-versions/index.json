@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-20T17:10:17.696015+00:00",
+  "updated_at": "2026-11-21T01:48:53.287111+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -581,6 +581,26 @@
       "display_name": "节点程序套件 20261119-2400",
       "test_version": false,
       "latest_version": "20261119-2400",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261121-1400",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器统一走真机认领链路：节点侧模拟器认领 mint inline 凭据并起同款 device-control WS（Transport=simulator 路由到 simctl 驱动），服务端/前端零特判——WS 在线即控制就绪，devi",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261121-1400.json",
+      "publisher": "node-suite-20261121-1400",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261121-1400",
+      "test_version": false,
+      "latest_version": "20261121-1400",
       "runtime_assets": 1
     }
   ]
