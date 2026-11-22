@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T06:54:39.664174+00:00",
+  "updated_at": "2026-11-22T07:21:23.036324+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -981,6 +981,26 @@
       "display_name": "节点程序套件 20261122-1000",
       "test_version": false,
       "latest_version": "20261122-1000",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-1100",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器截图：临时文件改 /tmp world-writable 且由 simctl 用户创建（root 占位文件导致 exit status 1）+ node-bin 版本目录按名字排序（mtime 不可靠）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-1100.json",
+      "publisher": "node-suite-20261122-1100",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-1100",
+      "test_version": false,
+      "latest_version": "20261122-1100",
       "runtime_assets": 1
     }
   ]
