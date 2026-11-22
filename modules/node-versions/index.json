@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T08:05:12.479371+00:00",
+  "updated_at": "2026-11-22T08:58:09.416256+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1021,6 +1021,26 @@
       "display_name": "节点程序套件 20261122-1200",
       "test_version": false,
       "latest_version": "20261122-1200",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-1300",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器点击/滑动无反应：WDA /wda/screen 返回 scale 而非 pixelRatio，缩放回退 2 导致物理→点换算错位（@3x 设备点偏 1/3 位置）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-1300.json",
+      "publisher": "node-suite-20261122-1300",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-1300",
+      "test_version": false,
+      "latest_version": "20261122-1300",
       "runtime_assets": 1
     }
   ]
