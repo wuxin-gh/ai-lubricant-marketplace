@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T05:31:05.030752+00:00",
+  "updated_at": "2026-11-22T05:58:54.341527+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -921,6 +921,26 @@
       "display_name": "节点程序套件 20261122-0700",
       "test_version": false,
       "latest_version": "20261122-0700",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-0800",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器 WDA 补 CreateSession（触控/UI树命令此前因无 session 报 device_error）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-0800.json",
+      "publisher": "node-suite-20261122-0800",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-0800",
+      "test_version": false,
+      "latest_version": "20261122-0800",
       "runtime_assets": 1
     }
   ]
