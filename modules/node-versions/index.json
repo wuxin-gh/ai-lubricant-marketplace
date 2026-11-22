@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T03:49:18.244317+00:00",
+  "updated_at": "2026-11-22T05:31:05.030752+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -901,6 +901,26 @@
       "display_name": "节点程序套件 20261122-0600",
       "test_version": false,
       "latest_version": "20261122-0600",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-0700",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "节点启动自动 boot 全部模拟器（串行 30s 间隔，绝不并发）+ 已删除模拟器残留行自动清收（3 轮缺席判定）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-0700.json",
+      "publisher": "node-suite-20261122-0700",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-0700",
+      "test_version": false,
+      "latest_version": "20261122-0700",
       "runtime_assets": 1
     }
   ]
