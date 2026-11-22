@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T08:58:09.416256+00:00",
+  "updated_at": "2026-11-22T14:30:00.780089+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1041,6 +1041,26 @@
       "display_name": "节点程序套件 20261122-1300",
       "test_version": false,
       "latest_version": "20261122-1300",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-1400",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 创建镜像菜单恒空修复：devicetypes 子命令不含 runtimes，此前误用 payload.Runtimes（永远空）导致型号×版本组合全丢；改为独立拉取 runtimes",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-1400.json",
+      "publisher": "node-suite-20261122-1400",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-1400",
+      "test_version": false,
+      "latest_version": "20261122-1400",
       "runtime_assets": 1
     }
   ]
