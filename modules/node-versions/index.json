@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T07:21:23.036324+00:00",
+  "updated_at": "2026-11-22T08:05:12.479371+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1001,6 +1001,26 @@
       "display_name": "节点程序套件 20261122-1100",
       "test_version": false,
       "latest_version": "20261122-1100",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-1200",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器管理面枚举/控制切 GUI 用户视图（此前实例清单为空——root 设备集与 GUI 用户零交集）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-1200.json",
+      "publisher": "node-suite-20261122-1200",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-1200",
+      "test_version": false,
+      "latest_version": "20261122-1200",
       "runtime_assets": 1
     }
   ]
