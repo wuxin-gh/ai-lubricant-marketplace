@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T15:13:43.216274+00:00",
+  "updated_at": "2026-11-22T16:34:20.596763+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1082,6 +1082,26 @@
       "test_version": false,
       "latest_version": "20261122-1500",
       "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261123-0005",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "模拟器创建任务进度（下载镜像/创建/开机阶段 + 百分比，含 iOS simctl 创建进度）+ iOS 模拟器创建进度重构 + AVD 识别/avd_name 上报 + 设备卡模拟器徽标",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261123-0005.json",
+      "publisher": "node-suite-20261123-0005",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261123-0005",
+      "test_version": false,
+      "latest_version": "20261123-0005",
+      "runtime_assets": 0
     }
   ]
 }
