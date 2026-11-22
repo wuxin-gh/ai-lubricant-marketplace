@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T05:58:54.341527+00:00",
+  "updated_at": "2026-11-22T06:21:22.297524+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -941,6 +941,26 @@
       "display_name": "节点程序套件 20261122-0800",
       "test_version": false,
       "latest_version": "20261122-0800",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-0900",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "修复重启后模拟器 WDA 降级：devices.json 恢复的设备行未种子 simulator 标志 → SimulatorWDAURL 被过滤",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-0900.json",
+      "publisher": "node-suite-20261122-0900",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-0900",
+      "test_version": false,
+      "latest_version": "20261122-0900",
       "runtime_assets": 1
     }
   ]
