@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-22T14:30:00.780089+00:00",
+  "updated_at": "2026-11-22T15:13:43.216274+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1061,6 +1061,26 @@
       "display_name": "节点程序套件 20261122-1400",
       "test_version": false,
       "latest_version": "20261122-1400",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261122-1500",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 镜像菜单去重：同版本 runtime 变体（iOS-27-2 与 -iPhone19-4）只保留一条；只保留 iOS runtime（防 watchOS/tvOS 与 iPhone 型号错配）",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261122-1500.json",
+      "publisher": "node-suite-20261122-1500",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261122-1500",
+      "test_version": false,
+      "latest_version": "20261122-1500",
       "runtime_assets": 1
     }
   ]
