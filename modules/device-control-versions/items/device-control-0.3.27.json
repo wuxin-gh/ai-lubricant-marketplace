@@ -1,0 +1,26 @@
+{
+  "id": "device-control-0.3.27",
+  "kind": "device_control_app_version",
+  "name": "device-control",
+  "tags": [
+    "device-control",
+    "android"
+  ],
+  "assets": [
+    {
+      "digest": "sha256:7fab01eed19a18ad2ea924307f07b85ff7f8e5d37e2bafb2bd991cf5f4bceca3",
+      "format": "apk",
+      "filename": "device-control-0.3.27-android.apk",
+      "platform": "android",
+      "size_bytes": 19096335,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-device-control/releases/download/device-control-v0.3.27/device-control-0.3.27-android.apk"
+    }
+  ],
+  "schema": "ai-lubricant.device-control-version/v1",
+  "status": "published",
+  "version": "0.3.27",
+  "category": "device-control-app",
+  "release_tag": "device-control-v0.3.27",
+  "display_name": "设备控制 App 0.3.27",
+  "version_notes": "0.3.27：① 恢复 adb 静默安装为 install_apk 主路径（route=auto|adb|installer，默认 auto：自连 adb 就绪即 adb install -r 静默装，失败自动降级系统安装器）；② 新增设备端安装确认状态机 InstallerConfirmer——无障碍事件驱动、白名单安装器窗口内自动点「安装/继续安装/完成」，绝不点「打开」，靠 PACKAGE_ADDED/PACKAGE_REPLACED 证据真正确认成功（不再永远停在 installing）；③ 超时归因 needs_user_action/blocked_by_policy/installer_not_found/timeout；④ MIUI/HyperOS 安全中心 AdbInstallActivity 适配与弹框期间限频只读树；⑤ MCP install_app 增 route/confirm 参数，修服务端进度回退竞态。"
+}
