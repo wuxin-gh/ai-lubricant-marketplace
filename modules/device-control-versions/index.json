@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "device-control-versions",
-  "updated_at": "2026-11-20T05:49:08.099921+00:00",
+  "updated_at": "2026-11-23T05:23:10.729406+00:00",
   "items": [
     {
       "id": "device-control-0.1.11",
@@ -481,6 +481,26 @@
       "display_name": "设备控制 App 0.3.26",
       "test_version": null,
       "latest_version": "0.3.26",
+      "runtime_assets": 0
+    },
+    {
+      "id": "device-control-0.3.27",
+      "kind": "device_control_app_version",
+      "name": "device-control",
+      "tags": [
+        "device-control",
+        "android"
+      ],
+      "module": "device-control-versions",
+      "status": "published",
+      "summary": "0.3.27：① 恢复 adb 静默安装为 install_apk 主路径（route=auto|adb|installer，默认 auto：自连 adb 就绪即 adb install -r 静默装，失败自动降级系统安装器）；② 新增设备",
+      "category": "device-control-app",
+      "item_path": "modules/device-control-versions/items/device-control-0.3.27.json",
+      "publisher": "device-control-0",
+      "node_assets": 0,
+      "display_name": "设备控制 App 0.3.27",
+      "test_version": null,
+      "latest_version": "0.3.27",
       "runtime_assets": 0
     }
   ]
