@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-23T00:29:15.846609+00:00",
+  "updated_at": "2026-11-23T06:15:40.614263+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1121,6 +1121,26 @@
       "display_name": "节点程序套件 20261123-0035",
       "test_version": false,
       "latest_version": "20261123-0035",
+      "runtime_assets": 0
+    },
+    {
+      "id": "node-suite-20261123-1410-2",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "iOS 模拟器设备面修复：ioshost 枚举按 GUI 用户(wuxin)跑 simctl（root 的 CoreSimulator 集为空导致 booted 模拟器 present=false 离线）；plist 补 HOME/AGEN",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261123-1410-2.json",
+      "publisher": "node-suite-20261123-1410-2",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261123-1410-2",
+      "test_version": false,
+      "latest_version": "20261123-1410-2",
       "runtime_assets": 0
     }
   ]
