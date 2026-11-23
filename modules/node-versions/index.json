@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-23T14:46:38.467302+00:00",
+  "updated_at": "2026-11-23T15:22:22.383494+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1221,6 +1221,26 @@
       "display_name": "节点程序套件 20261123-2227",
       "test_version": false,
       "latest_version": "20261123-2227",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261123-2308",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "节点 Android 设备管理：① 惰性接线——节点启动时没有 adb、之后通过 host-tools 装了 platform-tools 的，不再需要重启节点：下一帧 Android 管理帧会重新检测 adb 并自举 DeviceMana",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261123-2308.json",
+      "publisher": "node-suite-20261123-2308",
+      "node_assets": 6,
+      "display_name": "节点程序套件 20261123-2308",
+      "test_version": false,
+      "latest_version": "20261123-2308",
       "runtime_assets": 1
     }
   ]
