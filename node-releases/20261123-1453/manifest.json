@@ -1,0 +1,85 @@
+{
+  "id": "node-suite-20261123-1453",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:b2930e828c2058e5a7a5328ee2b3f64981837105c09f0ae2594bc1313c52d711",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26367296,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-1453/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:50964ebaef8e450695eaa7aa03d44e57e284eaf3effc17221245743303360166",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24865026,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-1453/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:7b1d06992dbaabe894696ff2219a9d76d298c621ecc13ea147d16a7ed9469df6",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25907362,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-1453/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:915bd5f541fa22e15521a2f4ae0555ac8836ada7876b23c10065510362ac016c",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 24248482,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-1453/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:5471c354632fe06dcc70c24919d660e07b36dbb4913bd439fc138758b229720e",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26841088,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-1453/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:79c74dec6627202a0794191990402b97ad370059c62e74baf940a3dc6b20e257",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24806912,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-1453/node-execution-windows-arm64.exe"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261123-1453",
+  "category": "node-suite",
+  "release_tag": "node-v20261123-1453",
+  "display_name": "节点程序套件 20261123-1453",
+  "test_version": false,
+  "version_notes": "androidhost 新增 tcpip 守护：App 已装但 adbd 掉回 USB-only（手机重启/ROM 重置）时，发现循环自动补开 adb tcpip 5555 + connect，修复网页「adb 通道未连接 / 初始化未完成」；基线等同 1410-2（含模拟器/iOS 修复）+ 本轮 tcpip 守护。"
+}
