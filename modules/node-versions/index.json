@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-23T10:17:27.834402+00:00",
+  "updated_at": "2026-11-23T11:18:18.358471+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1181,6 +1181,26 @@
       "display_name": "节点程序套件 20261123-1748",
       "test_version": false,
       "latest_version": "20261123-1748",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261123-1910",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "fix(ios 17.0-17.3 tunnel): Mac 手动配对隧道前自动 SIGSTOP remoted、窗口期后自动恢复（go-ios 官方前提条件，此前从未执行→RSD 握手被手机 reset）。",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261123-1910.json",
+      "publisher": "node-suite-20261123-1910",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20261123-1910",
+      "test_version": false,
+      "latest_version": "20261123-1910",
       "runtime_assets": 1
     }
   ]
