@@ -1,0 +1,96 @@
+{
+  "id": "node-suite-20261123-2308",
+  "kind": "node_program_version",
+  "name": "node-suite",
+  "tags": [
+    "node",
+    "agent-compose"
+  ],
+  "assets": [
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:f1419110df64aecd498a0974a11f095776c56ef8a2a1f3e589c7c4778a4bede3",
+      "format": "executable",
+      "filename": "node-execution-darwin-amd64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 26388112,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-execution-darwin-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:df28ce07c7fd6fcf61956bb9f98bad50a641f25c17bbe496e4b85ef8cf39cfea",
+      "format": "executable",
+      "filename": "node-execution-darwin-arm64",
+      "platform": "darwin",
+      "component": "node",
+      "size_bytes": 24881874,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-execution-darwin-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:33228cf2ab66a4b19d70e4682cae21a647a256052232080871551b59a2aade39",
+      "format": "executable",
+      "filename": "node-execution-linux-amd64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 25915554,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-execution-linux-amd64"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:5f365010b49af763bd8f93101e82bde25a633a0fe1f1aaced9041f09162eb09d",
+      "format": "executable",
+      "filename": "node-execution-linux-arm64",
+      "platform": "linux",
+      "component": "node",
+      "size_bytes": 24314018,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-execution-linux-arm64"
+    },
+    {
+      "arch": "amd64",
+      "role": "execution",
+      "digest": "sha256:1eb62a36b3623a0768edf81f5aadc6f94e8cbbafe1f8ea73866355f79be8c6dd",
+      "format": "executable",
+      "filename": "node-execution-windows-amd64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 26848768,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-execution-windows-amd64.exe"
+    },
+    {
+      "arch": "arm64",
+      "role": "execution",
+      "digest": "sha256:33a7eb032b95c4ed7b26da50ca353520d745bcf13e0741f42a2e343996bf0c5b",
+      "format": "executable",
+      "filename": "node-execution-windows-arm64.exe",
+      "platform": "windows",
+      "component": "node",
+      "size_bytes": 24813568,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-execution-windows-arm64.exe"
+    },
+    {
+      "arch": "any",
+      "role": "runtime",
+      "digest": "sha256:33abdba8b92181e8ed7dd2337ebe9b2a0f3d591a0d78cee7c020efcacb7f9116",
+      "format": "tar.gz",
+      "filename": "node-runtime.tar.gz",
+      "platform": "any",
+      "component": "agent-compose",
+      "size_bytes": 7534631,
+      "download_url": "https://github.com/wuxin-gh/ai-lubricant-nodes/releases/download/node-v20261123-2308/node-runtime.tar.gz"
+    }
+  ],
+  "schema": "ai-lubricant.node-version/v1",
+  "status": "published",
+  "version": "20261123-2308",
+  "category": "node-suite",
+  "release_tag": "node-v20261123-2308",
+  "display_name": "节点程序套件 20261123-2308",
+  "test_version": false,
+  "version_notes": "节点 Android 设备管理：① 惰性接线——节点启动时没有 adb、之后通过 host-tools 装了 platform-tools 的，不再需要重启节点：下一帧 Android 管理帧会重新检测 adb 并自举 DeviceManager（修复「标签出现了但帧仍回 not enabled」）；② androidhost 新增 LazyFrameHandler 与单测；③ 配套平台侧「机器详情 → Android 设备」Tab（展示节点 adb devices 实时清单、每台设备重连）。"
+}
