@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-24T07:13:42.030628+00:00",
+  "updated_at": "2026-11-24T07:49:00.583441+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1341,6 +1341,26 @@
       "display_name": "节点程序套件 20261124-1504",
       "test_version": false,
       "latest_version": "20261124-1504",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261124-1537",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "fix(android emulator): 模拟器向 5037 注册 adbd，节点 adb 走 5038 → 开机成功但设备永远枚举不到。boot 时注入 ANDROID_ADB_SERVER_PORT=5038 对齐，设备自动出现→装",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261124-1537.json",
+      "publisher": "node-suite-20261124-1537",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20261124-1537",
+      "test_version": false,
+      "latest_version": "20261124-1537",
       "runtime_assets": 1
     }
   ]
