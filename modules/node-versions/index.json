@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-24T14:29:54.487650+00:00",
+  "updated_at": "2026-11-24T14:58:37.500980+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1481,6 +1481,26 @@
       "display_name": "节点程序套件 20261124-2224",
       "test_version": false,
       "latest_version": "20261124-2224",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261124-2251",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "fix(android emulator): boot 前清理占着固定端口的僵尸模拟器进程（此前遗留进程让新实例以 port in use 秒退，旧 serial 在 adb 里反复闪 offline）；撤销上版的 kill-server ",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261124-2251.json",
+      "publisher": "node-suite-20261124-2251",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20261124-2251",
+      "test_version": false,
+      "latest_version": "20261124-2251",
       "runtime_assets": 1
     }
   ]
