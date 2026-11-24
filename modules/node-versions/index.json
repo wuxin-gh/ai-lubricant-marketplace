@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-24T02:34:40.205357+00:00",
+  "updated_at": "2026-11-24T03:43:24.458137+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1281,6 +1281,26 @@
       "display_name": "节点程序套件 20261124-1024",
       "test_version": false,
       "latest_version": "20261124-1024",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261124-1136",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "fix(android emulator): JDK 下载 403 根治——清华 Adoptium 镜像对 Go 默认 UA 与浏览器 UA 都返回 403，改用 agent-compose-node/1.0 UA 并加多源回退（镜像→Ad",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261124-1136.json",
+      "publisher": "node-suite-20261124-1136",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20261124-1136",
+      "test_version": false,
+      "latest_version": "20261124-1136",
       "runtime_assets": 1
     }
   ]
