@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-24T07:49:00.583441+00:00",
+  "updated_at": "2026-11-24T08:16:32.486739+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1361,6 +1361,26 @@
       "display_name": "节点程序套件 20261124-1537",
       "test_version": false,
       "latest_version": "20261124-1537",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261124-1608",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "fix(android): adb 解析统一——androidhost 只用 ManagedAdbBinary/PATH，launchd 下 PATH 极简且无托管 adb，而模拟器引擎用 SDK platform-tools；两边不同源导",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261124-1608.json",
+      "publisher": "node-suite-20261124-1608",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20261124-1608",
+      "test_version": false,
+      "latest_version": "20261124-1608",
       "runtime_assets": 1
     }
   ]
