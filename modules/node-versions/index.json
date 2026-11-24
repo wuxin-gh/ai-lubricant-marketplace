@@ -1,7 +1,7 @@
 {
   "schema": "ai-lubricant.market.index.v1",
   "module": "node-versions",
-  "updated_at": "2026-11-23T15:22:22.383494+00:00",
+  "updated_at": "2026-11-24T00:50:41.786059+00:00",
   "items": [
     {
       "id": "node-suite-20260909-2033",
@@ -1241,6 +1241,26 @@
       "display_name": "节点程序套件 20261123-2308",
       "test_version": false,
       "latest_version": "20261123-2308",
+      "runtime_assets": 1
+    },
+    {
+      "id": "node-suite-20261124-0838",
+      "kind": "node_program_version",
+      "name": "node-suite",
+      "tags": [
+        "node",
+        "agent-compose"
+      ],
+      "module": "node-versions",
+      "status": "published",
+      "summary": "fix(android emulator): 创建自动安装托管 Temurin 17 JDK（Mac 无 Java 导致 avdmanager 失败、实例为空）；模拟器认领 server_url 回环改写 10.0.2.2 以闭环控制 Ap",
+      "category": "node-suite",
+      "item_path": "modules/node-versions/items/node-suite-20261124-0838.json",
+      "publisher": "node-suite-20261124-0838",
+      "node_assets": 18,
+      "display_name": "节点程序套件 20261124-0838",
+      "test_version": false,
+      "latest_version": "20261124-0838",
       "runtime_assets": 1
     }
   ]
